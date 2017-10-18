@@ -43,23 +43,48 @@ header {
   background-image: url(../img/charisma-background.jpg);
   border-width: thick;
   border-color: white;
-
 }
+
 .tile_half {
   width: 50%;
-  background-color: green;
+  height: 30em;
+  float: left;
+  background-color: #426CD0;
   border-width: thin;
   border-color: white;
 }
-.tile_third {
-  width: 33%;
-  background-color: green;
-  border-width: thin;
-  border-color: white;
+#tile_half_right {
+  background-color: #578AFF;
+}
+#tile_half_left {
 }
 .tile_fourth {
   width: 25%;
-  background-color: green;
+  height: 20em;
+  float: left;
+  background-color: blue;
   border-width: thin;
   border-color: white;
+}
+.tile_fourth_dif {
+  background-color: #394D7C;
+}
+.tile_third {
+  width: 33.333333%;
+  height: 20em;
+  float: left;
+  background-color: #458FD1;
+  border-width: thin;
+  border-color: white;
+}
+#tile_third_center {
+  background-color: #5BB1FC;
+}
+
+/*Footer*/
+footer {
+  background-color: grey;
+  height 3em;
+}
+footer p {
 }
