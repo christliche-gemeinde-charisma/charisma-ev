@@ -44,35 +44,48 @@ header {
   border-width: thick;
   border-color: white;
 }
+img#big_logo {
+  padding-top: 5em;
+}
 
 .tile_half {
   width: 50%;
   height: 30em;
   float: left;
+  margin: 0;
   background-color: #426CD0;
   border-width: thin;
   border-color: white;
 }
 #tile_half_right {
-  background-color: #578AFF;
+  background-color: #3770A1;
 }
 #tile_half_left {
+}
+div#wilkommen {
+  padding-top: 5em;
+}
+section#tile_half_right iframe {
 }
 .tile_fourth {
   width: 25%;
   height: 20em;
   float: left;
-  background-color: blue;
+  margin: 0;
   border-width: thin;
   border-color: white;
 }
 .tile_fourth_dif {
   background-color: #394D7C;
 }
+section#tile_fourth_one {
+  background-image: url(img/headphones-background.jpg);
+}
 .tile_third {
   width: 33.333333%;
   height: 20em;
   float: left;
+  margin: 0;
   background-color: #458FD1;
   border-width: thin;
   border-color: white;
@@ -80,11 +93,16 @@ header {
 #tile_third_center {
   background-color: #5BB1FC;
 }
+section h1 {
+  margin-top: 0.5em;
+}
 
 /*Footer*/
 footer {
   background-color: grey;
-  height 3em;
+  height 200px;
+  width: 100%;
+  margin: 0;
 }
 footer p {
 }
