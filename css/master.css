@@ -33,16 +33,15 @@ header nav a {
   margin-bottom: 0;
 }
 header {
-  background-color: #E1E1E1;
+  background-color: #D8D8D8;
   height: 2em;
-  width: 100%;
   padding: 1em;
 }
 
 /* Kacheln */
 .tile_full {
   clear: both;
-  width: 100%;
+  width: 99.8%;
   height: 50em;
   background-image: url(../img/charisma-background.jpg);
   border-style: solid;
@@ -54,7 +53,7 @@ img#big_logo {
 }
 
 .tile_half {
-  width: 49%;
+  width: 49.85%;
   height: 30em;
   float: left;
   margin: 0;
@@ -74,10 +73,11 @@ div#wilkommen {
 section#tile_half_right iframe {
 }
 .tile_fourth {
-  width: 25%;
+  width: 24.85%;
   height: 20em;
   float: left;
   margin: 0;
+  border-style: solid;
   border-width: thin;
   border-color: white;
 }
@@ -85,14 +85,15 @@ section#tile_half_right iframe {
   background-color: #394D7C;
 }
 section#tile_fourth_one {
-  background-image: url(img/headphones-background.jpg);
+  background-image: url('../img/headphones-background-2.jpg');
 }
 .tile_third {
-  width: 33.333333%;
+  width: 33.18%;
   height: 20em;
   float: left;
   margin: 0;
   background-color: #458FD1;
+  border-style: solid;
   border-width: thin;
   border-color: white;
 }
@@ -105,9 +106,9 @@ section h1 {
 
 /*Footer*/
 footer {
+  clear: both;
+  padding: 7px;
   background-color: grey;
-  height 200px;
-  width: 100%;
   margin: 0;
 }
 footer p {
