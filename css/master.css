@@ -99,13 +99,15 @@ section#tile_fourth_one {
   background-image: url('../img/headphones-background-2.jpg');
 }
 section#tile_fourth_two {
-  background-image: url('../img/');
+  background-image: url('../img/supergemeinde-david.jpg');
+  background-position: -20px;
 }
 section#tile_fourth_three {
   background-image: url('../img/cafeteria-header-cut.jpg');
 }
 section#tile_fourth_four {
-  background-image: url('../img/');
+  background-image: url('../img/bookshelf-background.jpg');
+  position: -100 0;
 }
 /*Tile Third*/
 .tile_third {
@@ -123,6 +125,10 @@ section#tile_fourth_four {
 }
 section#tile_third_one {
   background-image: url('../img/facetoface-background-cut.jpg');
+}
+section#tile_third_two {
+  background-image: url('../img/house-door-background.jpg');
+  background-position: center;
 }
 section h1 {
   margin-top: 0.5em;
@@ -171,7 +177,7 @@ h5.VivaBeautiful {
   color: #2E2E2E
 }
 .color_blue {
-  color: #396BCE;
+  color: #0e5394;
 }
 
 /*Footer*/
