@@ -30,9 +30,10 @@ header nav a {
   text-decoration: none;
   color: white;
   margin-left: 10px;
+  margin-bottom: 0;
 }
 header {
-  background-color: grey;
+  background-color: #E1E1E1;
   height: 2em;
   width: 100%;
   padding: 1em;
@@ -44,7 +45,8 @@ header {
   width: 100%;
   height: 50em;
   background-image: url(../img/charisma-background.jpg);
-  border-width: thick;
+  border-style: solid;
+  border-width: thin;
   border-color: white;
 }
 img#big_logo {
@@ -52,11 +54,12 @@ img#big_logo {
 }
 
 .tile_half {
-  width: 50%;
+  width: 49%;
   height: 30em;
   float: left;
   margin: 0;
   background-color: #426CD0;
+  border-style: solid;
   border-width: thin;
   border-color: white;
 }
