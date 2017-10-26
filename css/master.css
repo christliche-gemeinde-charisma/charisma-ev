@@ -8,10 +8,7 @@ body {
 h1 {
   margin: 0;
 }
-@font-face {
-  font-family: "VivaBeautiful";
-  src: url('../fonts/VivaBeautiful.ttf') format('truetype');
-}
+
 
 /* Header */
 div#logo_small {
@@ -39,19 +36,27 @@ header {
 }
 
 /* Kacheln */
+/*Tile Full*/
 .tile_full {
   clear: both;
   width: 99.8%;
   height: 50em;
-  background-image: url(../img/charisma-background.jpg);
   border-style: solid;
   border-width: thin;
   border-color: white;
 }
+#tile_full_one {
+  background-image: url(../img/charisma-background.jpg);
+}
+#tile_full_two {
+  background-image: url(../img/grey-gradient-background.jpg);
+  background-position: -200px;
+  height: 35em;
+}
 img#big_logo {
   padding-top: 5em;
 }
-
+/*Tile Half*/
 .tile_half {
   width: 49.85%;
   height: 30em;
@@ -66,12 +71,18 @@ img#big_logo {
   background-color: #3770A1;
 }
 #tile_half_left {
+  background-image: url('../img/blue-gradient-background.jpg');
 }
 div#wilkommen {
   padding-top: 5em;
 }
+div#wilkommen p {
+  padding-left: 3em;
+  padding-right: 3em;
+}
 section#tile_half_right iframe {
 }
+/*Tile Fourth*/
 .tile_fourth {
   width: 24.85%;
   height: 20em;
@@ -87,6 +98,18 @@ section#tile_half_right iframe {
 section#tile_fourth_one {
   background-image: url('../img/headphones-background-2.jpg');
 }
+section#tile_fourth_two {
+  background-image: url('../img/supergemeinde-david.jpg');
+  background-position: -20px;
+}
+section#tile_fourth_three {
+  background-image: url('../img/cafeteria-header-cut.jpg');
+}
+section#tile_fourth_four {
+  background-image: url('../img/bookshelf-background.jpg');
+  position: -100 0;
+}
+/*Tile Third*/
 .tile_third {
   width: 33.18%;
   height: 20em;
@@ -100,16 +123,67 @@ section#tile_fourth_one {
 #tile_third_center {
   background-color: #5BB1FC;
 }
+section#tile_third_one {
+  background-image: url('../img/facetoface-background-cut.jpg');
+}
+section#tile_third_two {
+  background-image: url('../img/house-door-background.jpg');
+  background-position: center;
+}
 section h1 {
   margin-top: 0.5em;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: "VivaBeautiful";
+  src: url('../fonts/VivaBeautiful.ttf') format('truetype');
+}
+@font-face {
+  font-family: "VivaBeautifulB-Regular";
+  src: url('../fonts/VivaBeautifulB-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "VivaBeautifulCaps-Regular";
+  src: url('../fonts/VivaBeautifulCaps-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "VivaBeautifulProB-Regular";
+  src: url('../fonts/VivaBeautifulProB-Regular.ttf') format('truetype');
+}
+h1.VivaBeautiful {
+  font-family: VivaBeautifulProB-Regular, Arial, sans-serif;
+  font-size: 3em;
+  color: white;
+  font-weight: normal;
+}
+h2.VivaBeautiful {
+  font-family: VivaBeautiful, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+}
+h5.VivaBeautiful {
+  font-family: VivaBeautiful, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+}
+.color_cloud {
+  color: #F7F7F7;
+}
+.color_stormy {
+  color: #C6C6C6;
+}
+.color_coal {
+  color: #2E2E2E
+}
+.color_blue {
+  color: #0e5394;
 }
 
 /*Footer*/
 footer {
   clear: both;
-  padding: 7px;
-  background-color: grey;
+  padding: 4px;
+  background-color: #2E2E2E;
   margin: 0;
-}
-footer p {
 }
