@@ -7,7 +7,7 @@ html {
   min-height: 100%;
 }
 body {
-  margin: 0 0 23px; /* bottom = footer height */
+  margin: 0 0 16px; /* bottom = footer height */
   padding-bottom: 40px;
   background-color: black;
   font-family: Arial, sans-serif;
@@ -294,16 +294,12 @@ footer {
   overflow:hidden;
   margin: 0;
   clear: both;
+  text-align: center;
 }
 footer h6 {
   margin: 0;
   display: inline-block;
   font-size: 1em;
-}
-footer h6#design {
-  position: relative;
-  left: 35em;
-  font-family: 'Share Tech Mono', monospace;
 }
 footer h6 a {
   text-decoration: none;
