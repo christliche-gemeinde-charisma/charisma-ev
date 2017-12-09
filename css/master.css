@@ -15,6 +15,9 @@ body {
 h1 {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 
 
 /* Header */
@@ -100,7 +103,7 @@ li.dropdown {
     display: block;
 }
 
-/* Kacheln */
+/* Kacheln auf Hauptseite */
 /*Tile Full*/
 .tile_full {
   text-align: center;
@@ -233,6 +236,35 @@ section#tile_third_two {
 }
 section h1 {
   margin-top: 0.5em;
+}
+
+/* Kacheln auf Subsites*/
+#main_headline {
+  font-size: 10em;
+  font-family: 'VivaBeautiful', Arial, sans-serif;
+  font-weight: normal;
+}
+/*Übersetzung*/
+#tile_full_translate_one {
+  background-image: url('../img/translate-mic.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_translate_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  height: auto;
+}
+/*Lobpreis*/
+#tile_full_worship_one {
+  background-image: url('../img/worship-wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_worship_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  height: auto;
 }
 
 /*Fonts*/
