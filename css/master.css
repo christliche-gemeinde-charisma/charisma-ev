@@ -7,7 +7,7 @@ html {
   min-height: 100%;
 }
 body {
-  margin: 0 0 23px; /* bottom = footer height */
+  margin: 0 0 16px; /* bottom = footer height */
   padding-bottom: 40px;
   background-color: black;
   font-family: Arial, sans-serif;
@@ -116,7 +116,6 @@ li.dropdown {
   background-color: #C4E0FF;
   background: linear-gradient(to right, #C4E0FF, #0e5394);
   height: 35em;
-  display: none;
 }
 section#tile_full_two iframe {
   position: relative;
@@ -201,24 +200,34 @@ section#tile_fourth_four {
 .tile_third {
   width: 33.18%;
   height: 20em;
-  display: inline-block;
+  position: relative;
   margin: 0;
   background-color: #458FD1;
   border-style: solid;
   border-width: thin;
   border-color: white;
-  display: none;
   text-align: center;
 }
-#tile_third_center {
-  background-color: #5BB1FC;
-}
+
 section#tile_third_one {
   background-image: url('../img/facetoface-background-cut.jpg');
+}
+section#tile_third_center {
+  background-color: #5BB1FC;
+  background-image: url('../img/musicschool2.JPG');
+  background-position: center;
+  top: -20em;
+  left: 33.18%;
 }
 section#tile_third_two {
   background-image: url('../img/house-door-background.jpg');
   background-position: center;
+  top: -40em;
+  left: 66.38%;
+}
+.tile_third_layer {
+  height: 20em;
+  overflow: hidden;
 }
 section h1 {
   margin-top: 0.5em;
@@ -283,16 +292,12 @@ footer {
   overflow:hidden;
   margin: 0;
   clear: both;
+  text-align: center;
 }
 footer h6 {
   margin: 0;
   display: inline-block;
   font-size: 1em;
-}
-footer h6#design {
-  position: relative;
-  left: 35em;
-  font-family: 'Share Tech Mono', monospace;
 }
 footer h6 a {
   text-decoration: none;
