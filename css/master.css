@@ -1,7 +1,14 @@
 /*Global*/
+* {
+  box-sizing: border-box;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  padding: 0;
-  margin: 0;
+  margin: 0 0 23px; /* bottom = footer height */
+  padding-bottom: 40px;
   background-color: black;
   font-family: Arial, sans-serif;
 }
@@ -32,8 +39,9 @@ header nav a {
 }
 header {
   background-color: #D8D8D8;
-  height: 2em;
+  height: 4em;
   padding: 1em;
+  width: 100%;
 }
 
 /*Navigation Bar*/
@@ -95,8 +103,9 @@ li.dropdown {
 /* Kacheln */
 /*Tile Full*/
 .tile_full {
+  text-align: center;
   clear: both;
-  width: 99.8%;
+  width: 99.98%;
   height: 50em;
   border-style: solid;
   border-width: thin;
@@ -109,6 +118,7 @@ li.dropdown {
   background-color: #C4E0FF;
   background: linear-gradient(to right, #C4E0FF, #0e5394);
   height: 35em;
+  display: none;
 }
 section#tile_full_two iframe {
   position: relative;
@@ -119,21 +129,28 @@ img#big_logo {
 }
 /*Tile Half*/
 .tile_half {
-  width: 49.85%;
+  text-align: center;
+  width: 49.99%;
   height: 30em;
-  display: inline-block;
   margin: 0;
+  position: relative;
   background-color: #426CD0;
   border-style: solid;
   border-width: thin;
   border-color: white;
-  overflow: auto;
+  overflow: hidden;
 }
 #tile_half_right {
   background-color: #3770A1;
+  left: 49.99%;
+  top: -30em;
 }
 #tile_half_left {
   background-image: url('../img/blue-gradient-background.jpg');
+}
+.tile_half_layer {
+  height: 30em;
+  overflow: hidden;
 }
 div#wilkommen {
   padding-top: 5em;
@@ -148,14 +165,19 @@ section#tile_half_right iframe {
 .tile_fourth {
   width: 24.85%;
   height: 20em;
-  float: left;
+  position: relative;
   margin: 0;
   border-style: solid;
   border-width: thin;
   border-color: white;
+  text-align: center;
 }
 .tile_fourth_dif {
   background-color: #394D7C;
+}
+.tile_fourth_layer {
+  height: 20em;
+  overflow: hidden;
 }
 section#tile_fourth_one {
   background-image: url('../img/headphones-background-2.jpg');
@@ -163,13 +185,19 @@ section#tile_fourth_one {
 section#tile_fourth_two {
   background-image: url('../img/supergemeinde-david.jpg');
   background-position: -20px;
+  left: 24.85%;
+  top: -20em;
 }
 section#tile_fourth_three {
   background-image: url('../img/cafeteria-header-cut.jpg');
+  left: 49.7%;
+  top: -40em;
 }
 section#tile_fourth_four {
   background-image: url('../img/bookshelf-background.jpg');
   position: -100 0;
+  left: 74.55%;
+  top: -60em;
 }
 /*Tile Third*/
 .tile_third {
@@ -181,6 +209,8 @@ section#tile_fourth_four {
   border-style: solid;
   border-width: thin;
   border-color: white;
+  display: none;
+  text-align: center;
 }
 #tile_third_center {
   background-color: #5BB1FC;
@@ -244,8 +274,29 @@ h5.VivaBeautiful {
 
 /*Footer*/
 footer {
-  clear: both;
-  padding: 4px;
   background-color: #2E2E2E;
+  position: absolute;
+  color: white;
+  left: 0;
+  bottom: 0;
+  padding: 6px;
+  height: 3.5em;
+  width: 100%;
+  overflow:hidden;
   margin: 0;
+  clear: both;
+}
+footer h6 {
+  margin: 0;
+  display: inline-block;
+  font-size: 1em;
+}
+footer h6#design {
+  position: relative;
+  left: 35em;
+  font-family: 'Share Tech Mono', monospace;
+}
+footer h6 a {
+  text-decoration: none;
+  color: white;
 }
