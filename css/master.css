@@ -95,6 +95,7 @@ li.dropdown {
 /* Kacheln */
 /*Tile Full*/
 .tile_full {
+  text-align: center;
   clear: both;
   width: 99.8%;
   height: 50em;
@@ -106,7 +107,7 @@ li.dropdown {
   background-image: url(../img/charisma-background.jpg);
 }
 #tile_full_two {
-  background-image: url(../img/grey-gradient-background.jpg);
+  background: linear-gradient(grey, white);
   background-position: -200px;
   height: 35em;
 }
@@ -115,9 +116,9 @@ img#big_logo {
 }
 /*Tile Half*/
 .tile_half {
+  text-align: center;
   width: 49.85%;
   height: 30em;
-  float: left;
   margin: 0;
   background-color: #426CD0;
   border-style: solid;
@@ -126,9 +127,19 @@ img#big_logo {
 }
 #tile_half_right {
   background-color: #3770A1;
+  float: right;
+  overflow: hidden;
+}
+section#tile_half_right iframe {
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #tile_half_left {
   background-image: url('../img/blue-gradient-background.jpg');
+  float: left;
 }
 div#wilkommen {
   padding-top: 5em;
@@ -141,6 +152,7 @@ section#tile_half_right iframe {
 }
 /*Tile Fourth*/
 .tile_fourth {
+  text-align: center;
   width: 24.85%;
   height: 20em;
   float: left;
@@ -168,6 +180,7 @@ section#tile_fourth_four {
 }
 /*Tile Third*/
 .tile_third {
+  text-align: center;
   width: 33.18%;
   height: 20em;
   float: left;
@@ -178,7 +191,8 @@ section#tile_fourth_four {
   border-color: white;
 }
 #tile_third_center {
-  background-color: #5BB1FC;
+  background-image: url('../img/musicschool.jpg');
+  background-position: center;
 }
 section#tile_third_one {
   background-image: url('../img/facetoface-background-cut.jpg');
