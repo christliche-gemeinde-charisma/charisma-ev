@@ -118,7 +118,6 @@ li.dropdown {
   background-color: #C4E0FF;
   background: linear-gradient(to right, #C4E0FF, #0e5394);
   height: 35em;
-  display: none;
 }
 section#tile_full_two iframe {
   position: relative;
@@ -225,7 +224,12 @@ section#tile_third_center {
 section#tile_third_two {
   background-image: url('../img/house-door-background.jpg');
   background-position: center;
-  
+  top: -40em;
+  left: 66.38%;
+}
+.tile_third_layer {
+  height: 20em;
+  overflow: hidden;
 }
 section h1 {
   margin-top: 0.5em;
