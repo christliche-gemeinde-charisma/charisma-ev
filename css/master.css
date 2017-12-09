@@ -203,24 +203,29 @@ section#tile_fourth_four {
 .tile_third {
   width: 33.18%;
   height: 20em;
-  display: inline-block;
+  position: relative;
   margin: 0;
   background-color: #458FD1;
   border-style: solid;
   border-width: thin;
   border-color: white;
-  display: none;
   text-align: center;
 }
-#tile_third_center {
-  background-color: #5BB1FC;
-}
+
 section#tile_third_one {
   background-image: url('../img/facetoface-background-cut.jpg');
+}
+section#tile_third_center {
+  background-color: #5BB1FC;
+  background-image: url('../img/musicschool2.JPG');
+  background-position: center;
+  top: -20em;
+  left: 33.18%;
 }
 section#tile_third_two {
   background-image: url('../img/house-door-background.jpg');
   background-position: center;
+  
 }
 section h1 {
   margin-top: 0.5em;
