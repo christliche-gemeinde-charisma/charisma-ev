@@ -106,9 +106,13 @@ li.dropdown {
   background-image: url(../img/charisma-background.jpg);
 }
 #tile_full_two {
-  background-image: url(../img/grey-gradient-background.jpg);
-  background-position: -200px;
+  background-color: #C4E0FF;
+  background: linear-gradient(to right, #C4E0FF, #0e5394);
   height: 35em;
+}
+section#tile_full_two iframe {
+  position: relative;
+  top: -25px;
 }
 img#big_logo {
   padding-top: 5em;
@@ -117,12 +121,13 @@ img#big_logo {
 .tile_half {
   width: 49.85%;
   height: 30em;
-  float: left;
+  display: inline-block;
   margin: 0;
   background-color: #426CD0;
   border-style: solid;
   border-width: thin;
   border-color: white;
+  overflow: auto;
 }
 #tile_half_right {
   background-color: #3770A1;
@@ -170,7 +175,7 @@ section#tile_fourth_four {
 .tile_third {
   width: 33.18%;
   height: 20em;
-  float: left;
+  display: inline-block;
   margin: 0;
   background-color: #458FD1;
   border-style: solid;
