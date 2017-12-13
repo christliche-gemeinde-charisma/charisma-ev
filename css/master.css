@@ -119,6 +119,7 @@ li.dropdown {
 }
 #tile_full_one {
   background-image: url(../img/charisma-background.jpg);
+  background-size: cover;
 }
 #tile_full_two {
   background-color: #C4E0FF;
@@ -304,6 +305,46 @@ section h1 {
 }
 #tile_full_fg3 {
   background: linear-gradient(to right, black, #009A00);
+}
+/*Musikschule*/
+#tile_full_ms1 {
+  background: linear-gradient(to bottom, black, purple);
+  background-image: url('../img/musicschool/acoustic2.jpg');
+  background-size: cover;
+}
+#tile_full_ms2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+.main_text {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+#tile_full_ms3 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/piano1.jpg');
+  background-size: cover;
+}
+#tile_full_ms4 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/acoustic3.jpg');
+  background-size: cover;
+}
+#tile_full_ms5 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/acoustic1.jpg');
+  background-size: cover;
+}
+#tile_full_ms6 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/clarinet.jpg');
+  background-size: cover;
+}
+#tile_full_ms8 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/drums1.jpg');
+  background-size: cover;
 }
 
 /*Fonts*/
