@@ -112,7 +112,7 @@ li.dropdown {
   text-align: center;
   clear: both;
   width: 99.98%;
-  height: 50em;
+  min-height: 50em;
   border-style: solid;
   border-width: thin;
   border-color: white;
@@ -123,7 +123,7 @@ li.dropdown {
 #tile_full_two {
   background-color: #C4E0FF;
   background: linear-gradient(to right, #C4E0FF, #0e5394);
-  height: 35em;
+  min-height: 35em;
 }
 section#tile_full_two iframe {
   position: relative;
@@ -256,7 +256,7 @@ section h1 {
 #tile_full_translate_two {
   background-color: #F7F7F7;
   color: #2E2E2E;
-  height: auto;
+  min-height: auto;
 }
 /*Lobpreis*/
 #tile_full_worship_one {
@@ -267,7 +267,43 @@ section h1 {
 #tile_full_worship_two {
   background-color: #F7F7F7;
   color: #2E2E2E;
-  height: auto;
+  min-height: auto;
+}
+/*Next Generation*/
+#tile_full_ng1 {
+  background: linear-gradient(to bottom, black, #0e5394);
+}
+#tile_full_ng2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+.main_text {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+#tile_full_ng3 {
+  background: linear-gradient(to right, black, #0e5394);
+}
+#tile_full_ng3 iframe {
+  width: 50em;
+  height: 30em;
+}
+/*FGs*/
+#tile_full_fg1 {
+  background: linear-gradient(to bottom, black, #009A00);
+}
+#tile_full_fg2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+.main_text {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+#tile_full_fg3 {
+  background: linear-gradient(to right, black, #009A00);
 }
 
 /*Fonts*/
