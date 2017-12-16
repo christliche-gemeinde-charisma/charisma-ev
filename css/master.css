@@ -11,6 +11,7 @@ body {
   padding-bottom: 40px;
   background-color: black;
   font-family: Arial, sans-serif;
+  width: 100%;
 }
 h1 {
   margin: 0;
@@ -43,7 +44,7 @@ header {
   background-color: #D8D8D8;
   height: 3.8em;
   padding: 1em;
-  width: 100%;
+
 }
 
 
@@ -169,7 +170,7 @@ section#tile_half_right iframe {
 }
 /*Tile Fourth*/
 .tile_fourth {
-  width: 24.85%;
+  width: 25%;
   height: 20em;
   position: relative;
   margin: 0;
@@ -191,23 +192,23 @@ section#tile_fourth_one {
 section#tile_fourth_two {
   background-image: url('../img/supergemeinde-david.jpg');
   background-position: -20px;
-  left: 24.85%;
+  left: 25%;
   top: -20em;
 }
 section#tile_fourth_three {
   background-image: url('../img/cafeteria-header-cut.jpg');
-  left: 49.7%;
+  left: 50%;
   top: -40em;
 }
 section#tile_fourth_four {
   background-image: url('../img/bookshelf-background.jpg');
   position: -100 0;
-  left: 74.55%;
+  left: 75%;
   top: -60em;
 }
 /*Tile Third*/
 .tile_third {
-  width: 33.18%;
+  width: 33.33%;
   height: 20em;
   position: relative;
   margin: 0;
@@ -226,13 +227,13 @@ section#tile_third_center {
   background-image: url('../img/musicschool2.JPG');
   background-position: center;
   top: -20em;
-  left: 33.18%;
+  left: 33.33%;
 }
 section#tile_third_two {
   background-image: url('../img/house-door-background.jpg');
   background-position: center;
   top: -40em;
-  left: 66.38%;
+  left: 66.66%;
 }
 .tile_third_layer {
   height: 20em;
