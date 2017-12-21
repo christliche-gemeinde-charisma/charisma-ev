@@ -6,7 +6,7 @@
 
 /*Übersetzung*/
 #tile_full_translate_one {
-  background-image: url('../img/translate-mic.jpg');
+  background-image: url('../img/uebersetzung/translate-mic.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -18,7 +18,7 @@
 
 /*Lobpreis*/
 #tile_full_worship_one {
-  background-image: url('../img/worship-wallpaper.jpg');
+  background-image: url('../img/lobpreis/worship-wallpaper.jpg');
   background-size: cover;
   background-position: center;
 }
