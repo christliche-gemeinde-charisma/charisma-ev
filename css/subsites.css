@@ -30,7 +30,9 @@
 
 /*Next Generation*/
 #tile_full_ng1 {
-  background: linear-gradient(to bottom, black, #0e5394);
+  background-image: url('../img/ng-youth-festival-2016.jpg');
+  background-size: cover;
+  background-position: center;
 }
 #tile_full_ng2 {
   background-color: #F7F7F7;
