@@ -118,6 +118,10 @@ li.dropdown {
   border-width: thin;
   border-color: white;
 }
+section.tile_full p {
+  margin-left: 5em;
+  margin-right: 5em;
+}
 #tile_full_one {
   background-image: url(../img/home/charisma-background.jpg);
   background-size: cover;
@@ -309,7 +313,10 @@ footer h6 {
   display: inline-block;
   font-size: 1em;
 }
-footer h6 a {
+footer a {
   text-decoration: none;
   color: white;
+}
+footer a:hover {
+  color: #C6C6C6;
 }

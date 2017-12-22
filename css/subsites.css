@@ -61,6 +61,13 @@
   min-height: auto;
 }
 
+/*Impressum*/
+#tile_full_impressum_one {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
 /* FGs */
 #tile_full_fg1 {
   background: linear-gradient(to bottom, black, #009A00);
