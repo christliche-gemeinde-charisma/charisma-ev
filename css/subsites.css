@@ -72,7 +72,9 @@
 
 /* FGs */
 #tile_full_fg1 {
-  background: linear-gradient(to bottom, black, #009A00);
+  background-image: url('../img/fg/door-garden.jpg');
+  background-size: cover;
+  background-position: center;
 }
 #tile_full_fg2 {
   background-color: #F7F7F7;
