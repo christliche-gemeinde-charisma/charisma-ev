@@ -1,4 +1,4 @@
-#main_headline {
+.main_headline {
   font-size: 10em;
   font-family: 'VivaBeautiful', Arial, sans-serif;
   font-weight: normal;
@@ -42,6 +42,9 @@
 .main_text {
   margin-left: 10em;
   margin-right: 10em;
+}
+#ng_headline {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 #tile_full_ng3 {
   background: linear-gradient(to right, black, #0e5394);
