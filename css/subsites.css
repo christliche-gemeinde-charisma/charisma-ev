@@ -118,6 +118,7 @@
   background: linear-gradient(to bottom, black, purple);
   background-image: url('../img/musicschool/acoustic2.jpg');
   background-size: cover;
+  background-position: center bottom;
 }
 #tile_full_ms2 {
   background-color: #F7F7F7;
@@ -135,6 +136,10 @@
   font-size: 2em;
   font-style: italic;
 }
+.mschool_instr {
+  background-size: cover;
+  background-position: center;
+}
 #overviewmschool {
   margin-bottom: 5px;
 }
@@ -147,32 +152,36 @@ a.overviewmschool:hover {
   background-color: #C6C6C6;
 }
 #tile_full_ms3 {
-  background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/piano1.jpg');
-  background-size: cover;
+
 }
 #tile_full_ms4 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/acoustic3.jpg');
   background-size: cover;
+  background-position: center;
 }
 #tile_full_ms5 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/acoustic1.jpg');
   background-size: cover;
+  background-position: center;
 }
 #tile_full_ms6 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/clarinet.jpg');
   background-size: cover;
+  background-position: center;
 }
 #tile_full_ms7 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/sax4.jpg');
   background-size: cover;
+  background-position: center;
 }
 #tile_full_ms8 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/drums1.jpg');
   background-size: cover;
+  background-position: center;
 }
