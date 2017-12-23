@@ -1,0 +1,9 @@
+/*master.css*/
+  .tile_full {
+    min-height: 20em;
+  }
+  section.tile_full img {
+    visibility: hidden;
+  }
+
+/*subsites.css*/
