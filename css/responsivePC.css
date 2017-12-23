@@ -4,9 +4,9 @@
     height: 10%;
   }
   img#big_logo {
-    visibility: hidden;
-    width: 30%;
+    width: 35%;
     padding-top: 2%;
+    padding-bottom: 2%;
   }
 
 /*subsites.css*/

@@ -123,8 +123,11 @@ section.tile_full p {
   margin-right: 5em;
 }
 #tile_full_one {
-  background-image: url(../img/home/charisma-background.jpg);
+  background-image: url(../img/home/charisma-background1.JPG);
+  background-position: center top;
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 #tile_full_two {
   background-color: #C4E0FF;
