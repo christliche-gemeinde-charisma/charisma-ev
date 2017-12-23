@@ -1,6 +1,6 @@
 .main_headline {
   font-size: 10em;
-  font-family: 'VivaBeautiful', Arial, sans-serif;
+  font-family: 'VivaBeautifulProB-Regular', Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -45,6 +45,7 @@
 }
 #ng_headline {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
 }
 #tile_full_ng3 {
   background: linear-gradient(to right, black, #0e5394);
@@ -59,6 +60,9 @@
   background-image: url('../img/supergemeinde/balloons.jpg');
   background-size: cover;
   background-position: center;
+}
+#superchurch_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #tile_full_superchurch_two {
   background-color: #F7F7F7;
@@ -123,6 +127,9 @@
 .main_text {
   margin-left: 10em;
   margin-right: 10em;
+}
+#mschool_headline {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .mschooltxt {
   font-size: 2em;
