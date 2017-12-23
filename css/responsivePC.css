@@ -1,6 +1,7 @@
 /*master.css*/
+  /*Tile Full*/
   .tile_full {
-    min-height: 20em;
+    height: 10em;
   }
   section.tile_full img {
     visibility: hidden;

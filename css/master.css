@@ -113,7 +113,7 @@ li.dropdown {
   text-align: center;
   clear: both;
   width: 99.98%;
-  min-height: 50em;
+  height: 50em;
   border-style: solid;
   border-width: thin;
   border-color: white;
