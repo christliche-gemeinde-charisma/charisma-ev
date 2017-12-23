@@ -152,6 +152,11 @@ a.overviewmschool:hover {
   background-image: url('../img/musicschool/clarinet.jpg');
   background-size: cover;
 }
+#tile_full_ms7 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/sax4.jpg');
+  background-size: cover;
+}
 #tile_full_ms8 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/drums1.jpg');
