@@ -1,10 +1,12 @@
 /*master.css*/
   /*Tile Full*/
   .tile_full {
-    height: 10em;
+    height: 10%;
   }
-  section.tile_full img {
+  img#big_logo {
     visibility: hidden;
+    width: 30%;
+    padding-top: 2%;
   }
 
 /*subsites.css*/
