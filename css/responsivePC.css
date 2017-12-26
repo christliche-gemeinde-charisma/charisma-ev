@@ -1,0 +1,19 @@
+/*master.css*/
+  /*Tile Full*/
+  .tile_full {
+    height: 30%;
+  }
+  img#big_logo {
+    width: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+/*subsites.css*/
+  /*Tile Full*/
+    .tile_fulls {
+      height: 30em;
+    }
+    .mschool_instr {
+      height: 40em;
+    }

@@ -113,7 +113,7 @@ li.dropdown {
   text-align: center;
   clear: both;
   width: 99.98%;
-  min-height: 50em;
+  height: 50em;
   border-style: solid;
   border-width: thin;
   border-color: white;
@@ -123,8 +123,11 @@ section.tile_full p {
   margin-right: 5em;
 }
 #tile_full_one {
-  background-image: url(../img/home/charisma-background.jpg);
+  background-image: url(../img/home/charisma-background1.JPG);
+  background-position: center top;
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 #tile_full_two {
   background-color: #C4E0FF;
@@ -265,18 +268,18 @@ section h1 {
   src: url('../fonts/VivaBeautifulProB-Regular.ttf') format('truetype');
 }
 h1.VivaBeautiful {
-  font-family: VivaBeautifulProB-Regular, Arial, sans-serif;
+  font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 3em;
   color: white;
   font-weight: normal;
 }
 h2.VivaBeautiful {
-  font-family: VivaBeautiful, Arial, sans-serif;
+  font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 3em;
   font-weight: normal;
 }
 h5.VivaBeautiful {
-  font-family: VivaBeautiful, Arial, sans-serif;
+  font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 2em;
   font-weight: normal;
 }
