@@ -116,6 +116,9 @@
 }
 
 /* FGs */
+#fg_title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 #tile_full_fg1 {
   background-image: url('../img/fg/door-garden.jpg');
   background-size: cover;
