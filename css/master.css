@@ -202,7 +202,7 @@ section#tile_fourth_one {
 }
 section#tile_fourth_two {
   background-image: url('../img/supergemeinde/supergemeinde-david.jpg');
-  background-position: -20px;
+  background-position: top right;
   left: 25%;
   top: -20em;
 }
