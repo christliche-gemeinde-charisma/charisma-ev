@@ -171,6 +171,7 @@
 .main_text {
   margin-left: 10em;
   margin-right: 10em;
+  font-size: 1.6em;
 }
 #tile_full_currentEv3 {
   background: linear-gradient(to right, #065800, #970000);
