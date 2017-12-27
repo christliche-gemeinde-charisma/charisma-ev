@@ -173,6 +173,7 @@
 .mschooltxt {
   font-size: 2em;
   font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .mschool_instr {
   background-size: cover;
@@ -185,6 +186,7 @@
   padding: 5px;
   background-color: #2E2E2E;
   color: #F7F7F7;
+  margin: 0px;
 }
 a.overviewmschool:hover {
   background-color: #C6C6C6;
@@ -213,7 +215,7 @@ a.overviewmschool:hover {
 }
 #tile_full_ms7 {
   background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/sax4.jpg');
+  background-image: url('../img/musicschool/sax4.JPG');
   background-size: cover;
   background-position: center;
 }
