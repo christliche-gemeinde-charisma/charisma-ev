@@ -15,6 +15,14 @@
   color: #2E2E2E;
   min-height: auto;
 }
+#circle_flags {
+  padding: 3em;
+}
+.big_verses {
+  font-family: 'Risque', cursive;
+  font-size: 2.5em;
+  font-style: italic;
+}
 
 /*Lobpreis*/
 #tile_full_worship_one {
@@ -65,6 +73,36 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #tile_full_superchurch_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
+/*Büchertisch*/
+#tile_full_books1 {
+  background-image: url('../img/buecher/books.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#superchurch_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_books2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
+/*Cafeteria*/
+#tile_full_cafe1 {
+  background-image: url('../img/cafeteria/coffee.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#superchurch_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_cafe2 {
   background-color: #F7F7F7;
   color: #2E2E2E;
   min-height: auto;

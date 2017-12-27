@@ -122,6 +122,10 @@ section.tile_full p {
   margin-left: 5em;
   margin-right: 5em;
 }
+.tile_full_text {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+}
 #tile_full_one {
   background-image: url(../img/home/charisma-background1.JPG);
   background-position: center top;
@@ -138,9 +142,9 @@ section#tile_full_two iframe {
   position: relative;
   top: -25px;
 }
-img#big_logo {
-  padding-top: 5em;
-}
+  img#big_logo {
+    padding-top: 5em;
+  }
 /*Tile Half*/
 .tile_half {
   text-align: center;
@@ -267,6 +271,7 @@ section h1 {
   font-family: "VivaBeautifulProB-Regular";
   src: url('../fonts/VivaBeautifulProB-Regular.ttf') format('truetype');
 }
+@import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 3em;
