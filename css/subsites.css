@@ -17,7 +17,7 @@
 #tile_full_cal1 {
   background-image: url('../img/events/clock2.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 80%;
 }
 #tile_full_cal2 {
   background-color: #F7F7F7;
