@@ -3,6 +3,32 @@
   font-family: 'VivaBeautifulProB-Regular', Arial, sans-serif;
   font-weight: normal;
 }
+.main_text {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-size: 1.6em;
+  font-family: 'Shree', Arial, sans-serif;
+}
+
+/* Event Kalender */
+#fg_title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_cal1 {
+  background-image: url('../img/events/clock2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_cal2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+}
+#tile_full_cal3 {
+  background: linear-gradient(to right, black, #009A00);
+}
+
 
 /*Übersetzung*/
 #tile_full_translate_one {
@@ -54,10 +80,7 @@
   color: #2E2E2E;
   min-height: auto;
 }
-.main_text {
-  margin-left: 10em;
-  margin-right: 10em;
-}
+
 #ng_headline {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
@@ -151,10 +174,6 @@
   color: #2E2E2E;
   min-height: auto;
 }
-.main_text {
-  margin-left: 10em;
-  margin-right: 10em;
-}
 #tile_full_fg3 {
   background: linear-gradient(to right, black, #009A00);
 }
@@ -167,13 +186,6 @@
   background-color: #F7F7F7;
   color: #2E2E2E;
   min-height: auto;
-}
-
-.main_text {
-  margin-left: 10em;
-  margin-right: 10em;
-  font-size: 1.6em;
-  font-family: 'Shree', Arial, sans-serif;
 }
 #tile_full_currentEv3 {
   background: linear-gradient(to right, #065800, #970000);
@@ -190,10 +202,6 @@
   background-color: #F7F7F7;
   color: #2E2E2E;
   min-height: auto;
-}
-.main_text {
-  margin-left: 10em;
-  margin-right: 10em;
 }
 #mschool_headline {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
