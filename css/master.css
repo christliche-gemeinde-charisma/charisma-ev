@@ -236,7 +236,7 @@ section#tile_third_one {
 }
 section#tile_third_center {
   background-color: #5BB1FC;
-  background-image: url('../img/musicschool/musicschool.JPG');
+  background-image: url('../img/musicschool/musicschool2.JPG');
   background-position: center;
   top: -20em;
   left: 33.33%;
@@ -254,7 +254,6 @@ section#tile_third_two {
 section h1 {
   margin-top: 0.5em;
 }
-
 /*Fonts*/
 @font-face {
   font-family: "VivaBeautiful";
