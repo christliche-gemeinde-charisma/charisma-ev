@@ -196,7 +196,7 @@
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background: linear-gradient(to bottom, #970000, #065800);
+  background-image: url('../img/events/moving-sky.jpg');
 }
 #tile_full_currentEv2 {
   background-color: #F7F7F7;
