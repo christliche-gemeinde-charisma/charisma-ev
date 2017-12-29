@@ -5,7 +5,11 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
-    <link rel="shortcut icon" href="../img/charisma-logo-blue.png"> 
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/home/charisma-logo-blue.png">
   </head>
   <body>
     <header>
@@ -15,56 +19,55 @@
       <nav>
         <ul id="nav">
           <li class="dropdown">
-            <a href="../index.html" class="dropbtn">Home</a>
-          </li>
+				    <a href="../index.html" class="dropbtn">Home</a>
+				  </li>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
-            <div class="dropdown-content">
-              <a href="lobpreis.html">Lobpreis</a>
-              <a href="uebersetzung.html">Übersetzung</a>
-              <a href="supergemeinde.html">Supergemeinde</a>
-            </div>
-          </li>
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="lobpreis.html">Lobpreis</a>
+				      <a href="uebersetzung.html">Übersetzung</a>
+				      <a href="supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="currentEvent.html">Weihnachten</a>
+				      <a href="events.html">Event Kalender</a>
+				    </div>
+				  </li>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Events</a>
-            <div class="dropdown-content">
-              <a href="currentEvent.html">Weihnachten</a>
-              <a href="events.html">Event Kalender</a>
-            </div>
-          </li>
+				    <a href="javascript:void(0)" class="dropbtn">Monat</a>
+				    <div class="dropdown-content">
+				      <a href="ng.html">Next Generation</a>
+				      <a href="fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Monat</a>
-            <div class="dropdown-content">
-              <a href="ng.html">Next Generation</a>
-              <a href="fg.html">Familiengruppen</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Mehr</a>
-            <div class="dropdown-content">
-              <a href="cafeteria.html">Cafeteria</a>
-              <a href="buecher.html">Büchertisch</a>
-              <a href="musicschool.html">Musikschule</a>
-            </div>
-          </li>
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+				      <a href="cafeteria.html">Cafeteria</a>
+				      <a href="buecher.html">Büchertisch</a>
+				      <a href="musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
         </ul>
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_cafeteria_one" class="tile_full">
-        <h1 class="color_coal" id="main_headline">Cafeteria</h1>
+      <section id="tile_full_cafe1" class="tile_full tile_fulls">
+        <h1 class="color_cloud main_headline" id="superchurch_headline">Cafeteria</h1>
       </section>
-      <section id="tile_full_cafreteria_two" class="tile_full">
-        <h2 class="VivaBeautiful">erster titel!</h2>
-        <h5 class="VivaBeautiful">Das ist Charisma</h5>
+      <section id="tile_full_cafe2" class="tile_full">
+        <h2 class="VivaBeautiful color_coal">Herzlich Willkommen in unserer Cafeteria</h2>
         <p class="main_text">
-          viel Text und tomaten
+          Hier findest du alles was du brauchst, um mit deiner Familie und mit deinen Freunden den Tag in unserer Gemeinde Charisma mit viel Kraft und Freude zu verbringen. Ob vor oder nach dem Gottesdienst oder am Sonntag zum Frühstück, komm vorbei und genieße unsere Vielfalt an leckeren Gerichten aus den Kulturen deiner Liebsten.
         </p>
         <p class="main_text">
-          Glaube ist die realization deiner Hoffnung
+          Also worauf wartest du noch? Guten Appetit.
         </p>
       </section>
-      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
+      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="impressum.html">Impressum</a></p></footer>
     </div>
   </body>
 </html>

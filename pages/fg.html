@@ -5,7 +5,11 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
-    <link rel="shortcut icon" href="../img/charisma-logo-blue.png"> 
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/charisma-logo-blue.png">
   </head>
   <body>
     <header>
@@ -51,11 +55,9 @@
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_fg1" class="tile_full">
+      <section id="tile_full_fg1" class="tile_full tile_fulls">
         <!-- TITEL -->
-        <h1 class="color_cloud" id="main_headline">
-            <img src="../img/fg/TITEL.png" alt="TITEL">
-        </h1>
+        <h1 class="color_cloud main_headline" id="fg_title">Familiengruppen</h1>
       </section>
       <section id="tile_full_fg2" class="tile_full">
         <h2 class="VivaBeautiful">Willkommen in der Familie!</h2>
@@ -68,8 +70,9 @@
         </p>
       </section>
       <section id="tile_full_fg3"class="tile_full">
-        <h2 class="VivaBeautiful color_black">Standorte der FGs</h2>
-        <iframe src="https://www.google.com/maps/d/embed?mid=1IvaaEdUXxykqOhjdr6PtK7CVixX0uVx3" width="640" height="480"></iframe>
+        <h2 class="VivaBeautiful color_cloud">Übersicht der Familiengruppen</h2>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1IvaaEdUXxykqOhjdr6PtK7CVixX0uVx3" width="1140" height="480"></iframe>
+        <p class="color_cloud"><i>Hinweis: Genaue Adressen sind nicht in dieser Übersicht. Um genauere Informationen über eine Familiengruppe zu erhalten, bitte kontaktieren Sie den/die o.g. Anprechpartner/in.</i></p>
       </section>
       <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
     </div>

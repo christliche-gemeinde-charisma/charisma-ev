@@ -5,6 +5,10 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/home/charisma-logo-blue.png">
   </head>
   <body>
@@ -51,75 +55,84 @@
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_ms1" class="tile_full">
-        <h1 class="color_cloud" id="main_headline">Musikschule</h1>
+      <section id="tile_full_ms1" class="tile_full tile_fulls">
+        <h1 class="color_cloud main_headline" id="mschool_headline">Musikschule</h1>
       </section>
       <section id="tile_full_ms2" class="tile_full">
         <h2 class="VivaBeautiful color_coal">Erlerne einen Instrument: alles Kostenlos!</h2>
-        <h5 class="VivaBeautiful">Unsere engagierte Musiker von Charisma Worship bringen dir alles bei</h5>
-        <p>
-          Jeden Freitag hast du die Möglichkeit kostenlos an Musikunterricht teilzunehmen bei uns in der Gemeinde! Unten sind die diverse Instumente die angeboten sind und die jeweilige Lehrer. <br>Es ist empfohlen bevor es losgeht mit dem jeweiligen Lehrer zu reden und Fragen zu klären.
+        <p class="main_text">
+          In unserer Musikschule hat jeder die Möglichkeit, kostenlos ein Instrument zu erlernen. Mittlerweile haben wir 7 Instrumente (Keyboard, Schlagzeug, Gitarre, E-Gitarre, Bass-Gitarre, Saxophon, Klarinette) zur Auswahl, die jeden Freitag von 17:30 bis 18:30 in der Gemeinde Charisma unterrichtet werden.
+          Für uns ist die Musik eine Sprache mit der wir mit Gott reden können und ihn loben und anbeten können. Deswegen ist es uns wichtig, nicht nur die Fähigkeit beizubringen ein Instrument spielen zu können, sondern die Bedeutung von Lobpreis weiterzugeben.
+        </p>
+        <p class="main_text">
+          Falls wir dein Interesse geweckt haben komm gerne auf uns Lehrer zu.
+          Wir freuen uns auf DICH <br><br>
+          <i>Dein Musikschulteam</i>
         </p>
         <div>
-          <h2 id="overviewmschool" class="VivaBeautiful color_coal">Übersicht des Angebots</h2>
+          <h2 class="VivaBeautiful color_coal">Übersicht des Angebots:</h2>
+          <p class="main_text">
+            Unten sind die diverse Instumente die angeboten sind und die jeweilige Lehrer. <br>Es ist empfohlen bevor es losgeht mit dem jeweiligen Lehrer zu reden und Fragen zu klären.
+          </p>
+          <!--
           <a class="overviewmschool" href="#tile_full_ms3">Klavier</a>
           <a class="overviewmschool" href="#tile_full_ms4">Akkustik Gitarre</a>
           <a class="overviewmschool" href="#tile_full_ms5">E-Bass</a>
           <a class="overviewmschool" href="#tile_full_ms6">Klarinette</a>
           <a class="overviewmschool" href="#tile_full_ms7">Saxophon</a>
           <a class="overviewmschool" href="#tile_full_ms8">Schlagzeug</a>
+          -->
         </div>
         <br>
-        <p><strong>Die Musikschule findet jeden freitag um 17:35 Uhr statt in der Gemeinde.</strong></p>
         <br>
       </section>
-      <section id="tile_full_ms3" class="tile_full">
+      <div class="tile_third_layer">
+        <section id="tile_full_ms4" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Akkustik Gitarre</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Jasper Copeland Hasche<br>
+          </p>
+        </section>
+        <section id="tile_full_ms9" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">E-Gitarre</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Jasper Copeland Hasche<br>
+          </p>
+        </section>
+        <section id="tile_full_ms5" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">E-Bass</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Philip Gyebi<br>
+          </p>
+        </section>
+      </div>
+      <section id="tile_full_ms3" class="mschool_instr tile_full">
         <h1 class="VivaBeautiful color_cloud">Klavier</h1>
         <p class="mschooltxt color_cloud">
           Lehrer: Emil Madera <br>
-          Material: Keyboards vor Ort
         </p>
       </section>
-      <section id="tile_full_ms4" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Akkustik Gitarre</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrer: Jasper Copeland Hasche <br>
-          Material: Gitarren vor Ort <br>
-          Zum Mitnehmen: empfohlen eigene Gitarre mitzunehmen
-        </p>
-      </section>
-      <section id="tile_full_ms5" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">E-Bass</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrer: Philip Gyebi<br>
-          Material: Ein E-Bass vor Ort <br>
-        </p>
-      </section>
-      <section id="tile_full_ms6" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Clarinette</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrerin: Lena Nourbakhsh<br>
-          Material: Nur Klarinette des Lehrers vor Ort<br>
-          Zum Mitnehmen: Eigener Mundstuck für Klarinette oder eigene Klarinette
-        </p>
-      </section>
-      <section id="tile_full_ms7" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Saxophon</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrerin: Lena Nourbakhsh<br>
-          Material: Nur Saxophon des Lehrers vor Ort<br>
-          Zum Mitnehmen: Eigener Mundstuck für Saxophon oder eigener Saxophon
-        </p>
-      </section>
-      <section id="tile_full_ms8" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Schlagzeug</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrer: Micha Nourbakhsh<br>
-          Material: Ein Schlagzeug vor Ort<br>
-          Zum Mitnehmen: empfohlen eigene Sticks
-        </p>
-      </section>
-      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
+      <div class="tile_third_layer">
+        <section id="tile_full_ms6" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Klarinette</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrerin: Lena Nourbakhsh<br>
+          </p>
+        </section>
+        <section id="tile_full_ms7" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Saxophon</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrerin: Lena Nourbakhsh<br>
+          </p>
+        </section>
+        <section id="tile_full_ms8" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Schlagzeug</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Micha Nourbakhsh<br>
+          </p>
+        </section>
+      </div>
+      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="impressum.html">Impressum</a></p></footer>
     </div>
   </body>
 </html>
