@@ -70,6 +70,18 @@
   min-height: auto;
 }
 
+/*Caféteria*/
+#tile_full_cafeteria_one {
+  background-image: url('../img/cafeteria/cafeteria-header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_cafreteria_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
 /* FGs */
 #tile_full_fg1 {
   background-image: url('../img/fg/door-garden.jpg');
@@ -86,7 +98,9 @@
   margin-right: 10em;
 }
 #tile_full_fg3 {
-  background: linear-gradient(to right, black, #009A00);
+  background-image: url('../img/fg/google-maps-blur.png');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Aktuelles Event */
