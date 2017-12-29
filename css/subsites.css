@@ -202,10 +202,12 @@
   font-size: 2em;
   font-style: italic;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Shree', Arial, sans-serif;
 }
 .mschool_instr {
   background-size: cover;
   background-position: center;
+  height: 20em;
 }
 #overviewmschool {
   margin-bottom: 5px;
@@ -219,37 +221,58 @@
 a.overviewmschool:hover {
   background-color: #C6C6C6;
 }
+/*Kacheln der Instrumente*/
 #tile_full_ms3 {
   background-image: url('../img/musicschool/piano1.jpg');
-
+  height: 20em;
 }
 #tile_full_ms4 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/acoustic3.jpg');
   background-size: cover;
   background-position: center;
+  height: 20em;
+}
+#tile_full_ms9 {
+  background: linear-gradient(to right, black, purple);
+  background-image: url('../img/musicschool/eguitar.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+  top: -20em;
+  left: 33.33%;
 }
 #tile_full_ms5 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/acoustic1.jpg');
   background-size: cover;
   background-position: center;
+  height: 20em;
+  top: -40em;
+  left: 66.66%;
 }
 #tile_full_ms6 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/clarinet.jpg');
   background-size: cover;
   background-position: center;
+  height: 20em;
 }
 #tile_full_ms7 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/sax4.JPG');
   background-size: cover;
   background-position: center;
+  height: 20em;
+  top: -20em;
+  left: 33.33%;
 }
 #tile_full_ms8 {
   background: linear-gradient(to right, black, purple);
   background-image: url('../img/musicschool/drums1.jpg');
   background-size: cover;
   background-position: center;
+  height: 20em;
+  top: -40em;
+  left: 66.66%;
 }
