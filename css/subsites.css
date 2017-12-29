@@ -28,7 +28,9 @@
 #tile_full_cal3 {
   background: linear-gradient(to right, black, #009A00);
 }
-
+#calendar {
+  padding-bottom: 1em;
+}
 
 /*Übersetzung*/
 #tile_full_translate_one {
