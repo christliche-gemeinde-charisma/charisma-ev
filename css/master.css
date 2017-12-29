@@ -134,9 +134,10 @@ section.tile_full p {
 
 }
 #tile_full_two {
-  background-color: #C4E0FF;
-  background: linear-gradient(to right, #C4E0FF, #0e5394);
-  min-height: 35em;
+  background-image: url(../img/home/google-maps-blur.png);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 section#tile_full_two iframe {
   position: relative;
@@ -235,7 +236,7 @@ section#tile_third_one {
 }
 section#tile_third_center {
   background-color: #5BB1FC;
-  background-image: url('../img/musicschool/musicschool2.JPG');
+  background-image: url('../img/musicschool/musicschool.JPG');
   background-position: center;
   top: -20em;
   left: 33.33%;
