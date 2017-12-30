@@ -207,6 +207,29 @@
   background: linear-gradient(to right, #065800, #970000);
 }
 
+/* Vision */
+#tile_full_vision1 {
+  background-image: url('../img/vision/clouds.jpg');
+  background-size: cover;
+}
+#tile_full_vision2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+#tile_full_vision3 {
+  background: linear-gradient(to right, #065800, #970000);
+}
+#visiontxt {
+  text-align: left;
+}
+.visionDE {
+  color: blue;
+}
+.visionFR {
+  color: red;
+}
+
 /*Musikschule*/
 #tile_full_ms1 {
   background: linear-gradient(to bottom, black, purple);

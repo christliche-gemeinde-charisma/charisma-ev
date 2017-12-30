@@ -146,6 +146,14 @@ section#tile_full_two iframe {
   img#big_logo {
     padding-top: 5em;
   }
+#tile_full_vision {
+  height: 30em;
+  background-image: url('../img/vision/clouds.jpg');
+  background-size: cover;
+}
+  #visionLIEBE {
+    font-size: 10em;
+  }
 /*Tile Half*/
 .tile_half {
   text-align: center;
@@ -313,6 +321,9 @@ h5.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 2em;
   font-weight: normal;
+}
+.Shree {
+  font-family: "Shree", Arial, sans-serif;
 }
 .color_cloud {
   color: #F7F7F7;
