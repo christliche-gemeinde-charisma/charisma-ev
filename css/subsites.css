@@ -10,6 +10,14 @@
   font-family: 'Shree', Arial, sans-serif;
 }
 
+
+/* Geschichte*/
+#tile_full_ges1 {
+  background-image: url('../img/geschichte/path.jpg');
+  background-size: cover;
+  background-position: 40% 50%;
+}
+
 /* Event Kalender */
 #fg_title {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -59,7 +67,7 @@
   font-size: 2.5em;
   font-style: italic;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  
+
 }
 
 /*Lobpreis*/
