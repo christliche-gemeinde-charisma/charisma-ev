@@ -180,6 +180,25 @@ div#wilkommen p {
 }
 section#tile_half_right iframe {
 }
+#tile_half_right2 {
+  background-image: url(../img/home/phone-apps.jpeg);
+  left: 49.99%;
+  top: -30em;
+}
+#tile_half_left2 {
+  background-image: url('../img/home/eiffel-tower.jpg');
+  background-position: center;
+}
+.social_links {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+.social_links:hover {
+  background-color: rgba(255,255,255,0.5);
+}
 /*Tile Fourth*/
 .tile_fourth {
   width: 25%;
