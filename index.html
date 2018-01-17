@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="../css/subsites.css">
+    <link rel="stylesheet" href="css/subsites.css">
+    <link rel="stylesheet" href="css/home-slider.css">
     <link rel="shortcut icon" href="img/home/charisma-logo-blue.png">
     <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
     <link rel="stylesheet" media="screen and (max-width: 1500px)" href="css/responsivePC.css">
     <link rel="stylesheet" media="screen and (max-width: 640px)" href="css/responsiveMobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/home-slider.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
@@ -64,7 +66,26 @@
     </header>
     <div id="container">
       <section class="tile_full" id="tile_full_one">
-        <img src="img/home/charisma-logo-transparent.png" id="big_logo">
+        <div class="wrap">
+          <div id="arrow-left" onclick="leftArrowClick();" class="arrow"></div>
+          <div id="slider">
+            <div class="slide slide1">
+              <div class="slide-content">
+
+              </div>
+            </div>
+            <div class="slide slide2">
+              <div class="slide-content">
+              </div>
+            </div>
+            <div class="slide slide3">
+              <div class="slide-content">
+              <!--<img src="img/home/charisma-logo-transparent.png" id="big_logo">-->
+              </div>
+            </div>
+          </div>
+          <div id="arrow-right" onclick="rightArrowClick();" class="arrow"></div>
+        </div>
       </section>
       <div id="wilkommenlayer" class="tile_half_layer">
         <section id="tile_half_left" class="tile_half">
