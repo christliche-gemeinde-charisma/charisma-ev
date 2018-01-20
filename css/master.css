@@ -190,6 +190,8 @@ section#tile_half_right iframe {
 }
 #tile_half_right2 {
   background-image: url(../img/home/phone-apps.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   left: 49.99%;
   top: -30em;
 }
