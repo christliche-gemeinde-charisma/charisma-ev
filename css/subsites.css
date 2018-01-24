@@ -72,9 +72,9 @@
 
 /*Lobpreis*/
 #tile_full_worship_one {
-  background-image: url('../img/lobpreis/lobpreisteam1.jpeg');
+  background-image: url('../img/lobpreis/lobpreisteam1.JPG');
   background-size: cover;
-  background-position: center 20%;
+  background-position: center bottom;
 }
 #tile_full_worship_two {
   background-color: #F7F7F7;
