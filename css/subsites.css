@@ -84,7 +84,7 @@
 
 /*Next Generation*/
 #tile_full_ng1 {
-  background-image: url('../img/ng/ng-youth-festival-2016.jpg');
+  background-image: url('../img/ng/headerng.JPG');
   background-size: cover;
   background-position: center;
 }
@@ -100,6 +100,8 @@
 }
 #tile_full_ng3 {
   background: linear-gradient(to right, black, #0e5394);
+  height: auto;
+  padding-bottom: 5em;
 }
 #tile_full_ng3 iframe {
   width: 50em;
