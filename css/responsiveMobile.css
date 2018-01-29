@@ -50,6 +50,14 @@
     text-align: left;
   }
   /*Kacheln*/
+  /*Responsive Inhalte*/
+    /*iframes*/
+    iframe.mobile_iframe {
+      display: inline;
+    }
+    iframe.PC_iframe {
+      display: none;
+    }
 
 /*subsites.css*/
   /*Text*/
