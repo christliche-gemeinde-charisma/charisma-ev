@@ -1,4 +1,19 @@
 /*master.css*/
+  /*Navigation*/
+  ul#mobilenav {
+    display: block;
+  }
+  ul#nav {
+    display: none;
+  }
+  li.dropdown {
+    float: none;
+    display: block;
+  }
+  header {
+    height: auto;
+  }
+
   /*Kacheln*/
 
 /*subsites.css*/
