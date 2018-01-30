@@ -209,7 +209,9 @@
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/moving-sky.jpg');
+  background-image: url('../img/events/backpack-freedom.jpeg');
+  background-size: cover;
+  background-position: center center;
 }
 #tile_full_currentEv2 {
   background-color: #F7F7F7;
