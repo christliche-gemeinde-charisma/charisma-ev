@@ -19,6 +19,9 @@ h1 {
 a {
   text-decoration: none;
 }
+iframe.mobile_iframe {
+  display: none;
+}
 
 
 /* Header */
@@ -56,6 +59,10 @@ ul#nav {
     overflow: hidden;
 }
 
+ul#mobilenav {
+  display: none;
+}
+
 li #title {
     display: inline-block;
     float: left;
@@ -82,6 +89,7 @@ li a:hover, .dropdown:hover .dropbtn {
 li.dropdown {
     display: inline-block;
 }
+
 
 .dropdown-content {
     display: none;

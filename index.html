@@ -60,6 +60,59 @@
 				    </div>
 				  </li>
         </ul>
+        <ul id="mobilenav">
+          <li class="dropdownM">
+				    <a href="index.html" id="homebtn" class="dropbtn">Home</a>
+				  </li>
+          <li class="dropdownM menubtn">
+				    <a href="javascript:void(0)" onclick="RevealNav();" id="menubtn" class="dropbtn"><img class="menubtn" src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png"></a>
+            <script>
+              function RevealNav() {
+                var Menu = document.getElementById('mobileOptions').style.display="block";
+              }
+            </script>
+          </li>
+          <div id="mobileOptions">
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="pages/lobpreis.html">Lobpreis</a>
+				      <a href="pages/uebersetzung.html">Übersetzung</a>
+				      <a href="pages/supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="pages/currentEvent.html">Aktuelles Event</a>
+				      <a href="pages/events.html">Event Kalender</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
+				    <div class="dropdown-content">
+				      <a href="pages/ng.html">Next Generation</a>
+				      <a href="pages/fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="pages/vision.html">Vision</a>
+              <a href="pages/pastoren.html">Pastoren</a>
+				      <a href="pages/geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+              <a href="pages/cafeteria.html">Cafeteria</a>
+              <a href="pages/buecher.html">Büchertisch</a>
+				      <a href="pages/musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
+          </div>
+        </ul>
       </nav>
     </header>
     <div id="container">
@@ -180,7 +233,8 @@
       </div>
       <section class="tile_full" id="tile_full_two">
         <h2 class="VivaBeautiful color_coal">Standort</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.2019466564907!2d10.047901215391493!3d53.60769998003463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18912a599fadd%3A0x27957fc3a3055c5b!2sCharisma+Hamburg!5e0!3m2!1sen!2sde!4v1508935442372" width="1300" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe class="PC_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.2019466564907!2d10.047901215391493!3d53.60769998003463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18912a599fadd%3A0x27957fc3a3055c5b!2sCharisma+Hamburg!5e0!3m2!1sen!2sde!4v1508935442372" width="1300" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe class="mobile_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.2019466564907!2d10.047901215391493!3d53.60769998003463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18912a599fadd%3A0x27957fc3a3055c5b!2sCharisma+Hamburg!5e0!3m2!1sen!2sde!4v1508935442372" width="320" height="120" frameborder="0" style="border:0" allowfullscreen></iframe>
       </section>
       <footer>
         <p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p>
