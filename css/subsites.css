@@ -229,6 +229,18 @@
 }
 
 /* Vision */
+#tile_full_pastoren1 {
+  background-image: url('../img/geschichte/pastoren.jpg');
+  background-size: cover;
+  background-position: center 25%;
+}
+#tile_full_pastoren2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
+/* Vision */
 #tile_full_vision1 {
   background-image: url('../img/vision/clouds.jpg');
   background-size: cover;
