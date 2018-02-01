@@ -32,7 +32,6 @@
   color: #2E2E2E;
   min-height: auto;
 }
-}
 #tile_full_cal3 {
   background: linear-gradient(to right, black, #009A00);
 }
@@ -216,8 +215,15 @@
 #tile_full_currentEv2 {
   background-color: #F7F7F7;
   color: #2E2E2E;
-  min-height: auto;
+  min-height: 42em;
 }
+  /*Infos über Event*/
+  img.event_flyer {
+    width: 20em;
+    float: left;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 #tile_full_currentEv3 {
   background: linear-gradient(to right, #065800, #970000);
 }
