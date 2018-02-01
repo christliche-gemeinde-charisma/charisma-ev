@@ -22,6 +22,10 @@ a {
 iframe.mobile_iframe {
   display: none;
 }
+iframe.video {
+  width: 516px;
+  height: 360px;
+}
 
 
 /* Header */

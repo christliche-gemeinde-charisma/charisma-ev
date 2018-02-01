@@ -58,6 +58,11 @@
     iframe.PC_iframe {
       display: none;
     }
+    iframe.video {
+      width: 316px;
+      height: 160px;
+    }
+
 
 /*subsites.css*/
   /*Text*/
