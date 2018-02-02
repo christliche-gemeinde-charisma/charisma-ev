@@ -1,7 +1,9 @@
 .main_headline {
-  font-size: 10em;
+  font-size: 13em;
   font-family: 'VivaBeautifulProB-Regular', Arial, sans-serif;
   font-weight: normal;
+  margin-top: 1.2em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .main_text {
   margin-left: 10em;
@@ -74,7 +76,7 @@
 #tile_full_worship_one {
   background-image: url('../img/lobpreis/lobpreisteam1.JPG');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center 23%;
 }
 #tile_full_worship_two {
   background-color: #F7F7F7;
@@ -231,9 +233,9 @@
 
 /* Vision */
 #tile_full_pastoren1 {
-  background-image: url('../img/geschichte/pastoren.jpg');
+  background-image: url('../img/geschichte/pastorenw.jpg');
   background-size: cover;
-  background-position: center 25%;
+  background-position: 20% 15%;
 }
 #tile_full_pastoren2 {
   background-color: #F7F7F7;
