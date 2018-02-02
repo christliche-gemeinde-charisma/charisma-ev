@@ -33,7 +33,7 @@
   background-color: #0e5394;
   background-image: url('../img/home/blue-gradient-background.jpg');
   color: #2E2E2E;
-  min-height: auto;
+  height: auto;
 }
 #tile_full_cal3 {
   background: linear-gradient(to right, black, #009A00);
@@ -157,7 +157,7 @@
 
 /*Cafeteria*/
 #tile_full_cafe1 {
-  background-image: url('../img/cafeteria/coffee.jpg');
+  background-image: url('../img/cafeteria/cafeteria-renata.JPG');
   background-size: cover;
   background-position: center;
 }
@@ -167,23 +167,18 @@
 #tile_full_cafe2 {
   background-color: #F7F7F7;
   color: #2E2E2E;
-  min-height: auto;
+  height: auto;
+}
+img#preise {
+  width: 40%;
+  margin-bottom: 2em;
+  border-style: solid;
+  border-color: #2E2E2E;
+  border-width: medium;
 }
 
 /*Impressum*/
 #tile_full_impressum_one {
-  background-color: #F7F7F7;
-  color: #2E2E2E;
-  min-height: auto;
-}
-
-/*Caféteria*/
-#tile_full_cafeteria_one {
-  background-image: url('../img/cafeteria/cafeteria-header.jpg');
-  background-size: cover;
-  background-position: center;
-}
-#tile_full_cafreteria_two {
   background-color: #F7F7F7;
   color: #2E2E2E;
   min-height: auto;

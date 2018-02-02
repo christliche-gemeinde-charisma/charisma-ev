@@ -139,8 +139,8 @@ section.tile_full p {
   color: #2E2E2E;
 }
 #tile_full_one {
-  background-image: url(../img/home/charisma-background1.JPG);
-  background-position: center top;
+  background-image: url(../img/home/charisma-background.JPG);
+  background-position: right 40%;
   background-size: cover;
   background-repeat: no-repeat;
 
