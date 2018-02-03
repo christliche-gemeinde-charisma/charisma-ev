@@ -124,7 +124,6 @@
   color: #2E2E2E;
   height: 70em;
 }
-
 /*Büchertisch*/
 #tile_full_books1 {
   background-image: url('../img/buecher/headerbooks.JPG');
@@ -189,7 +188,7 @@ img#preise {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #tile_full_fg1 {
-  background-image: url('../img/fg/FamiliengruppeBerne03.jpg');
+  background-image: url('../img/fg/FamiliengruppeBerne03.JPG');
   background-size: cover;
   background-position: center;
 }
@@ -228,7 +227,7 @@ img#preise {
 
 /* Vision */
 #tile_full_pastoren1 {
-  background-image: url('../img/geschichte/pastorenw.jpg');
+  background-image: url('../img/geschichte/pastorenw.JPG');
   background-size: cover;
   background-position: 20% 15%;
 }
