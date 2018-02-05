@@ -143,8 +143,12 @@ section.tile_full p {
   background-position: right 40%;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+  #first_txt {
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 #tile_full_two {
   background-image: url(../img/home/google-maps-blur.png);
   background-position: center top;
