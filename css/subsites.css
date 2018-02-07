@@ -76,7 +76,7 @@
 #tile_full_worship_one {
   background-image: url('../img/lobpreis/lobpreisteam1.JPG');
   background-size: cover;
-  background-position: center 23%;
+  background-position: center 23%;0ne
 }
 #tile_full_worship_two {
   background-color: #F7F7F7;
@@ -174,6 +174,21 @@ img#preise {
   border-style: solid;
   border-color: #2E2E2E;
   border-width: medium;
+}
+table.preise {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {background-color: #DFDFDF;}
+td.preiseWoche {
+  border: thin solid black;
+}
+tr.preiseH {
+  background-color: #E18700;
+  color: white;
 }
 
 /*Impressum*/
