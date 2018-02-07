@@ -72,3 +72,8 @@
   .main_text {
     font-size: 1em;
   }
+  /*FG*/
+  iframe#map {
+    width: 342px;
+    height: 232px;
+  }

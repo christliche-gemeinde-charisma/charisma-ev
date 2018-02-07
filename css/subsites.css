@@ -217,6 +217,10 @@ tr.preiseH {
   background-size: cover;
   background-position: center;
 }
+iframe#map {
+  width: 1142px;
+  height: 532px;
+}
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
