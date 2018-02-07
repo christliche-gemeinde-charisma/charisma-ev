@@ -29,3 +29,7 @@
     #tile_full_cafe1 {
       background-position: center 28%;
     }
+    iframe#map {
+      width: 1142px;
+      height: 532px;
+    }
