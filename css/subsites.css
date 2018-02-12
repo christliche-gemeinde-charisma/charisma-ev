@@ -122,8 +122,14 @@
 #tile_full_superchurch_two {
   background-color: #F7F7F7;
   color: #2E2E2E;
-  height: 70em;
 }
+#tile_full_superchurch3 {
+  background-image: url('../img/supergemeinde/crayons.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 5em;
+}
+
 /*Büchertisch*/
 #tile_full_books1 {
   background-image: url('../img/buecher/headerbooks.JPG');
