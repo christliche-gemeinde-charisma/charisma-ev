@@ -27,7 +27,6 @@ iframe.video {
   height: 360px;
 }
 
-
 /* Header */
 div#logo_small {
   float: left;
@@ -386,4 +385,9 @@ footer a {
 }
 footer a:hover {
   color: #C6C6C6;
+}
+
+/*Tweaks*/
+a.toggleVisible {
+  display: none;
 }
