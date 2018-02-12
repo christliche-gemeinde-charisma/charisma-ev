@@ -51,6 +51,16 @@
   }
   /*Kacheln*/
   /*Responsive Inhalte*/
+  .mobile {
+    display: block;
+  }
+  .PC {
+    display: none;
+  }
+  /*Footer*/
+  footer {
+    height: 4.5em;
+  }
     /*iframes*/
     iframe.mobile_iframe {
       display: inline;

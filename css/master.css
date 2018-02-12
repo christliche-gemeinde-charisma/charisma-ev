@@ -391,3 +391,6 @@ footer a:hover {
 a.toggleVisible {
   display: none;
 }
+.mobile {
+  display: none;
+}
