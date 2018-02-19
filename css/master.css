@@ -218,6 +218,7 @@ section#tile_full_two iframe {
   }
 #tile_full_vision {
   background-image: url('../img/vision/clouds.jpg');
+  background-size: cover;
 }
   #visionLIEBE {
     font-size: 10em;
