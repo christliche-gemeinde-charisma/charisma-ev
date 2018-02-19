@@ -217,9 +217,7 @@ section#tile_full_two iframe {
     padding-top: 5em;
   }
 #tile_full_vision {
-  height: 30em;
   background-image: url('../img/vision/clouds.jpg');
-  background-size: cover;
 }
   #visionLIEBE {
     font-size: 10em;

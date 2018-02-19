@@ -51,11 +51,20 @@
   }
   /*Kacheln*/
     /*Tile Full*/
+    #tile_full_one {
+      background-image: url(../img/home/charisma-background.jpg);
+      height: auto;
+    }
     img#big_logo {
       width: 20em;
     }
     #visionLIEBE {
-      font-size: 8em;
+      font-size: 7em;
+    }
+    #tile_full_vision {
+      height: 20em;
+      background-image: url('../img/vision/clouds.jpg');
+      background-size: 200%;
     }
     /*Tile Half*/
     .tile_half {
