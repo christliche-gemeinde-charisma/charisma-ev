@@ -187,6 +187,7 @@ section.tile_full p {
   margin-left: 5em;
   margin-right: 5em;
 }
+
 .tile_full_text {
   background-color: #F7F7F7;
   color: #2E2E2E;
@@ -248,14 +249,22 @@ section#tile_full_two iframe {
   height: 30em;
   overflow: hidden;
 }
-div#wilkommen {
-  padding-top: 5em;
-}
-div#wilkommen p {
-  padding-left: 3em;
-  padding-right: 3em;
-}
-section#tile_half_right iframe {
+/*Willkommen Text*/
+  div#wilkommen {
+    padding-top: 5em;
+  }
+  div#wilkommen p {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .willkommenHeadline {
+    margin-bottom: 5px;
+  }
+  .smallpaddingH {
+    margin-top: 5px;
+  }
+iframe.video {
+  width: 100%;
 }
 #tile_half_right2 {
   background-image: url(../img/home/phone-apps.jpeg);

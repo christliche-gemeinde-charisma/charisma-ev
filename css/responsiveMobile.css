@@ -50,6 +50,62 @@
     text-align: left;
   }
   /*Kacheln*/
+    /*Tile Full*/
+    img#big_logo {
+      width: 20em;
+    }
+    #visionLIEBE {
+      font-size: 8em;
+    }
+    /*Tile Half*/
+    .tile_half {
+      width: 100%;
+      height: 30em;
+      overflow: hidden;
+    }
+    #tile_half_right {
+      background-color: #3770A1;
+      height: 230px;
+      left: 0%;
+      top: 0em;
+    }
+    #tile_half_right2 {
+      background-image: url(../img/home/phone-apps.jpeg); /*can be used to implement smaller images for mobile*/
+      left: 0%;
+      top: 0em;
+    }
+    .tile_half_layer {
+      overflow: visible;
+      height: auto;
+    }
+    /*Tile Third*/
+    /*Tile Fourth*/
+    .tile_fourth {
+      width: 49.99%;
+      height: 20em;
+      background-size: cover;
+    }
+    section#tile_fourth_two {
+      background-image: url('../img/supergemeinde/supergemeinde-david.jpg');
+      background-position: top center;
+      left: 49.99%;
+      top: -20em;
+    }
+    section#tile_fourth_three {
+      background-image: url('../img/cafeteria/cafeteria-header-cut.jpg');
+      left: 0%;
+      top: -20em;
+    }
+    section#tile_fourth_four {
+      background-image: url('../img/buecher/bookshelf-background.jpg');
+      position: -100 0;
+      left: 49.99%;
+      top: -40em;
+    }
+    .tile_fourth_layer {
+      height: 40em;
+      overflow: hidden;
+    }
   /*Responsive Inhalte*/
   .mobile {
     display: block;
@@ -69,12 +125,17 @@
       display: none;
     }
     iframe.video {
-      width: 316px;
-      height: 160px;
+      width: 346px;
+      height: 230px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    iframe#representVideo {
+      width: 100%
     }
 
-
 /*subsites.css*/
+
   /*Text*/
   .main_headline {
     font-size: 6em;
