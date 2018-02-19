@@ -144,7 +144,6 @@
     }
 
 /*subsites.css*/
-
   /*Text*/
   .main_headline {
     font-size: 6em;
@@ -152,6 +151,12 @@
   .main_text {
     font-size: 1em;
   }
+  /* Aktuelles Event */
+    /*Infos über Event*/
+    img.event_flyer {
+      width: 15em;
+      margin: 8px;
+    }
   /*FG*/
   iframe#map {
     width: 342px;
