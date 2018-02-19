@@ -51,10 +51,6 @@
   }
   /*Kacheln*/
     /*Tile Full*/
-    #tile_full_one {
-      background-image: url(../img/home/charisma-background.jpg);
-      height: auto;
-    }
     img#big_logo {
       width: 20em;
     }
@@ -71,6 +67,9 @@
       width: 100%;
       height: 30em;
       overflow: hidden;
+    }
+    #tile_half_left {
+      height: auto;
     }
     #tile_half_right {
       background-color: #3770A1;
