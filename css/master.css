@@ -264,7 +264,12 @@ section#tile_full_two iframe {
     margin-top: 5px;
   }
 iframe.video {
+  width: 560px;
+  height: 370px;
+}
+iframe#representVideo {
   width: 100%;
+  height: 30em;
 }
 #tile_half_right2 {
   background-image: url(../img/home/phone-apps.jpeg);
