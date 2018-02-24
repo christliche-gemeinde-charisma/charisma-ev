@@ -74,9 +74,9 @@
 
 /*Lobpreis*/
 #tile_full_worship_one {
-  background-image: url('../img/lobpreis/lobpreisteam1.JPG');
+  background-image: url('../img/lobpreis/lobpreis-team4.JPG');
   background-size: cover;
-  background-position: center 23%;0ne
+  background-position: center 63%;
 }
 #tile_full_worship_two {
   background-color: #F7F7F7;
@@ -253,7 +253,7 @@ iframe#map {
 
 /* Vision */
 #tile_full_pastoren1 {
-  background-image: url('../img/geschichte/pastorenw.JPG');
+  background-image: url('../img/geschichte/pastoren.JPG');
   background-size: cover;
   background-position: 20% 15%;
 }
