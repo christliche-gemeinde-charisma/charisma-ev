@@ -158,16 +158,16 @@
       height: 40em;
       overflow: hidden;
     }
+  /*Footer*/
+  footer {
+    height: 4.5em;
+  }
   /*Responsive Inhalte*/
   .mobile {
     display: block;
   }
   .PC {
     display: none;
-  }
-  /*Footer*/
-  footer {
-    height: 4.5em;
   }
     /*iframes*/
     iframe.mobile_iframe {
@@ -205,4 +205,15 @@
   iframe#map {
     width: 342px;
     height: 232px;
+  }
+  /*Cafeteria*/
+  table.preise {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+  }
+  td.preise {
+    width: 10px;
   }

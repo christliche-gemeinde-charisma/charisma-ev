@@ -189,6 +189,7 @@ table.preise {
   border-collapse: collapse;
 }
 tr:nth-child(even) {background-color: #DFDFDF;}
+tr:nth-child(odd) {background-color: white;}
 td.preiseWoche {
   border: thin solid black;
 }
