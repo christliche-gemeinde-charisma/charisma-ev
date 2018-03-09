@@ -195,6 +195,11 @@
   .main_text {
     font-size: 1em;
   }
+  /*Event Kalender*/
+  #calendar {
+    width: 100%;
+    overflow: scroll;
+  }
   /* Aktuelles Event */
     /*Infos über Event*/
     img.event_flyer {
