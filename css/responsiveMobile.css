@@ -222,3 +222,13 @@
   td.preise {
     width: 10px;
   }
+  /*Next Generation*/
+  #freizeit_video {
+    background-color: #3770A1;
+    height: 230px;
+    left: 0%;
+    top: 0em;
+  }
+  #wirNG {
+    height: 230px;
+  }
