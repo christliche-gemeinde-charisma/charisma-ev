@@ -237,9 +237,17 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/ostern2.jpeg');
+  background-image: url('../img/events/OSTERN3_v.png');
   background-size: cover;
   background-position: center center;
+}
+#easter_h1 {
+  font-size: 8em;
+  margin-top: 2.7em;
+  color: rgb(0, 102, 204);
+}
+#easter_h2 {
+  font-size: 4em;
 }
 #tile_full_currentEv2 {
   background-color: #F7F7F7;
@@ -249,10 +257,17 @@ iframe#map {
 }
   /*Infos über Event*/
   img.event_flyer {
-    width: 30em;
+    width: 60em;
     margin: 8px;
     margin-left: auto;
     margin-right: auto;
+  }
+  #plakat_h1 {
+    position: absolute;
+    font-size: 10em;
+    top: 12em;
+    margin-left: 27%;
+    z-index: 6;
   }
 #tile_full_currentEv3 {
   background: linear-gradient(to right, #065800, #970000);
