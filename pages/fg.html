@@ -5,7 +5,11 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
-    <link rel="shortcut icon" href="../img/charisma-logo-blue.png"> 
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/home/charisma-logo-blue.png">
   </head>
   <body>
     <header>
@@ -28,50 +32,115 @@
 				  <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Events</a>
 				    <div class="dropdown-content">
-				      <a href="currentEvent.html">Weihnachten</a>
+				      <a id="currentEvent" class="toggleVisible" href="pages/currentEvent.html">Kostümparty</a>
 				      <a href="events.html">Event Kalender</a>
 				    </div>
 				  </li>
           <li class="dropdown">
-				    <a href="javascript:void(0)" class="dropbtn">Monat</a>
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
 				    <div class="dropdown-content">
 				      <a href="ng.html">Next Generation</a>
 				      <a href="fg.html">Familiengruppen</a>
 				    </div>
 				  </li>
           <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
 				    <div class="dropdown-content">
-				      <a href="cafeteria.html">Cafeteria</a>
-				      <a href="buecher.html">Büchertisch</a>
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
 				      <a href="musicschool.html">Musikschule</a>
 				    </div>
 				  </li>
         </ul>
+        <ul id="mobilenav">
+          <li class="dropdownM">
+				    <a href="../index.html" id="homebtn" class="dropbtn">Home</a>
+				  </li>
+          <li class="dropdownM menubtn">
+				    <a href="javascript:void(0)" onclick="RevealNav();" id="menubtn" class="dropbtn"><img class="menubtn" src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png"></a>
+            <script>
+              function RevealNav() {
+                var Menu = document.getElementById('mobileOptions').style.display="block";
+              }
+            </script>
+          </li>
+          <div id="mobileOptions">
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="lobpreis.html">Lobpreis</a>
+				      <a href="uebersetzung.html">Übersetzung</a>
+				      <a href="supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="currentEvent.html">Aktuelles Event</a>
+				      <a href="events.html">Event Kalender</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
+				    <div class="dropdown-content">
+				      <a href="ng.html">Next Generation</a>
+				      <a href="fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
+				      <a href="musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
+          </div>
+        </ul>
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_fg1" class="tile_full">
-        <!-- TITEL -->
-        <h1 class="color_cloud" id="main_headline">
-            <img src="../img/fg/TITEL.png" alt="TITEL">
-        </h1>
+      <section id="tile_full_fg1" class="tile_full tile_fulls">
+        <h1 class="color_cloud main_headline PC" id="fg_title">Familiengruppen</h1>
+        <h1 class="color_cloud main_headline mobile" id="fg_title">Familien- gruppen</h1>
       </section>
       <section id="tile_full_fg2" class="tile_full">
         <h2 class="VivaBeautiful">Willkommen in der Familie!</h2>
         <h5 class="VivaBeautiful">Das ist Charisma, eine große Familie, in der jeder herzlich willkommen ist.</h5>
         <p class="main_text">
-          Damit du diese Familie besser kennenlernen kannst, gibt es unsere „Familiengruppen“, in denen wir im kleineren Umfeld zusammen beten, Gott loben und preisen, Gottes Wort hören, etc.
+          Damit du diese Familie besser kennenlernen kannst, gibt es unsere „Familiengruppen“, diese sind die kleinen Familien von Charisma, in denen wir zusammen beten, Gott loben und preisen, Gottes Wort hören und vieles mehr.
         </p>
         <p class="main_text">
-          Diese circa einstündigen Treffen finden wöchentlich dienstags und mittwochs mit Anfangszeiten zwischen 17.00 Uhr und 20.00 Uhr in den verschiedenen Stadtteilen Hamburgs statt. Mit Sicherheit auch in deiner Nähe und passend zu deinen Zeiten! Mehr Infos dazu an unserer Info-Tafel oder auf Anfrage.
+          Diese circa einstündigen Treffen finden wöchentlich dienstags und mittwochs mit Anfangszeiten zwischen 17.00 Uhr und 20.00 Uhr in den verschiedenen Stadtteilen Hamburgs statt.
+          <br>
+          Mit Sicherheit auch in deiner Nähe und passend zu deinen Zeiten! Im Anschluss in jeder FG gibt es immer noch Zeit für etwas Gemeinschaft. Mehr Infos dazu an unserer Info-Tafel oder auf Anfrage.
         </p>
       </section>
       <section id="tile_full_fg3"class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Standorte der FGs</h2>
-        <iframe src="https://www.google.com/maps/d/embed?mid=1IvaaEdUXxykqOhjdr6PtK7CVixX0uVx3" width="640" height="480"></iframe>
+        <h2 class="VivaBeautiful color_coal">Übersicht der Familiengruppen</h2>
+        <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1IvaaEdUXxykqOhjdr6PtK7CVixX0uVx3"></iframe>
+        <p class="color_coal"><i>Hinweis: Genaue Adressen sind nicht in dieser Übersicht. Um genauere Informationen über eine Familiengruppe zu erhalten, bitte kontaktieren Sie den/die o.g. Anprechpartner/in.</i></p>
       </section>
       <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
+    </div>
+    <div class="scripts">
+      <script src="../js/navbar.js" charset="utf-8"></script>
     </div>
   </body>
 </html>

@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="../css/subsites.css">
     <link rel="shortcut icon" href="img/home/charisma-logo-blue.png">
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
@@ -27,25 +32,87 @@
 				  <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Events</a>
 				    <div class="dropdown-content">
-				      <a href="#">Weihnachten</a>
+              <!-- Visibilty toggled in master.css -->
+				      <a id="currentEvent" class="toggleVisible" href="pages/currentEvent.html">Kostümparty</a>
 				      <a href="pages/events.html">Event Kalender</a>
 				    </div>
 				  </li>
           <li class="dropdown">
-				    <a href="javascript:void(0)" class="dropbtn">Monat</a>
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
 				    <div class="dropdown-content">
 				      <a href="pages/ng.html">Next Generation</a>
 				      <a href="pages/fg.html">Familiengruppen</a>
 				    </div>
 				  </li>
           <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="pages/vision.html">Vision</a>
+              <a href="pages/pastoren.html">Pastoren</a>
+				      <a href="pages/geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
 				    <div class="dropdown-content">
-				      <a href="#">Cafeteria</a>
-				      <a href="#">Büchertisch</a>
+              <a href="pages/cafeteria.html">Cafeteria</a>
+              <a href="pages/buecher.html">Büchertisch</a>
 				      <a href="pages/musicschool.html">Musikschule</a>
 				    </div>
 				  </li>
+        </ul>
+        <ul id="mobilenav">
+          <li class="dropdownM">
+				    <a href="index.html" id="homebtn" class="dropbtn">Home</a>
+				  </li>
+          <li class="dropdownM menubtn">
+				    <a href="javascript:void(0)" onclick="RevealNav();" id="menubtn" class="dropbtn"><img class="menubtn" src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png"></a>
+            <script>
+              function RevealNav() {
+                var Menu = document.getElementById('mobileOptions').style.display="block";
+              }
+            </script>
+          </li>
+          <div id="mobileOptions">
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="pages/lobpreis.html">Lobpreis</a>
+				      <a href="pages/uebersetzung.html">Übersetzung</a>
+				      <a href="pages/supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="pages/currentEvent.html">Aktuelles Event</a>
+				      <a href="pages/events.html">Event Kalender</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
+				    <div class="dropdown-content">
+				      <a href="pages/ng.html">Next Generation</a>
+				      <a href="pages/fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="pages/vision.html">Vision</a>
+              <a href="pages/pastoren.html">Pastoren</a>
+				      <a href="pages/geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+              <a href="pages/cafeteria.html">Cafeteria</a>
+              <a href="pages/buecher.html">Büchertisch</a>
+				      <a href="pages/musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
+          </div>
         </ul>
       </nav>
     </header>
@@ -56,69 +123,126 @@
       <div id="wilkommenlayer" class="tile_half_layer">
         <section id="tile_half_left" class="tile_half">
           <div id="willkommen">
-            <h1 class="VivaBeautiful">Willkommen in der Gemeinde Charisma</h1>
-            <p class="color_stormy">"Unser großes Anliegen ist es, Menschen in eine lebendige, persönliche Beziehung zu Gott hineinzuführen und sie in Kontakt mit der real erfahrbaren Liebe und Kraft Gottes zu bringen, die Leben verändert, heilt und wiederherstellt."</p>
-            <h5 class="VivaBeautiful color_cloud">Gottesdienste</h5>
+            <h1 class="VivaBeautiful willkommenHeadline">Willkommen in der Gemeinde Charisma</h1>
+            <p id="first_txt" class="color_stormy main_text">"Unser großes Anliegen ist es, Menschen in eine lebendige, persönliche Beziehung zu Gott hineinzuführen und sie in Kontakt mit der real erfahrbaren Liebe und Kraft Gottes zu bringen, die Leben verändert, heilt und wiederherstellt."</p>
+            <h5 class="VivaBeautiful color_cloud willkommenHeadline smallpaddingH">Gottesdienste</h5>
             <p class="color_stormy">Hauptgottesdienst - Sonntags um 10.30 Uhr</p>
             <p class="color_stormy">Gebetsgottesdienst - Freitags 20.00 Uhr</p>
           </div>
         </section>
         <section id="tile_half_right" class="tile_half">
           <center>
-          <iframe width="675" height="480" src="https://www.youtube.com/embed/jToGTqmjKGA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          <iframe class="video" id="representVideo" src="https://www.youtube.com/embed/jToGTqmjKGA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </center>
         </section>
       </div>
+      <a href="pages/vision.html">
+        <section id="tile_full_vision" class="tile_full">
+          <h1 class="VivaBeautiful">Unsere Vision der</h1>
+          <h1 id="visionLIEBE" class="Shree color_cloud">LIEBE</h1>
+        </section>
+      </a>
       <div class="tile_fourth_layer">
         <a href="pages/uebersetzung.html">
           <section class="tile_fourth" id="tile_fourth_one">
-            <h2 class="VivaBeautiful color_cloud">Übersetzung</h2>
+            <h2 class="VivaBeautiful color_cloud home_headline">Übersetzung</h2>
             <img src="img/uebersetzung/spain-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
             <img src="img/uebersetzung/brazil-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
             <img src="img/uebersetzung/usa-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
             <img src="img/uebersetzung/france-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
           </section>
         </a>
-        <section class="tile_fourth tile_fourth_dif" id="tile_fourth_two">
-          <h2 class="VivaBeautiful color_cloud">Kinderbetreuung</h2>
-          <h5 class="VivaBeautiful color_cloud">in unserer Supergemeinde</h5>
-        </section>
-        <section class="tile_fourth" id="tile_fourth_three">
-          <h2 class="VivaBeautiful color_coal">Cafeteria</h2>
-          <h5 class="VivaBeautiful color_cloud">ersten Sonntag kostenlos*</h5>
-        </section>
-        <section class="tile_fourth tile_fourth_dif" id="tile_fourth_four">
-          <h2 class="VivaBeautiful color_cloud">Büchertisch</h2>
-          <h5 class="VivaBeautiful color_cloud">Input für die Woche</h5>
-        </section>
+        <a href="pages/supergemeinde.html" title="Supergemeinde">
+          <section class="tile_fourth tile_fourth_dif" id="tile_fourth_two">
+            <h2 class="VivaBeautiful color_cloud home_headline">Kinderbetreuung</h2>
+            <h5 class="VivaBeautiful color_cloud home_headline">in unserer Supergemeinde</h5>
+          </section>
+        </a>
+       <!-- hier
+        -->
+        <a href="pages/cafeteria.html" title="Caféteria">
+          <section class="tile_fourth tile_fourth_dif" id="tile_fourth_three">
+            <h2 class="VivaBeautiful color_cloud home_headline">Cafeteria</h2>
+            <h5 class="VivaBeautiful color_cloud home_headline">neue Gäste sind eingeladen</h5>
+          </section>
+        </a>
+        <a href="pages/buecher.html" title="Buechertisch">
+          <section class="tile_fourth tile_fourth_dif" id="tile_fourth_four">
+            <h2 class="VivaBeautiful color_cloud home_headline">Büchertisch</h2>
+            <h5 class="VivaBeautiful color_cloud home_headline">Input für die Woche</h5>
+          </section>
+        </a>
       </div>
       <div class="tile_third_layer">
         <a href="pages/ng.html">
           <section class="tile_third" id="tile_third_one">
-            <h2 class="VivaBeautiful color_cloud">NEXT GENERATION</h2>
-            <h5 class="VivaBeautiful color_cloud">jeden 1. und 3. Samstag im Monat um 17.00 Uhr</h5>
+            <h2 class="VivaBeautiful color_cloud home_headline third_headline">NEXT GENERATION</h2>
+            <h5 class="VivaBeautiful color_cloud home_headline third_headline">jeden 1. und 3. Samstag im Monat um 17.00 Uhr</h5>
           </section>
         </a>
         <a href="pages/musicschool.html">
           <section id="tile_third_center" class="tile_third">
-            <h2 class="VivaBeautiful color_cloud">Musikschule</h2>
-            <h5 class="VivaBeautiful color_cloud">Jeden Freitag um 17:35</h5>
+            <h2 class="VivaBeautiful color_cloud home_headline third_headline" id="musicschool_headline">
+              Musikschule
+            </h2>
+            <h5 class="VivaBeautiful color_cloud home_headline third_headline">Jeden Freitag um 17:35</h5>
           </section>
         </a>
         <a href="pages/fg.html">
           <section id="tile_third_two"class="tile_third">
-            <h2 class="VivaBeautiful color_cloud">Familiengruppen</h2>
-            <h5 class="VivaBeautiful color_cloud">jede Woche in den verschiedenen Stadtteilen Hamburgs</h5>
+            <h2 class="VivaBeautiful color_cloud home_headline third_headline">Familiengruppen</h2>
+            <h5 class="VivaBeautiful color_cloud home_headline third_headline">jede Woche in den verschiedenen Stadtteilen Hamburgs</h5>
           </section>
         </a>
       </div>
+      <div class="tile_half_layer">
+        <a href="http://www.charisma.fr/fr/">
+          <section id="tile_half_left2" class="tile_half">
+            <h1 class="VivaBeautiful home_headline">Charisma Paris</h1>
+            <h5 class="VivaBeautiful color_cloud home_headline">Unsere Muttergemeinde</h5>
+          </section>
+        </a>
+        <section id="tile_half_right2" class="tile_half">
+          <h1 class="VivaBeautiful">Social Networks</h1>
+          <div class="content" id="socialMedia">
+            <br>
+            <a class="social_links" href="https://www.facebook.com/Christliche.Gemeinde.Charisma/">
+              <img width="50" src="img/home/fb-icon.png" alt="">
+              <h2>Facebook</h2>
+            </a>
+            <!--
+            <a class="social_links" href="https://www.instagram.com/ngcharisma/">
+              <img width="50" src="img/home/instagram-icon.png" alt="">
+              <h2>Instagram</h2>
+            </a>
+            -->
+            <a class="social_links" href="https://www.youtube.com/channel/UC8Er_MXu2Tmm8Zg-BvNNG-w">
+              <img width="50" src="img/home/yt-icon.ico" alt="">
+              <h2>Youtube</h2>
+            </a>
+            <a class="social_links" href="https://www.snapchat.com/add/cgcnews">
+              <img width="50" src="img/home/snapchat-cgcnews.png" alt="">
+              <h2>Snapchat</h2>
+            </a>
+            <br>
+            <a class="social_links" id="mailtobtn" href="mailto:info@charisma-ev.de?subject=feedback" "email me">
+              <img width="50" src="img/home/email-icon.png" alt="">
+              <h2 class="home_headline">Schreib uns!</h2>
+            </a>
+          </div>
+        </section>
+      </div>
       <section class="tile_full" id="tile_full_two">
-        <h2 class="VivaBeautiful color_cloud">Standort</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.2019466564907!2d10.047901215391493!3d53.60769998003463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18912a599fadd%3A0x27957fc3a3055c5b!2sCharisma+Hamburg!5e0!3m2!1sen!2sde!4v1508935442372" width="1300" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <h2 class="VivaBeautiful color_coal">Standort</h2>
+          <iframe class="PC_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.2019466564907!2d10.047901215391493!3d53.60769998003463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18912a599fadd%3A0x27957fc3a3055c5b!2sCharisma+Hamburg!5e0!3m2!1sen!2sde!4v1508935442372" width="1300" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe class="mobile_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.2019466564907!2d10.047901215391493!3d53.60769998003463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18912a599fadd%3A0x27957fc3a3055c5b!2sCharisma+Hamburg!5e0!3m2!1sen!2sde!4v1508935442372" width="320" height="120" frameborder="0" style="border:0" allowfullscreen></iframe>
       </section>
       <footer>
         <p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p>
       </footer>
     </div> <!-- end of #container -->
+    <div class="scripts">
+      <script src="js/navbar.js" charset="utf-8"></script>
+    </div>
   </body>
 </html>

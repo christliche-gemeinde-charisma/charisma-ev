@@ -1,0 +1,35 @@
+/*master.css*/
+  /*Tile Full*/
+  .tile_full {
+    height: 30%;
+  }
+  img#big_logo {
+    width: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+/*subsites.css*/
+  .main_headline {
+    margin-top: 0.4em;
+  }
+  /*Tile Full*/
+    .tile_fulls {
+      height: 30em;
+    }
+    .mschool_instr {
+      height: 40em;
+    }
+    #tile_full_worship_one {
+      background-position: center 40%;
+    }
+    #tile_full_fg1 {
+      background-position: center 20%;
+    }
+    #tile_full_cafe1 {
+      background-position: center 59%;
+    }
+    iframe#map {
+      width: 1142px;
+      height: 532px;
+    }

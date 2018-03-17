@@ -5,7 +5,11 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
-    <link rel="shortcut icon" href="../img/charisma-logo-blue.png">
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/home/charisma-logo-blue.png">
   </head>
   <body>
     <header>
@@ -28,47 +32,114 @@
 				  <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Events</a>
 				    <div class="dropdown-content">
-				      <a href="currentEvent.html">Weihnachten</a>
+				      <a id="currentEvent" class="toggleVisible" href="pages/currentEvent.html">Kostümparty</a>
 				      <a href="events.html">Event Kalender</a>
 				    </div>
 				  </li>
           <li class="dropdown">
-				    <a href="javascript:void(0)" class="dropbtn">Monat</a>
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
 				    <div class="dropdown-content">
 				      <a href="ng.html">Next Generation</a>
 				      <a href="fg.html">Familiengruppen</a>
 				    </div>
 				  </li>
           <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
 				    <div class="dropdown-content">
-				      <a href="cafeteria.html">Cafeteria</a>
-				      <a href="buecher.html">Büchertisch</a>
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
 				      <a href="musicschool.html">Musikschule</a>
 				    </div>
 				  </li>
         </ul>
+        <ul id="mobilenav">
+          <li class="dropdownM">
+				    <a href="../index.html" id="homebtn" class="dropbtn">Home</a>
+				  </li>
+          <li class="dropdownM menubtn">
+				    <a href="javascript:void(0)" onclick="RevealNav();" id="menubtn" class="dropbtn"><img class="menubtn" src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png"></a>
+            <script>
+              function RevealNav() {
+                var Menu = document.getElementById('mobileOptions').style.display="block";
+              }
+            </script>
+          </li>
+          <div id="mobileOptions">
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="lobpreis.html">Lobpreis</a>
+				      <a href="uebersetzung.html">Übersetzung</a>
+				      <a href="supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="currentEvent.html">Aktuelles Event</a>
+				      <a href="events.html">Event Kalender</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
+				    <div class="dropdown-content">
+				      <a href="ng.html">Next Generation</a>
+				      <a href="fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
+				      <a href="musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
+          </div>
+        </ul>
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_ng1" class="tile_full">
-        <h1 class="color_black" id="main_headline">NEXT GENERATION</h1>
+      <section id="tile_full_ng1" class="tile_fulls tile_full">
+        <h1 class="color_cloud main_headline"  id="ng_headline">NEXT GENERATION</h1>
       </section>
       <section id="tile_full_ng2" class="tile_full">
         <h2 class="VivaBeautiful">Jung! Motiviert! Voller Power!</h2>
-        <h5 class="VivaBeautiful">Das sind wir: Next Generation, die Jugendgruppe unserer Gemeinde.</h5>
-        <p>
-          Wir treffen uns zu Musik, leckerem Essen in lockerer Atmosphäre und hören coole Messages aus Gottes Wort. <br> Aber das ist noch nicht alles! Next Generation hat regelmäßig interessante Gäste und organisiert tolle Ausflüge, Partys und seit bereits 5 Jahren unsere legendäre Jugendreise.
+        <p class="main_text">Das sind wir: Next Generation, die Jugendgruppe unserer Gemeinde.</p>
+        <p class="main_text">
+          Wir treffen uns zu Musik in lockerer Atmosphäre und hören coole Messages aus Gottes Wort. <br> Aber das ist noch nicht alles! Next Generation hat regelmäßig interessante Gäste und organisiert tolle Ausflüge, Partys und seit bereits 5 Jahren unsere legendäre Jugendreise.
         </p>
-        <p><strong>Next Generation findet jeden 1. und 3. Samstag im Monat um 17.00 Uhr für alle Jugendlichen zwischen 14 und 30 Jahren statt.</strong></p>
+        <p class="main_text"><strong>Next Generation findet jeden 1. und 3. Samstag im Monat um 17.00 Uhr für alle Jugendlichen zwischen 14 und 30 Jahren statt.</strong></p>
       </section>
-      <section id="tile_full_ng3"class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Videos von uns!</h2>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/GDeNZ39Karg?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/dIDjLQHLVgg?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        <iframe src="https://www.youtube.com/embed/ystlsrEVH4E" width="854" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-      </section>
-      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
+      <div class="tile_half_layer">
+        <section id="wirNG" class="tile_half">
+          <iframe class="full_tile_video" src="https://www.youtube.com/embed/42pSoEJXE9M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+        <section id="freizeit_video" class="tile_half">
+          <iframe class="full_tile_video" src="https://www.youtube.com/embed/LV6DUjXUQ4Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+        </section>
+      </div>
+      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="impressum.html">Impressum</a></p></footer>
+    </div>
+    <div class="scripts">
+      <script src="../js/navbar.js" charset="utf-8"></script>
     </div>
   </body>
 </html>

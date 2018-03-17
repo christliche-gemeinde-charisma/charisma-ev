@@ -1,0 +1,234 @@
+/*master.css*/
+  /*Navigation*/
+  ul#mobilenav {
+    display: block;
+    margin: 0;
+  }
+  ul#nav {
+    display: none;
+  }
+  li.dropdown {
+    float: none;
+    display: block;
+  }
+  div#mobileOptions {
+    display: none;
+  }
+  #homebtn {
+    width: 5em;
+  }
+  #menubtn {
+    width: 5em;
+    padding: 0px;
+    padding-top: 5px
+  }
+  li.menubtn {
+    position: relative;
+    left: 6em;
+  }
+  img.menubtn {
+    width: 40px;
+    margin: 0px;
+  }
+  li.dropdownM {
+      display: inline-block;
+      float: left;
+  }
+  li a {
+    width: 8em;
+    text-align: left;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+      background-color: #0e5394;
+  }
+  header {
+    height: auto;
+    min-height: 3.7em;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: left;
+  }
+  /*Kacheln*/
+    /*Tile Full*/
+    img#big_logo {
+      width: 20em;
+    }
+    #visionLIEBE {
+      font-size: 7em;
+    }
+    #tile_full_vision {
+      height: 20em;
+      background-image: url('../img/vision/clouds.jpg');
+      background-size: 200%;
+    }
+    /*Tile Half*/
+    .tile_half {
+      width: 100%;
+      height: 30em;
+      overflow: hidden;
+    }
+    #tile_half_left {
+      height: auto;
+    }
+    #tile_half_right {
+      background-color: #3770A1;
+      height: 230px;
+      left: 0%;
+      top: 0em;
+    }
+    #tile_half_right2 {
+      background-image: url(../img/home/phone-apps.jpeg); /*can be used to implement smaller images for mobile*/
+      left: 0%;
+      top: 0em;
+    }
+    .tile_half_layer {
+      overflow: visible;
+      height: auto;
+    }
+    .social_links {
+      padding: 5px;
+      width: 8.3em;
+      height: 7em;
+    }
+    #mailtobtn {
+      width: 10em;
+    }
+
+    /*Tile Third*/
+    .tile_third {
+      width: 100%;
+      height: 10em;
+      position: inherit;
+    }
+    section#tile_third_one {
+      background-image: url('../img/ng/facetoface-background-cut.jpg');
+    }
+    section#tile_third_center {
+      background-color: #5BB1FC;
+      background-image: url('../img/musicschool/musicschool2.JPG');
+      background-position: center;
+      top: -10em;
+      left: 33.33%;
+    }
+    .home_headline {
+      text-shadow: 2px 2px 8px black;
+    }
+    section#tile_third_two {
+      background-image: url('../img/fg/house-door-background.jpg');
+      background-position: center;
+      top: -40em;
+      left: 66.66%;
+    }
+    .tile_third_layer {
+      height: auto;
+      overflow: hidden;
+    }
+    h2.third_headline {
+      margin: 0px;
+    }
+    h5.third_headline {
+      margin: 0px;
+      font-size: 24px;
+    }
+    /*Tile Fourth*/
+    .tile_fourth {
+      width: 49.99%;
+      height: 20em;
+      background-size: cover;
+    }
+    section#tile_fourth_two {
+      background-image: url('../img/supergemeinde/supergemeinde-david.jpg');
+      background-position: top center;
+      left: 49.99%;
+      top: -20em;
+    }
+    section#tile_fourth_three {
+      background-image: url('../img/cafeteria/cafeteria-header-cut.jpg');
+      left: 0%;
+      top: -20em;
+    }
+    section#tile_fourth_four {
+      background-image: url('../img/buecher/bookshelf-background.jpg');
+      position: -100 0;
+      left: 49.99%;
+      top: -40em;
+    }
+    .tile_fourth_layer {
+      height: 40em;
+      overflow: hidden;
+    }
+  /*Footer*/
+  footer {
+    height: 4.5em;
+  }
+  /*Responsive Inhalte*/
+  .mobile {
+    display: block;
+  }
+  .PC {
+    display: none;
+  }
+    /*iframes*/
+    iframe.mobile_iframe {
+      display: inline;
+    }
+    iframe.PC_iframe {
+      display: none;
+    }
+    iframe.video {
+      width: 346px;
+      height: 230px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    iframe#representVideo {
+      height: 230px;
+      width: 100%;
+    }
+
+/*subsites.css*/
+  /*Text*/
+  .main_headline {
+    font-size: 6em;
+  }
+  .main_text {
+    font-size: 1em;
+  }
+  /*Event Kalender*/
+  #calendar {
+    width: 100%;
+    overflow: scroll;
+  }
+  /* Aktuelles Event */
+    /*Infos über Event*/
+    img.event_flyer {
+      width: 15em;
+      margin: 8px;
+    }
+  /*FG*/
+  iframe#map {
+    width: 342px;
+    height: 232px;
+  }
+  /*Cafeteria*/
+  table.preise {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+  }
+  td.preise {
+    width: 10px;
+  }
+  /*Next Generation*/
+  #freizeit_video {
+    background-color: #3770A1;
+    height: 230px;
+    left: 0%;
+    top: 0em;
+  }
+  #wirNG {
+    height: 230px;
+  }

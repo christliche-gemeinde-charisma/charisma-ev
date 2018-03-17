@@ -5,6 +5,10 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/home/charisma-logo-blue.png">
   </head>
   <body>
@@ -28,98 +32,157 @@
 				  <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Events</a>
 				    <div class="dropdown-content">
-				      <a href="currentEvent.html">Weihnachten</a>
+				      <a id="currentEvent" class="toggleVisible" href="pages/currentEvent.html">Kostümparty</a>
 				      <a href="events.html">Event Kalender</a>
 				    </div>
 				  </li>
           <li class="dropdown">
-				    <a href="javascript:void(0)" class="dropbtn">Monat</a>
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
 				    <div class="dropdown-content">
 				      <a href="ng.html">Next Generation</a>
 				      <a href="fg.html">Familiengruppen</a>
 				    </div>
 				  </li>
           <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
 				    <div class="dropdown-content">
-				      <a href="cafeteria.html">Cafeteria</a>
-				      <a href="buecher.html">Büchertisch</a>
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
 				      <a href="musicschool.html">Musikschule</a>
 				    </div>
 				  </li>
         </ul>
+        <ul id="mobilenav">
+          <li class="dropdownM">
+				    <a href="../index.html" id="homebtn" class="dropbtn">Home</a>
+				  </li>
+          <li class="dropdownM menubtn">
+				    <a href="javascript:void(0)" onclick="RevealNav();" id="menubtn" class="dropbtn"><img class="menubtn" src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png"></a>
+            <script>
+              function RevealNav() {
+                var Menu = document.getElementById('mobileOptions').style.display="block";
+              }
+            </script>
+          </li>
+          <div id="mobileOptions">
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="lobpreis.html">Lobpreis</a>
+				      <a href="uebersetzung.html">Übersetzung</a>
+				      <a href="supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="currentEvent.html">Aktuelles Event</a>
+				      <a href="events.html">Event Kalender</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
+				    <div class="dropdown-content">
+				      <a href="ng.html">Next Generation</a>
+				      <a href="fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
+				      <a href="musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
+          </div>
+        </ul>
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_ms1" class="tile_full">
-        <h1 class="color_cloud" id="main_headline">Musikschule</h1>
+      <section id="tile_full_ms1" class="tile_full tile_fulls">
+        <h1 class="color_cloud main_headline" id="mschool_headline">Musikschule</h1>
       </section>
       <section id="tile_full_ms2" class="tile_full">
-        <h2 class="VivaBeautiful color_coal">Erlerne einen Instrument: alles Kostenlos!</h2>
-        <h5 class="VivaBeautiful">Unsere engagierte Musiker von Charisma Worship bringen dir alles bei</h5>
-        <p>
-          Jeden Freitag hast du die Möglichkeit kostenlos an Musikunterricht teilzunehmen bei uns in der Gemeinde! Unten sind die diverse Instumente die angeboten sind und die jeweilige Lehrer. <br>Es ist empfohlen bevor es losgeht mit dem jeweiligen Lehrer zu reden und Fragen zu klären.
+        <h2 class="VivaBeautiful color_coal">Erlerne ein Instrument!</h2>
+        <p class="main_text">
+          In unserer Musikschule hat jeder die Möglichkeit, kostenlos ein Instrument zu lernen. Mittlerweile haben wir 7 Instrumente (Keyboard, Schlagzeug, Gitarre, E-Gitarre, Bass-Gitarre, Saxophon, Klarinette) zur Auswahl, die jeden Freitag von <b>17.35 Uhr bis 18.30 Uhr</b> in der Gemeinde unterrichtet werden.
+          Musik ist die Sprache des Lobpreises in der wir mit Gott in Kontakt treten. Wir lernen nicht nur Instrumente, sondern auch die Bedeutung von Lobpreis und Anbetung.
         </p>
-        <div>
-          <h2 id="overviewmschool" class="VivaBeautiful color_coal">Übersicht des Angebots</h2>
-          <a class="overviewmschool" href="#tile_full_ms3">Klavier</a>
-          <a class="overviewmschool" href="#tile_full_ms4">Akkustik Gitarre</a>
-          <a class="overviewmschool" href="#tile_full_ms5">E-Bass</a>
-          <a class="overviewmschool" href="#tile_full_ms6">Klarinette</a>
-          <a class="overviewmschool" href="#tile_full_ms7">Saxophon</a>
-          <a class="overviewmschool" href="#tile_full_ms8">Schlagzeug</a>
-        </div>
+        <p class="main_text">
+          Falls wir dein Interesse geweckt haben, komm gerne auf unsere Lehrer zu!
+          Wir freuen uns auf dich! <br><br>
+          <i>Dein Musikschule - Team</i>
+        </p>
         <br>
-        <p><strong>Die Musikschule findet jeden freitag um 17:35 Uhr statt in der Gemeinde.</strong></p>
         <br>
       </section>
-      <section id="tile_full_ms3" class="tile_full">
+      <div class="tile_third_layer">
+        <section id="tile_full_ms4" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Akustik Gitarre</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Jasper C.<br>
+          </p>
+        </section>
+        <section id="tile_full_ms9" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">E-Gitarre</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Jasper C.<br>
+          </p>
+        </section>
+        <section id="tile_full_ms5" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">E-Bass</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrer: Philip G.<br>
+          </p>
+        </section>
+      </div>
+      <section id="tile_full_ms3" class="mschool_instr tile_full">
         <h1 class="VivaBeautiful color_cloud">Klavier</h1>
         <p class="mschooltxt color_cloud">
-          Lehrer: Emil Madera <br>
-          Material: Keyboards vor Ort
+          Lehrer: Johannes C.<br>
         </p>
       </section>
-      <section id="tile_full_ms4" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Akkustik Gitarre</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrer: Jasper Copeland Hasche <br>
-          Material: Gitarren vor Ort <br>
-          Zum Mitnehmen: empfohlen eigene Gitarre mitzunehmen
-        </p>
-      </section>
-      <section id="tile_full_ms5" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">E-Bass</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrer: Philip Gyebi<br>
-          Material: Ein E-Bass vor Ort <br>
-        </p>
-      </section>
-      <section id="tile_full_ms6" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Clarinette</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrerin: Lena Nourbakhsh<br>
-          Material: Nur Klarinette des Lehrers vor Ort<br>
-          Zum Mitnehmen: Eigener Mundstuck für Klarinette oder eigene Klarinette
-        </p>
-      </section>
-      <section id="tile_full_ms7" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Saxophon</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrerin: Lena Nourbakhsh<br>
-          Material: Nur Saxophon des Lehrers vor Ort<br>
-          Zum Mitnehmen: Eigener Mundstuck für Saxophon oder eigener Saxophon
-        </p>
-      </section>
-      <section id="tile_full_ms8" class="tile_full">
-        <h2 class="VivaBeautiful color_cloud">Schlagzeug</h2>
-        <p class="mschooltxt color_cloud">
-          Lehrer: Micha Nourbakhsh<br>
-          Material: Ein Schlagzeug vor Ort<br>
-          Zum Mitnehmen: empfohlen eigene Sticks
-        </p>
-      </section>
-      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
+      <div class="tile_third_layer">
+        <section id="tile_full_ms6" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Klarinette</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrerin: Lena N.<br>
+          </p>
+        </section>
+        <section id="tile_full_ms7" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Saxophon</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrerin: Lena N.<br>
+          </p>
+        </section>
+        <section id="tile_full_ms8" class="mschool_instr tile_third">
+          <h2 class="VivaBeautiful color_cloud">Schlagzeug</h2>
+          <p class="mschooltxt color_cloud">
+            Lehrerin: Klaudia P.<br>
+          </p>
+        </section>
+      </div>
+      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="impressum.html">Impressum</a></p></footer>
+    </div>
+    <div class="scripts">
+      <script src="../js/navbar.js" charset="utf-8"></script>
     </div>
   </body>
 </html>

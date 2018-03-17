@@ -5,7 +5,11 @@
     <title>Charisma Hamburg</title>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/subsites.css">
-    <link rel="shortcut icon" href="../img/charisma-logo-blue.png">
+    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="../css/responsivePC.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="../css/responsiveMobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/home/charisma-logo-blue.png">
   </head>
   <body>
     <header>
@@ -28,36 +32,107 @@
 				  <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Events</a>
 				    <div class="dropdown-content">
-				      <a href="currentEvent.html">Weihnachten</a>
+				      <a id="currentEvent" class="toggleVisible" href="pages/currentEvent.html">Kostümparty</a>
 				      <a href="events.html">Event Kalender</a>
 				    </div>
 				  </li>
           <li class="dropdown">
-				    <a href="javascript:void(0)" class="dropbtn">Monat</a>
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
 				    <div class="dropdown-content">
 				      <a href="ng.html">Next Generation</a>
 				      <a href="fg.html">Familiengruppen</a>
 				    </div>
 				  </li>
           <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
 				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
 				    <div class="dropdown-content">
-				      <a href="cafeteria.html">Cafeteria</a>
-				      <a href="buecher.html">Büchertisch</a>
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
 				      <a href="musicschool.html">Musikschule</a>
 				    </div>
 				  </li>
         </ul>
+        <ul id="mobilenav">
+          <li class="dropdownM">
+				    <a href="../index.html" id="homebtn" class="dropbtn">Home</a>
+				  </li>
+          <li class="dropdownM menubtn">
+				    <a href="javascript:void(0)" onclick="RevealNav();" id="menubtn" class="dropbtn"><img class="menubtn" src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png"></a>
+            <script>
+              function RevealNav() {
+                var Menu = document.getElementById('mobileOptions').style.display="block";
+              }
+            </script>
+          </li>
+          <div id="mobileOptions">
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Gottesdienst</a>
+				    <div class="dropdown-content">
+				      <a href="lobpreis.html">Lobpreis</a>
+				      <a href="uebersetzung.html">Übersetzung</a>
+				      <a href="supergemeinde.html">Supergemeinde</a>
+				    </div>
+				  </li>
+				  <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Events</a>
+				    <div class="dropdown-content">
+				      <a href="currentEvent.html">Aktuelles Event</a>
+				      <a href="events.html">Event Kalender</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Für Dich</a>
+				    <div class="dropdown-content">
+				      <a href="ng.html">Next Generation</a>
+				      <a href="fg.html">Familiengruppen</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Über Uns</a>
+				    <div class="dropdown-content">
+              <a href="vision.html">Vision</a>
+              <a href="pastoren.html">Pastoren</a>
+				      <a href="geschichte.html">Geschichte</a>
+				    </div>
+				  </li>
+          <li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn">Mehr</a>
+				    <div class="dropdown-content">
+              <a href="cafeteria.html">Cafeteria</a>
+              <a href="buecher.html">Büchertisch</a>
+				      <a href="musicschool.html">Musikschule</a>
+				    </div>
+				  </li>
+          </div>
+        </ul>
       </nav>
     </header>
     <div id="container">
-      <section id="tile_full_worship_one" class="tile_full">
-        <h1 class="color_cloud" id="main_headline">Lobpreis</h1>
+      <section id="tile_full_worship_one" class="tile_full tile_fulls">
+        <h1 class="color_cloud main_headline" >Lobpreis</h1>
       </section>
       <section id="tile_full_worship_two" class="tile_full">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="main_text">
+          Lobpreis ist ein Geschenk Gottes. Durch den Lobpreis können wir Gott preisen und Ihm die Ehre erweisen. Lobpreis ist etwas Schönes und Wertvolles, denn durch den Lobpreis empfangen wir von Gott Heilung, Stärke, Freiheit, Frieden und noch viel mehr.
+        </p>
+        <p class="main_text">
+          Während des Lobpreises spüren wir die Gegenwart Gottes und können dabei mit dem Heiligen Geist kommunizieren. In der Bibel steht sehr viel über den Lobpreis, z.B. im Psalm 66,1 sagt der König David:
+          <i>„Gott, die Völker sollen dir danken, alle Völker sollen dich preisen! Sie sollen vor Glück und Freude singen.
+          Gib Gott die Ehre und preise ihn jeder Zeit!“</i>
+        </p>
       </section>
-      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="pages/impressum.html">Impressum</a></p></footer>
+      <footer><p class="color_cloud">Copyright &copy; Charisma Volles Evangelium e.V. | <a href="impressum.html">Impressum</a></p></footer>
+    </div>
+    <div class="scripts">
+      <script src="../js/navbar.js" charset="utf-8"></script>
     </div>
   </body>
 </html>
