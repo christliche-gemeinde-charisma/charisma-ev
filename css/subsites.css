@@ -244,7 +244,9 @@ iframe#map {
 #easter_h1 {
   font-size: 8em;
   margin-top: 2.7em;
-  color: rgb(0, 102, 204);
+  color: #011C77;
+  font-family: "Shree", Arial, sans-serif;
+  font-weight: bolder;
 }
 #easter_h2 {
   font-size: 4em;
@@ -264,10 +266,39 @@ iframe#map {
   }
   #plakat_h1 {
     position: absolute;
-    font-size: 10em;
-    top: 12em;
-    margin-left: 27%;
+    font-size: 8em;
+    top: 8.8em;
+    margin-left: 21%;
     z-index: 6;
+    color: #F5C65A;
+    text-shadow: 2px 2px 8px #222;
+  }
+  #plakat_h4 {
+    position: absolute;
+    font-size: 1.9em;
+    top: 44em;
+    margin-left: 24%;
+    z-index: 6;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+  #plakat_h2 {
+    position: absolute;
+    font-size: 2.6em;
+    top: 33.5em;
+    margin-left: 38%;
+    z-index: 6;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+  #plakat_p {
+    position: absolute;
+    font-size: 2.2em;
+    top: 41.3em;
+    margin-left: 36%;
+    z-index: 6;
+    color: white;
+    text-shadow: 2px 2px 3px black;
   }
 #tile_full_currentEv3 {
   background: linear-gradient(to right, #065800, #970000);

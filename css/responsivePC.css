@@ -33,3 +33,43 @@
       width: 1142px;
       height: 532px;
     }
+    #easter_h1 {
+      font-size: 8em;
+      margin-top: 1.3em;
+    }
+    #plakat_h1 {
+      position: absolute;
+      font-size: 8em;
+      top: 6.8em;
+      margin-left: 19%;
+      z-index: 6;
+      color: #F5C65A;
+      text-shadow: 2px 2px 8px #222;
+    }
+    #plakat_h4 {
+      position: absolute;
+      font-size: 1.9em;
+      top: 34em;
+      margin-left: 22%;
+      z-index: 6;
+      color: white;
+      text-shadow: 2px 2px 3px black;
+    }
+    #plakat_h2 {
+      position: absolute;
+      font-size: 2.6em;
+      top: 26em;
+      margin-left: 38%;
+      z-index: 6;
+      color: white;
+      text-shadow: 2px 2px 3px black;
+    }
+    #plakat_p {
+      position: absolute;
+      font-size: 2.2em;
+      top: 32.3em;
+      margin-left: 36%;
+      z-index: 6;
+      color: white;
+      text-shadow: 2px 2px 3px black;
+    }
