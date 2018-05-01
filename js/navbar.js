@@ -1,7 +1,11 @@
-var currentEvent = document.getElementById('currentEvent');
-currentEvent.innerHTML = 'Ostern';
-currentEvent.style.display = "none";
-var events = Array.from(document.getElementsByClassName('toggleVisible'));
-for (var i = 0; i < events.length; i++) {
-  events[i].style.display = "none";
+// Control variables
+var eventUpcoming = true;
+var eventName = "Muttertag"
+
+if (eventUpcoming == true) {
+  $(".currentEvent").html(eventName);
+  $(".currentEvent").css("display", "block");
+}
+else {
+  $(".currentEvent").css("display", "none");
 }
