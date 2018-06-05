@@ -1,6 +1,6 @@
 // Control variables
 var eventUpcoming = false;
-var eventName = "Geburtstag"
+var eventName = "Taufe"
 
 //Mobile
 navOpen = false;
