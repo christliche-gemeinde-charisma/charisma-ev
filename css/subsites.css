@@ -116,6 +116,23 @@
   top: -30em;
 }
 
+/*Cloeoeb*/
+#tile_full_cl1 {
+  background-image: url('../img/cloeoeb/campHands.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_cl2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+  height: auto;
+}
+
+#cl_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
+
 /*Supergemeinde*/
 #tile_full_superchurch_one {
   background-image: url('../img/supergemeinde/balloons.jpg');
