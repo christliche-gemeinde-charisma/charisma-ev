@@ -2,6 +2,15 @@
 var eventUpcoming = false;
 var eventName = "Taufe"
 
+//Events
+if (eventUpcoming == true) {
+  $(".currentEvent").html(eventName);
+  $(".currentEvent").css("display", "block");
+}
+else {
+  $(".currentEvent").css("display", "none");
+}
+
 //Mobile
 navOpen = false;
 function RevealNav() {
@@ -15,11 +24,5 @@ function RevealNav() {
   }
 }
 
-//Events
-if (eventUpcoming == true) {
-  $(".currentEvent").html(eventName);
-  $(".currentEvent").css("display", "block");
-}
-else {
-  $(".currentEvent").css("display", "none");
-}
+//Clööb
+$(".toggle").hide();
