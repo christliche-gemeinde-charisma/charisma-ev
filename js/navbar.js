@@ -1,5 +1,5 @@
 // Control variables
-var eventUpcoming = true;
+var eventUpcoming = false;
 var eventName = "Taufe"
 
 //Events
