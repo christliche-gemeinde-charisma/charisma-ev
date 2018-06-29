@@ -222,6 +222,13 @@ section#tile_full_two iframe {
   #visionLIEBE {
     font-size: 10em;
   }
+  #tile_full_Event {
+  background-image: url('../img/event/clouds.jpg');
+  background-size: cover;
+}
+  #Eventtext {
+    font-size: 10em;
+  }
 /*Tile Half*/
 .tile_half {
   text-align: center;
