@@ -223,7 +223,11 @@ section#tile_full_two iframe {
     font-size: 10em;
   }
   #tile_full_Event {
+<<<<<<< HEAD
   background-image: url('../img/events/btl5.jpg');
+=======
+  background-image: url('../img/events/btl2.jpg');
+>>>>>>> 8ad4dc9ca815f969c64c6c64a7e1b1430235cd8a
   background-size: cover;
 }
   #Eventtext {
