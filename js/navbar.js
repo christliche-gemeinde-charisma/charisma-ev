@@ -1,6 +1,6 @@
 // Control variables
 var eventUpcoming = true;
-var eventName = "Kids Fest"
+var eventName = "Be the light"
 
 //Events
 if (eventUpcoming == true) {
