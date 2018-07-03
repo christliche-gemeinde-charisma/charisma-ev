@@ -48,6 +48,10 @@ iframe.video {
   font-family: "Shree";
   src: url('../fonts/Shree714.ttf') format('truetype');
 }
+@font-face {
+  font-family: "Neon";
+  src: url('../fonts/NEON.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
@@ -68,6 +72,10 @@ h5.VivaBeautiful {
 .Shree {
   font-family: "Shree", Arial, sans-serif;
 }
+.NEON {
+  font-family: "Neon", Arial, sans-serif;
+  font-weight: normal;
+}
 .color_cloud {
   color: #F7F7F7;
 }
@@ -79,6 +87,19 @@ h5.VivaBeautiful {
 }
 .color_blue {
   color: #0e5394;
+}
+
+/*für be the light*/
+.color_neon_blue {
+ color: #60c5db;
+}
+
+.color_neon_red {
+ color: #d42222;
+}
+
+.color_neon_white {
+ color: #ffffff;
 }
 
 /* Header */
@@ -223,15 +244,17 @@ section#tile_full_two iframe {
     font-size: 10em;
   }
   #tile_full_Event {
-<<<<<<< HEAD
   background-image: url('../img/events/btl5.jpg');
-=======
-  background-image: url('../img/events/btl2.jpg');
->>>>>>> 8ad4dc9ca815f969c64c6c64a7e1b1430235cd8a
   background-size: cover;
 }
   #Eventtext {
     font-size: 10em;
+  }
+  .event_title_red{
+    text-shadow: 0 0 150px #d42222;
+  }
+  .event_title_white{
+    text-shadow: 0 0 150px white;
   }
 /*Tile Half*/
 .tile_half {
