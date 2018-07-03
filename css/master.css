@@ -76,6 +76,18 @@ h5.VivaBeautiful {
   font-family: "Neon", Arial, sans-serif;
   font-weight: normal;
 }
+ 
+/*inner shadow*/
+.NEON:before, .NEON:after {
+    content: attr(title);
+    padding: 50px;
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+
+.NEON:before { top: 1px; left: 1px }
+.NEON:after  { top: 2px; left: 2px }
+
 .color_cloud {
   color: #F7F7F7;
 }
