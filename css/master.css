@@ -48,6 +48,10 @@ iframe.video {
   font-family: "Shree";
   src: url('../fonts/Shree714.ttf') format('truetype');
 }
+@font-face {
+  font-family: "Neon";
+  src: url('../fonts/NEON.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
@@ -68,6 +72,22 @@ h5.VivaBeautiful {
 .Shree {
   font-family: "Shree", Arial, sans-serif;
 }
+.NEON {
+  font-family: "Neon", Arial, sans-serif;
+  font-weight: normal;
+}
+ 
+/*inner shadow*/
+.NEON:before, .NEON:after {
+    content: attr(title);
+    padding: 50px;
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+
+.NEON:before { top: 1px; left: 1px }
+.NEON:after  { top: 2px; left: 2px }
+
 .color_cloud {
   color: #F7F7F7;
 }
@@ -79,6 +99,19 @@ h5.VivaBeautiful {
 }
 .color_blue {
   color: #0e5394;
+}
+
+/*für be the light*/
+.color_neon_blue {
+ color: #60c5db;
+}
+
+.color_neon_red {
+ color: #d42222;
+}
+
+.color_neon_white {
+ color: #ffffff;
 }
 
 /* Header */
@@ -221,6 +254,30 @@ section#tile_full_two iframe {
 }
   #visionLIEBE {
     font-size: 10em;
+  }
+  #tile_full_Event {
+  background-image: url('../img/events/btlbg.jpg');
+  background-size: cover;
+}
+  #EventtextUp {
+    font-size: 10em;
+    margin: -2%;
+    margin-top: 2%;
+  }
+    #EventtextMiddle {
+    font-size: 10em;
+    margin: -2%;
+  }
+    #EventtextDown {
+    font-size: 10em;
+    margin: -2%;
+    margin-bottom: 3%; 
+  }
+  .event_title_red{
+    text-shadow: 0 0 150px #d42222;
+  }
+  .event_title_white{
+    text-shadow: 0 0 150px white;
   }
 /*Tile Half*/
 .tile_half {
