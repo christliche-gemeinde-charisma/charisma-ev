@@ -259,8 +259,19 @@ section#tile_full_two iframe {
   background-image: url('../img/events/btlbg.jpg');
   background-size: cover;
 }
-  #Eventtext {
+  #EventtextUp {
     font-size: 10em;
+    margin: -2%;
+    margin-top: 2%;
+  }
+    #EventtextMiddle {
+    font-size: 10em;
+    margin: -2%;
+  }
+    #EventtextDown {
+    font-size: 10em;
+    margin: -2%;
+    margin-bottom: 3%; 
   }
   .event_title_red{
     text-shadow: 0 0 150px #d42222;
