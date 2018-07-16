@@ -26,3 +26,6 @@ function RevealNav() {
 
 //Clööb
 //$(".toggle").hide();
+
+//cafeteria
+$("table#gerichte").hide();
