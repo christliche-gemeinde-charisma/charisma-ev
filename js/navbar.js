@@ -25,4 +25,4 @@ function RevealNav() {
 }
 
 //Clööb
-$(".toggle").hide();
+//$(".toggle").hide();
