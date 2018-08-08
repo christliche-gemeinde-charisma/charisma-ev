@@ -5,8 +5,8 @@ const english = "Because of this we offer simultaneous translation throughout th
 const spanish_h2 = "Hasta 20 diferentes Naciones visitan regularmente nuestro culto.";
 const spanish = "Por esa razón ofrecemos una traducción simultánea durante todo el evento. Por medio de Auriculares pueden nuestros invitados participar. Momentáneamente les ofrecemos una traducción en <strong>español</strong> , <strong>portugués</strong>, <strong>inglés</strong>  y <strong>francés </strong> <br> </p>";
 
-const portugese_h2 = "Até 20 diferentes nações visitem nosso culto cada semana.";
-const portugese = "Por isso oferecemos tradução simultanea durante o culto inteiro. <br> Todos podem participar do culto através de fones de ouvido<br> No momento oferecemos tradução em <strong>espanhol</strong>, <strong>português</strong>, <strong>inglês</strong> e <strong>francês</strong>.";
+const portugese_h2 = "Até 20 diferentes nações visitam nosso culto regularmente.";
+const portugese = "É por isso que oferecemos tradução simultânea durante todo o evento. Com fones de ouvido, nossos visitantes podem participar em seu próprio idioma. Atualmente oferecemos tradução em espanhol, português, inglês e francês.";
 
 const german_h2 = "Bis zu 20 verschiedene Nationen besuchen regelmäßig unseren Gottesdienst.";
 const german = "Deshalb bieten wir simultane Übersetzung während der gesamten Veranstaltung an. <br> Mit Kopfhörern können unsere Besucher in ihrer Sprache teilnehmen.<br> Momentan bieten wir <strong>Spanisch</strong>, <strong>Portugiesisch</strong>, <strong>Englisch</strong> und <strong>Französisch</strong> Übersetzung an.";
