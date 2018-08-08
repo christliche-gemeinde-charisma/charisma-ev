@@ -251,6 +251,12 @@ tr.preiseH {
   background-size: cover;
   background-position: center;
 }
+#tile_full_fg4 {
+  background-image: url('../img/fg/note.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  min-height: 20em;
+}
 iframe#map {
   width: 1342px;
   height: 572px;
