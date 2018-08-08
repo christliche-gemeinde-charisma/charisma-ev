@@ -64,6 +64,9 @@
 #uebersetzung_headline {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+.translate_buttons {
+  cursor: pointer;
+}
 .big_verses {
   font-family: 'Bitter', cursive; /*note: font is imported on single html page*/
   font-size: 2.5em;
