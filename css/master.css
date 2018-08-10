@@ -26,6 +26,9 @@ iframe.video {
   width: 516px;
   height: 360px;
 }
+.list_item {
+  list-style: none;
+}
 
 /*Fonts*/
 @font-face {
@@ -76,7 +79,7 @@ h5.VivaBeautiful {
   font-family: "Neon", Arial, sans-serif;
   font-weight: normal;
 }
- 
+
 /*inner shadow*/
 .NEON:before, .NEON:after {
     content: attr(title);
@@ -271,7 +274,7 @@ section#tile_full_two iframe {
     #EventtextDown {
     font-size: 10em;
     margin: -2%;
-    margin-bottom: 3%; 
+    margin-bottom: 3%;
   }
   .event_title_red{
     text-shadow: 0 0 150px #d42222;
