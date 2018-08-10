@@ -48,6 +48,10 @@ iframe.video {
   src: url('../fonts/VivaBeautifulProB-Regular.ttf') format('truetype');
 }
 @font-face {
+  font-family: "VivaBeautiful-Caps";
+  src: url('../fonts/VivaBeautifulCaps-Regular.ttf') format('truetype');
+}
+@font-face {
   font-family: "Shree";
   src: url('../fonts/Shree714.ttf') format('truetype');
 }
@@ -70,6 +74,16 @@ h2.VivaBeautiful {
 h5.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 2em;
+  font-weight: normal;
+}
+span.VivaBeautiful {
+  font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+span.VivaBeautifulCaps {
+  font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
+  font-size: 1.3em;
   font-weight: normal;
 }
 .Shree {
