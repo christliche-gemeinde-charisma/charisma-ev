@@ -1,51 +1,16 @@
 /*master.css*/
   /*Navigation*/
-  ul#mobilenav {
-    display: block;
+  .nav_background {
     margin: 0;
+    padding: 0;
+    background: #2E2E2E;
+    height: 50px;
   }
-  ul#nav {
-    display: none;
-  }
-  li.dropdown {
-    float: none;
-    display: block;
-  }
-  div#mobileOptions {
-    display: none;
-  }
-  #homebtn {
-    width: 5em;
-  }
-  #menubtn {
-    width: 5em;
-    padding: 0px;
-    padding-top: 5px
-  }
-  li.menubtn {
-    position: relative;
-    left: 6em;
-  }
-  img.menubtn {
-    width: 40px;
-    margin: 0px;
-  }
-  li.dropdownM {
-      display: inline-block;
-      float: left;
-  }
-  li a {
-    width: 8em;
-    text-align: left;
-  }
-  li a:hover, .dropdown:hover .dropbtn {
-      background-color: #0e5394;
-  }
+
   header {
     height: auto;
-    min-height: 3.7em;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     padding-bottom: 0;
     text-align: left;
   }
