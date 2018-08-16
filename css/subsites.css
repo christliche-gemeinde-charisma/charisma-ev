@@ -332,7 +332,8 @@ iframe#map {
     text-shadow: 2px 2px 3px black;
   }
 #tile_full_currentEv3 {
-  background: linear-gradient(to right, #065800, #970000);
+  background: linear-gradient(to right, #D70000, #00254E);
+  min-height: 20em;
 }
 
 /* Pastoren */

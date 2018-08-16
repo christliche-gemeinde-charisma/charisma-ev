@@ -18,6 +18,7 @@ h1 {
 }
 a {
   text-decoration: none;
+  color: #5594FF;
 }
 iframe.mobile_iframe {
   display: none;
@@ -28,6 +29,14 @@ iframe.video {
 }
 .list_item {
   list-style: none;
+}
+a#downloadbtn {
+  border-width: thin;
+  padding: 5px;
+  border-color: white;
+  font-size: 2em;
+  color: white;
+  margin-top: 10em;
 }
 
 /*Fonts*/
