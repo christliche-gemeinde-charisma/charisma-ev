@@ -290,6 +290,11 @@ section#tile_full_two iframe {
     margin: -2%;
     margin-bottom: 3%;
   }
+    #EventtextDate {
+      font-size: 7em;
+      margin: -2%;
+      margin-bottom: 3%;
+  }
   .event_title_red{
     text-shadow: 0 0 150px #d42222;
   }
