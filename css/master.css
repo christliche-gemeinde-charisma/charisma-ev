@@ -108,18 +108,23 @@ header {
 }*/
 
 /*Navigation Bar*/
+.nav_background {
+  background: #2E2E2E;
+  height: 50px;
+}
 a#home:hover {
   background-color: #F7F7F7;
 }
 nav {
   text-align: center;
+  position: fixed;
+  z-index: 20;
 }
 /*Strip the ul of padding and list styling*/
 ul {
     list-style-type:none;
     margin:0;
     padding:0;
-    position: absolute;
 }
 /*Create a horizontal list with spacing*/
 li {
@@ -193,7 +198,7 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 /*Responsive Styles*/
-@media screen and (max-width : 760px){
+@media screen and (max-width : 836px){
     /*Make dropdown links appear inline*/
     ul {
         position: static;
@@ -210,6 +215,7 @@ input[type=checkbox]:checked ~ #menu{
     /*Display 'show menu' link*/
     .show-menu {
         display:block;
+        padding: 12px;
     }
 }
 
