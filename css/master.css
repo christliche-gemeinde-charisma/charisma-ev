@@ -18,6 +18,7 @@ h1 {
 }
 a {
   text-decoration: none;
+  color: #5594FF;
 }
 iframe.mobile_iframe {
   display: none;
@@ -28,6 +29,14 @@ iframe.video {
 }
 .list_item {
   list-style: none;
+}
+a#downloadbtn {
+  border-width: thin;
+  padding: 5px;
+  border-color: white;
+  font-size: 2em;
+  color: white;
+  margin-top: 10em;
 }
 
 /*Fonts*/
@@ -46,6 +55,10 @@ iframe.video {
 @font-face {
   font-family: "VivaBeautifulProB-Regular";
   src: url('../fonts/VivaBeautifulProB-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "VivaBeautiful-Caps";
+  src: url('../fonts/VivaBeautifulCaps-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: "Shree";
@@ -70,6 +83,16 @@ h2.VivaBeautiful {
 h5.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 2em;
+  font-weight: normal;
+}
+span.VivaBeautiful {
+  font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+span.VivaBeautifulCaps {
+  font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
+  font-size: 1.3em;
   font-weight: normal;
 }
 .Shree {
@@ -250,6 +273,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     /*Display 'show menu' link*/
     .show-menu {
+      
         display:block;
         padding: 12px;
     }
@@ -323,6 +347,11 @@ section#tile_full_two iframe {
     font-size: 10em;
     margin: -2%;
     margin-bottom: 3%;
+  }
+    #EventtextDate {
+      font-size: 7em;
+      margin: -2%;
+      margin-bottom: 3%;
   }
   .event_title_red{
     text-shadow: 0 0 150px #d42222;
