@@ -27,6 +27,25 @@
       background-image: url('../img/vision/clouds.jpg');
       background-size: 200%;
     }
+    #EventtextUp {
+      font-size: 6em;
+      margin: -2%;
+      margin-top: 2%;
+    }
+      #EventtextMiddle {
+      font-size: 6em;
+      margin: -2%;
+    }
+      #EventtextDown {
+      font-size: 6em;
+      margin: -2%;
+      margin-bottom: 3%;
+    }
+      #EventtextDate {
+        font-size: 4em;
+        margin: -2%;
+        margin-bottom: 3%;
+    }
     /*Tile Half*/
     .tile_half {
       width: 100%;
