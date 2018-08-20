@@ -195,6 +195,9 @@
     width: 342px;
     height: 232px;
   }
+  #tile_full_fg4 {
+    min-height: 60em;
+  }
   /*Cafeteria*/
   table.preise {
     width: 30%;

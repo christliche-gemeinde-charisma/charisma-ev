@@ -254,7 +254,8 @@ tr.preiseH {
   background-image: url('../img/home/blue-gradient-background.jpg');
   background-size: cover;
   background-position: center 40%;
-  min-height: 20em;
+  height: auto;
+  min-height: 40em;
 }
 iframe#map {
   width: 1342px;

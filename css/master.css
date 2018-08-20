@@ -140,32 +140,6 @@ span.VivaBeautifulCaps {
  color: #ffffff;
 }
 
-/* Header */ /*
-div#logo_small {
-  float: left;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: -10px;
-  overflow: hidden;
-}
-header nav {
-  position: relative;
-  top: -10px;
-  left: 20px;
-}
-header nav a {
-  text-decoration: none;
-  color: white;
-  margin-bottom: 0;
-}
-header {
-  background-color: #D8D8D8;
-  height: 3.8em;
-  padding: 1em;
-
-}*/
-
 /*Navigation Bar*/
 .nav_background {
   background: #C6C6C6;
@@ -180,7 +154,7 @@ nav {
   z-index: 20;
 }
 /*Strip the ul of padding and list styling*/
-ul {
+ul#menu {
     list-style-type:none;
     margin:0;
     padding:0;
@@ -259,7 +233,7 @@ input[type=checkbox]:checked ~ #menu{
 /*Responsive Styles*/
 @media screen and (max-width : 836px){
     /*Make dropdown links appear inline*/
-    ul {
+    ul#menu {
         position: static;
         display: none;
     }
@@ -273,7 +247,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     /*Display 'show menu' link*/
     .show-menu {
-      
+
         display:block;
         padding: 12px;
     }
