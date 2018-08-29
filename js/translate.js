@@ -36,6 +36,7 @@ $("#translate_fr").click(function () {
   $("#translate_p").html(french);
 })
 $("#translate_de").click(function () {
+  $(".main_headline").html("Übersetzung");
   $("#translate_h2").html(german_h2);
   $("#translate_p").html(german);
 })
