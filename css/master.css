@@ -98,21 +98,7 @@ span.VivaBeautifulCaps {
 .Shree {
   font-family: "Shree", Arial, sans-serif;
 }
-.NEON {
-  font-family: "Neon", Arial, sans-serif;
-  font-weight: normal;
-}
 
-/*inner shadow*/
-.NEON:before, .NEON:after {
-    content: attr(title);
-    padding: 50px;
-    color: rgba(255,255,255,.1);
-    position: absolute;
-}
-
-.NEON:before { top: 1px; left: 1px }
-.NEON:after  { top: 2px; left: 2px }
 
 .color_cloud {
   color: #F7F7F7;
@@ -125,19 +111,6 @@ span.VivaBeautifulCaps {
 }
 .color_blue {
   color: #0e5394;
-}
-
-/*für be the light*/
-.color_neon_blue {
- color: #60c5db;
-}
-
-.color_neon_red {
- color: #d42222;
-}
-
-.color_neon_white {
- color: #ffffff;
 }
 
 /*Navigation Bar*/
