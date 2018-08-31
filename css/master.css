@@ -110,7 +110,10 @@ span.VivaBeautifulCaps {
   color: #2E2E2E;
 }
 .color_blue {
-  color: #0e5394;
+  color: #0E5394;
+}
+.color_gold {
+  color: #FFCC00;
 }
 
 /*Navigation Bar*/
@@ -278,27 +281,11 @@ section#tile_full_two iframe {
     font-size: 10em;
   }
   #tile_full_Event {
-  background-image: url('../img/events/festDerNationenFront.jpg');
+  background-image: url('../img/events/festDerNationenFontless.jpg');
   background-size: cover;
-}
-  #EventtextUp {
-    font-size: 10em;
-    margin: -2%;
-    margin-top: 2%;
   }
-    #EventtextMiddle {
-    font-size: 10em;
-    margin: -2%;
-  }
-    #EventtextDown {
-    font-size: 10em;
-    margin: -2%;
-    margin-bottom: 3%;
-  }
-    #EventtextDate {
+  #Eventtext {
       font-size: 7em;
-      margin: -2%;
-      margin-bottom: 3%;
   }
   .event_title_red{
     text-shadow: 0 0 150px #d42222;
