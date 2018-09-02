@@ -288,7 +288,8 @@ iframe#map {
   /*Infos über Event*/
   img.event_flyer {
     width: 60em;
-    margin: 8px;
+    padding 0;
+    margin: 0px;
     margin-left: auto;
     margin-right: auto;
   }
