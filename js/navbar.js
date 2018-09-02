@@ -1,5 +1,5 @@
 // Control variables
-var eventUpcoming = false;
+var eventUpcoming = true;
 var eventName = "Fest der Nationen"
 
 //Events
