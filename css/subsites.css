@@ -266,14 +266,14 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/KidsFest_vorne.jpg');
+  background-image: url('../img/events/fdmeins.jpg');
   background-size: cover;
   background-position: center center;
 }
-#easter_h1 {
+#fdn_h1 {
   font-size: 8em;
   margin-top: 2.7em;
-  color: #011C77;
+  color: #FFCC00;
   font-family: "Shree", Arial, sans-serif;
   font-weight: bolder;
 }
@@ -282,18 +282,16 @@ iframe#map {
 }
 #tile_full_currentEv2 {
 /*damit es nicht ganz langweilig aussieht.*/
-  background: radial-gradient(ellipse at top, #grey, transparent),
-              radial-gradient(ellipse at bottom, #F7F7F7, transparent);
-
-  background-color: #0A1422;
-  color: #2E2E2E;
+  background: radial-gradient(ellipse, #00004D, #00007D,#000000);
+  color: #FFFFFF;
   min-height: auto;
   height: auto;
 }
   /*Infos über Event*/
   img.event_flyer {
     width: 60em;
-    margin: 8px;
+    padding 0;
+    margin: 0px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -334,7 +332,7 @@ iframe#map {
     text-shadow: 2px 2px 3px black;
   }
 #tile_full_currentEv3 {
-  background: linear-gradient(to right, #D70000, #00254E);
+  background: linear-gradient(to right, #00002E, #00007D, #00002E);
   min-height: 20em;
 }
 
