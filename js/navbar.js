@@ -3,7 +3,7 @@ var eventUpcoming = true;
 var eventName = "Fest der Nationen"
 
 //Events
-if (eventUpcoming == true) {
+if (eventUpcoming) {
   $(".currentEvent").html(eventName);
   $(".currentEvent").css("display", "block");
 }
