@@ -266,7 +266,7 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/fdmeins.jpg');
+  background-image: url('../img/events/festDerNationenFront.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -279,6 +279,12 @@ iframe#map {
 }
 #easter_h2 {
   font-size: 4em;
+}
+#tile_full_flyer {
+  background-image: url('../img/events/festDerNationenBack.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 30em;
 }
 #tile_full_currentEv2 {
 /*damit es nicht ganz langweilig aussieht.*/

@@ -185,6 +185,17 @@
     overflow: scroll;
   }
   /* Aktuelles Event */
+    #tile_full_currentEv1 {
+      height: 10em;
+      background-position: left;
+    }
+    #tile_full_flyer {
+      height: 10em;
+      background-position: left;
+    }
+    img.event_flyer {
+      width: 20px;
+    }
     /*Infos über Event*/
     img.event_flyer {
       width: 15em;
