@@ -286,6 +286,7 @@ section#tile_full_two iframe {
   }
   #Eventtext {
       font-size: 7em;
+      margin: 0.4em;
   }
   .event_title_red{
     text-shadow: 0 0 150px #d42222;
