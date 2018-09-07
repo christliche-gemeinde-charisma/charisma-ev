@@ -117,8 +117,10 @@
   left: 49.99%;
   top: -30em;
 }
-#ngEvent {
-  position: relative;
+#ngEvent
+ {
+  position: center;
+  background-color: #F7F7F7;
 }
 
 /*Cloeoeb*/
