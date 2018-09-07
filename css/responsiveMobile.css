@@ -224,6 +224,12 @@
   td.preise {
     width: 10px;
   }
+  #ngEvent {
+    background-color: #3770A1;
+    height: 230px;
+    left: 0%;
+    top: 0em;
+  }
   /*Next Generation*/
   #freizeit_video {
     background-color: #3770A1;

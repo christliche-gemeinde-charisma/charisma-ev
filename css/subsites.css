@@ -117,6 +117,9 @@
   left: 49.99%;
   top: -30em;
 }
+#ngEvent {
+  position: relative;
+}
 
 /*Cloeoeb*/
 #tile_full_cl1 {
