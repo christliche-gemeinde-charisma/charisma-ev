@@ -290,22 +290,26 @@ section#tile_full_two iframe {
   background-image: url('../img/vision/clouds.jpg');
   background-size: cover;
 }
-  #visionLIEBE {
+#visionLIEBE {
     font-size: 10em;
-  }
-  #tile_full_Event {
+}
+#tile_full_Event {
   background-image: url('../img/events/empty-dark.png');
-  background-size: cover;
-  }
+  background-size: contain;
+}
 
-  #tile_full_Event:hover {
+#tile_full_Event:hover {
   background-image: url('../img/events/hintergrund-empty.png');
-  background-size: cover;
-  }
+  background-size: contain;
+}
 
-  #Eventtext {
-      font-size: 7em;
-  }
+#Eventtext {
+  font-size: 10em;
+}
+
+#Eventtext2 {
+  font-size: 7em;
+}
 /*Tile Half*/
 .tile_half {
   text-align: center;
