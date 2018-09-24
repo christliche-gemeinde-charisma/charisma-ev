@@ -1,6 +1,6 @@
 // Control variables
-var eventUpcoming = false;
-var eventName = "Familiengottesdienst"
+var eventUpcoming = true;
+var eventName = "Familien-Gottesdienst"
 
 // Rules for event bool
 if (eventUpcoming) {

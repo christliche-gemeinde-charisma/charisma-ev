@@ -271,19 +271,18 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/ThemenGottesdienstFamilie4.jpg');
-  background-size: ;
+  background-image: url('../img/geschichte/path.jpg');
+  background-size: cover;
   background-position: center center;
 }
 #fdn_h1 {
   font-size: 8em;
-  margin-top: 2.7em;
-  color: #FFCC00;
-  font-family: "Shree", Arial, sans-serif;
+  font-family: "Laughing_And_Smiling", Arial, sans-serif;
   font-weight: bolder;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #easter_h2 {
-  font-size: 4em;
+  font-size: 2em;
 }
 #tile_full_flyer {
   background-image: url('../img/events/family.png');
@@ -292,9 +291,12 @@ iframe#map {
   height: 30em;
 }
 #tile_full_currentEv2 {
-/*damit es nicht ganz langweilig aussieht.*/
-  background: radial-gradient(ellipse, #00004D, #00007D,#000000);
-  color: #FFFFFF;
+background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  min-height: auto;
+  height: auto;
+}
+#tile_full_currentEv3 {
+background-image: linear-gradient(20deg, #21d4fd 0%, #b721ff 100%);
   min-height: auto;
   height: auto;
 }
@@ -342,10 +344,6 @@ iframe#map {
     color: white;
     text-shadow: 2px 2px 3px black;
   }
-#tile_full_currentEv3 {
-  background: linear-gradient(to right, #00002E, #00007D, #00002E);
-  min-height: 20em;
-}
 
 /* Pastoren */
 #tile_full_pastoren1 {
