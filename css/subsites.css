@@ -266,8 +266,8 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/festDerNationenFront.jpg');
-  background-size: cover;
+  background-image: url('../img/events/ThemenGottesdienstFamilie4.jpg');
+  background-size: ;
   background-position: center center;
 }
 #fdn_h1 {
@@ -281,7 +281,7 @@ iframe#map {
   font-size: 4em;
 }
 #tile_full_flyer {
-  background-image: url('../img/events/festDerNationenBack.jpg');
+  background-image: url('../img/events/family.png');
   background-size: cover;
   background-position: center center;
   height: 30em;

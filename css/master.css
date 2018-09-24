@@ -68,6 +68,14 @@ a#downloadbtn {
   font-family: "Neon";
   src: url('../fonts/NEON.ttf') format('truetype');
 }
+@font-face {
+  font-family: "Laughing_and_Smiling";
+  src: url('../fonts/Laughing_and_Smiling.ttf') format('truetype');
+}
+@font-face {
+  font-family: "big_noodle_titling_oblique";
+  src: url('../fonts/big_noodle_titling_oblique.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
@@ -98,7 +106,12 @@ span.VivaBeautifulCaps {
 .Shree {
   font-family: "Shree", Arial, sans-serif;
 }
-
+.Laughing_and_Smiling {
+  font-family: "Laughing_and_Smiling", Arial, sans-serif;
+}
+.big_noodle_titling_oblique {
+  font-family: "big_noodle_titling_oblique", Arial, sans-serif;
+}
 
 .color_cloud {
   color: #F7F7F7;
@@ -277,23 +290,26 @@ section#tile_full_two iframe {
   background-image: url('../img/vision/clouds.jpg');
   background-size: cover;
 }
-  #visionLIEBE {
+#visionLIEBE {
     font-size: 10em;
-  }
-  #tile_full_Event {
-  background-image: url('../img/events/festDerNationenFontless.jpg');
-  background-size: cover;
-  }
-  #Eventtext {
-      font-size: 7em;
-      margin: 0.4em;
-  }
-  .event_title_red{
-    text-shadow: 0 0 150px #d42222;
-  }
-  .event_title_white{
-    text-shadow: 0 0 150px white;
-  }
+}
+#tile_full_Event {
+  background-image: url('../img/events/empty-dark.png');
+  background-size: contain;
+}
+
+#tile_full_Event:hover {
+  background-image: url('../img/events/hintergrund-empty.png');
+  background-size: contain;
+}
+
+#Eventtext {
+  font-size: 10em;
+}
+
+#Eventtext2 {
+  font-size: 7em;
+}
 /*Tile Half*/
 .tile_half {
   text-align: center;
