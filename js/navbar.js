@@ -1,5 +1,5 @@
 // Control variables
-var eventUpcoming = true;
+var eventUpcoming = false;
 var eventName = "Fest der Nationen"
 
 //Events
@@ -9,6 +9,7 @@ if (eventUpcoming) {
 }
 else {
   $(".currentEvent").css("display", "none");
+  $(".eventAd").css("display", "none");
 }
 
 //Mobile
