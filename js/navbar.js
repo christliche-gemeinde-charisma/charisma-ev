@@ -1,8 +1,8 @@
 // Control variables
-var eventUpcoming = false;
-var eventName = "Fest der Nationen"
+var eventUpcoming = true;
+var eventName = "Familien-Gottesdienst"
 
-//Events
+// Rules for event bool
 if (eventUpcoming) {
   $(".currentEvent").html(eventName);
   $(".currentEvent").css("display", "block");
