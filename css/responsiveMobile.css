@@ -31,6 +31,10 @@
         font-size: 4em;
         margin: 0.4em;
     }
+    #Eventtext2 {
+        font-size: 3em;
+        margin: 0.4em;
+    }
     #EventtextUp {
       font-size: 4em;
       margin: -2%;
@@ -196,6 +200,9 @@
     #tile_full_flyer {
       height: 10em;
       background-position: left;
+    }
+    #fdn_h1 {
+      font-size: 4em;
     }
     img.event_flyer {
       width: 20px;
