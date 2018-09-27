@@ -271,9 +271,9 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/geschichte/path.jpg');
-  background-size: cover;
-  background-position: center center;
+  background-image: url('../img/events/empty-dark.png');
+  
+  background-position: top center;
 }
 #fdn_h1 {
   font-size: 8em;
