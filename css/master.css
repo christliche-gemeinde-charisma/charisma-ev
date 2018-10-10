@@ -35,7 +35,7 @@ a#downloadbtn {
   padding: 5px;
   border-color: white;
   font-size: 2em;
-  color: white;
+  color: #2E2E2E;
   margin-top: 10em;
 }
 
@@ -106,6 +106,14 @@ span.VivaBeautifulCaps {
 .Shree {
   font-family: "Shree", Arial, sans-serif;
 }
+h1.Shree {
+  font-family: "Shree", Arial, sans-serif;
+  font-size: 6em;
+}
+h2.Shree {
+  font-family: "Shree", Arial, sans-serif;
+  font-size: 30px;
+}
 .Laughing_and_Smiling {
   font-family: "Laughing_and_Smiling", Arial, sans-serif;
 }
@@ -128,7 +136,9 @@ span.VivaBeautifulCaps {
 .color_gold {
   color: #FFCC00;
 }
-
+.color_royalblue {
+  color: #132d52;
+}
 /*Navigation Bar*/
 .nav_background {
   background: #C6C6C6;
