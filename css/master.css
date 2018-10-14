@@ -304,24 +304,15 @@ section#tile_full_two iframe {
     font-size: 10em;
 }
 #tile_full_Event {
-  background-image: url('../img/events/empty-dark.png');
+  background-image: url('../img/events/EventAdTriple.png');
   background-size: contain;
 }
 
-#tile_full_Event:hover {
-  background-image: url('../img/events/hintergrund-empty.png');
-  background-size: contain;
-}
-
-#Eventtext {
+#EventText {
   font-size: 10em;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-#Eventtext2 {
-  font-size: 7em;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 /*Tile Half*/
 .tile_half {
   text-align: center;
