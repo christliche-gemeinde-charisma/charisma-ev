@@ -208,13 +208,12 @@
     #fdn_h1 {
       font-size: 4em;
     }
-    img.event_flyer {
-      width: 20px;
-    }
     /*Infos über Event*/
     img.event_flyer {
-      width: 15em;
-      margin: 8px;
+      display: none;
+    }
+    img.event_flyer_small {
+      display: inline-block;
     }
   /*FG*/
   iframe#map {

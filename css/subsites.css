@@ -316,8 +316,11 @@ iframe#map {
   height: auto;
 }
   /*Infos über Event*/
+  img.event_flyer_small {
+    display: none;
+  }
   img.event_flyer {
-    width: 60em;
+    width: 400px;
     padding 0;
     margin: 0px;
     margin-left: auto;
