@@ -99,6 +99,17 @@
   height: auto;
 }
 
+#tile_full_ultimateproof {
+  background-color: #2E2E2E;
+  color: #2E2E2E;
+  min-height: auto;
+  height: auto;
+}
+  #ng_science_video {
+    width: auto;
+    height: auto;
+  }
+
 #ng_headline {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;

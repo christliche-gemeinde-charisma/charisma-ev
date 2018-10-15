@@ -238,6 +238,9 @@
     top: 0em;
   }
   /*Next Generation*/
+  #ng_headline {
+    font-size: 5em;
+  }
   #freizeit_video {
     background-color: #3770A1;
     height: 230px;
@@ -246,6 +249,10 @@
   }
   #wirNG {
     height: 230px;
+  }
+  #ng_science_video {
+    width: 310px;
+    height: 200px;
   }
   /*Übersetzung*/
   .big_verses {
