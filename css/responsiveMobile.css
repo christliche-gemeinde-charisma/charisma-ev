@@ -27,7 +27,7 @@
       background-image: url('../img/vision/clouds.jpg');
       background-size: 200%;
     }
-    #Eventtext {
+    #EventText {
         font-size: 4em;
         margin: 0.4em;
     }
@@ -196,6 +196,10 @@
     #tile_full_currentEv1 {
       height: 10em;
       background-position: left;
+    }
+    #event_headline {
+      font-size: 2.5em;
+      margin-top: 0.5em;
     }
     #tile_full_flyer {
       height: 10em;
