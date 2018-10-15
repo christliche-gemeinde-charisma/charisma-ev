@@ -305,7 +305,7 @@ section#tile_full_two iframe {
 }
 #tile_full_Event {
   background-image: url('../img/events/EventAdTriple.png');
-  background-size: contain;
+  background-size: cover;
 }
 
 #EventText {
