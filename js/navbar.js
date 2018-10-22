@@ -1,5 +1,5 @@
 // Control variables
-var eventUpcoming = true;
+var eventUpcoming = false;
 var eventName = "Männer-Seminar"
 
 // Rules for event bool
