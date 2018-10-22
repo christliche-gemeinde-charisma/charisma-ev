@@ -64,6 +64,7 @@ a#downloadbtn {
   font-family: "Shree";
   src: url('../fonts/Shree714.ttf') format('truetype');
 }
+
 @font-face {
   font-family: "Neon";
   src: url('../fonts/NEON.ttf') format('truetype');
@@ -75,6 +76,10 @@ a#downloadbtn {
 @font-face {
   font-family: "big_noodle_titling_oblique";
   src: url('../fonts/big_noodle_titling_oblique.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Avengers";
+  src: url('../fonts/event/AVENGEANCE_HEROIC_AVENGER.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
