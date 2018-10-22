@@ -201,6 +201,10 @@
       font-size: 2.5em;
       margin-top: 0.5em;
     }
+    img#event_headline {
+      width: 300px;
+      margin-top: 40px;
+    }
     #tile_full_flyer {
       height: 10em;
       background-position: left;
