@@ -282,12 +282,21 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-color: white;
+  background-image: url('../img/events/holyween-background.jpg');
+  background-size: cover;
+  background-position: center;
   height: 30em;
 }
+@font-face {
+  font-family: "Avengers";
+  src: url('../fonts/event/AVENGEANCE_HEROIC_AVENGER.ttf') format('truetype');
+}
 #event_headline {
-  color: #132d52;
-  margin-top: 2em;
+  color: #ffffff;
+  font-family: "Avengers", Arial, sans-serif;
+  box-shadow: 0px 10px 24px #040048;
+  background-color: #fdf503;
+  border: 9px solid #e70b11;
 }
 #fdn_h1 {
   font-size: 8em;
