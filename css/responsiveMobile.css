@@ -28,8 +28,9 @@
       background-size: 200%;
     }
     #EventText {
-        font-size: 4em;
-        margin: 0.4em;
+      width: 200px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     #Eventtext2 {
         font-size: 3em;
