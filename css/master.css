@@ -65,6 +65,7 @@ a#downloadbtn {
   src: url('../fonts/Shree714.ttf') format('truetype');
 }
 
+/* Event Fonts*/
 @font-face {
   font-family: "Neon";
   src: url('../fonts/NEON.ttf') format('truetype');
@@ -82,6 +83,13 @@ a#downloadbtn {
   src: url('../fonts/event/AVENGEANCE_HEROIC_AVENGER.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css?family=Risque');
+@font-face {
+  font-family: "Respective";
+  src: url('../fonts/event/Respective_2.0.ttf') format('truetype');
+}
+.Respective {font-family: 'Respective', Arial, sans-serif;}
+h2.Respective {font-size: 10em; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
   font-size: 3em;
@@ -309,8 +317,9 @@ section#tile_full_two iframe {
     font-size: 10em;
 }
 #tile_full_Event {
-  background-image: linear-gradient(-20deg, black 0%, #00169F 100%);
-  background-size: cover;
+  background-image: url("../img/events/weihnachten-tannenzweige.jpg");
+  background-size: 100%;
+  background-position: center;
 }
 
 #EventText {

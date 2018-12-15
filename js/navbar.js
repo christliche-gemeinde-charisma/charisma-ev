@@ -1,6 +1,6 @@
 // Control variables
-var eventUpcoming = false;
-var eventName = "Männer-Seminar"
+var eventUpcoming = true;
+var eventName = "Weihnachten"
 
 // Rules for event bool
 if (eventUpcoming) {
