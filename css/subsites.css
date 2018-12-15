@@ -317,7 +317,7 @@ h1#event_headline {
   height: 90em;
 }
 #tile_full_currentEv2 {
-  background-image: linear-gradient(-20deg, #DB2907 0%, #00169F 100%);
+  background-color:#0c471a;
   min-height: auto;
   height: auto;
 }
