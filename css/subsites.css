@@ -317,7 +317,9 @@ h1#event_headline {
   height: 90em;
 }
 #tile_full_currentEv2 {
-  background-color:#0c471a;
+  /*background-color:#0c471a;*/
+  background-image: url("../img/events/evergreen-background.jpg");
+  background-size: cover;
   min-height: auto;
   height: auto;
 }

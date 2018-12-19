@@ -88,7 +88,7 @@ a#downloadbtn {
   src: url('../fonts/event/Respective_2.0.ttf') format('truetype');
 }
 .Respective {font-family: 'Respective', Arial, sans-serif;}
-h2.Respective {font-size: 10em; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+h2.Respective {font-size: 10em; font-weight: normal; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
