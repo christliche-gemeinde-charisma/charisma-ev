@@ -295,12 +295,8 @@ img#event_headline {
   width: 700px;
   margin-top: 20px;
 }
-h1#event_headline {
-  color: #ffffff;
-  font-family: "Avengers", Arial, sans-serif;
-  box-shadow: 0px 10px 24px #040048;
-  background-color: #fdf503;
-  border: 9px solid #e70b11;
+h2#event_title {
+  
 }
 #fdn_h1 {
   font-size: 8em;
