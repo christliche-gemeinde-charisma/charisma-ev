@@ -195,8 +195,12 @@
   }
   /* Aktuelles Event */
     #tile_full_currentEv1 {
-      height: 20em;
+      height: 10em;
       background-position: left;
+    }
+    h1#event_headline {
+      font-size: 5.5em;
+      margin-top: 0.5em;
     }
     h2#event_title {
       font-size: 5.5em;
