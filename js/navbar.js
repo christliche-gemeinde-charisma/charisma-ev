@@ -1,6 +1,6 @@
 // Control variables
-var eventUpcoming = true;
-var eventName = "Weihnachten"
+var eventUpcoming = false;
+var eventName = "Neues Jahr"
 
 // Rules for event bool
 if (eventUpcoming) {
@@ -9,7 +9,7 @@ if (eventUpcoming) {
 }
 else {
   $(".currentEvent").css("display", "none");
-  $(".eventAd").css("display", "none");
+  //$(".eventAd").css("display", "none");
 }
 
 //Mobile
