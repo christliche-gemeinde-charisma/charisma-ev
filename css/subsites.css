@@ -295,18 +295,15 @@ img#event_headline {
   width: 700px;
   margin-top: 20px;
 }
+h1#event_headline {
+  font-size: 10em;
+  margin-top: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 h2#event_title {
   
 }
-#fdn_h1 {
-  font-size: 8em;
-  font-family: "Laughing_And_Smiling", Arial, sans-serif;
-  font-weight: bolder;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-#easter_h2 {
-  font-size: 2em;
-}
+
 #tile_full_flyer {
   background-image: url('../img/events/maenner-flyer.jpg');
   background-size: cover;
