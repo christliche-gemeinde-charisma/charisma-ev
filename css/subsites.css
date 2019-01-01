@@ -282,7 +282,7 @@ iframe#map {
 
 /* Aktuelles Event */
 #tile_full_currentEv1 {
-  background-image: url('../img/events/weihnachten-background.jpg');
+  background-image: url('../img/events/fireworks-background.jpg');
   background-size: cover;
   background-position: center;
   height: 30em;
@@ -301,7 +301,7 @@ h1#event_headline {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 h2#event_title {
-  
+
 }
 
 #tile_full_flyer {
@@ -310,8 +310,7 @@ h2#event_title {
   height: 90em;
 }
 #tile_full_currentEv2 {
-  /*background-color:#0c471a;*/
-  background-image: url("../img/events/evergreen-background.jpg");
+  background-color: #9b6411;
   background-size: cover;
   min-height: auto;
   height: auto;

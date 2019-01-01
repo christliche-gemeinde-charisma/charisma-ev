@@ -75,21 +75,21 @@
         <h2 id="event_title" class="Respective color_cloud"></h2>
         <img src="../img/events/karte.jpeg" width="900" class="event_flyer">
         <img src="../img/events/karte.jpeg" width="300" class="event_flyer_small">
-        <p class="main_text color_cloud">
+        <p id="txt1" class="main_text color_cloud">
           Hallo ihr Lieben,
-          2019 ist da und hält viel Gutes für uns bereit!
-          Die meisten Menschen können sich über viele Jahre hinweg an schlechte Dinge erinnern und es fällt ihnen schwer, gute Dinge zu sehen, für die sie loben und danken können.
-          DAVON IST DEIN 2019 ABER DIREKT ABHÄNGIG!!!
-          Lass deinen Blick auf das vergangene Jahr von Dankbarkeit und Lobpreis inspiriert sein, dann wirst du auch 2019 viel Gutes erleben!
+          <br>2019 ist da und hält viel Gutes für uns bereit!
+          <br>Die meisten Menschen können sich über viele Jahre hinweg an schlechte Dinge erinnern und es fällt ihnen schwer, gute Dinge zu sehen, für die sie loben und danken können.
+          <br>DAVON IST DEIN 2019 ABER DIREKT ABHÄNGIG!!!
+          <br>Lass deinen Blick auf das vergangene Jahr von Dankbarkeit und Lobpreis inspiriert sein, dann wirst du auch 2019 viel Gutes erleben!
           Der Rückblick auf schlechte Situationen und Ereignisse bereitet dich vor für ein genauso schlechtes 2019.
           Das Maß deiner Dankbarkeit und deines Lobpreises bereitet für dich vor für ein gutes 2019!
           Deswegen lade ich euch dazu ein, dass wir 2019 zum besten Jahr unseres Lebens machen!
         </p>
-        <p class="main_text color_cloud">
+        <p id="txt2" class="main_text color_cloud">
           Ein fröhliches neues Jahr wünscht euch euer
           Pastor R. Rasche
         </p>
-        <p class="main_text color_cloud">
+        <p id="txt3" class="main_text color_cloud">
           <i>„Denkt nicht an das Frühere, und auf das Vergangene achtet nicht!
           Siehe, ich wirke Neues! Jetzt sprosst es auf. Erkennt ihr es nicht?“</i>
           (Jesaja 43,18-19)
@@ -109,6 +109,12 @@
       <script src="../js/navbar.js" charset="utf-8"></script>
       <script>
         $("#tile_full_currentEv3").hide()
+        $(".event_flyer_small").hide()
+        $("#event_title").hide()
+        $(".event_flyer").hide()
+        $("#txt1").css("text-align", "left");
+        $("#txt2").css("text-align", "left");
+        $("#txt3");
       </script>
     </div>
   </body>
