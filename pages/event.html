@@ -75,8 +75,10 @@
         <h2 id="event_title" class="Respective color_cloud"></h2>
         <img src="../img/events/karte.jpeg" width="900" class="event_flyer">
         <img src="../img/events/karte.jpeg" width="300" class="event_flyer_small">
+
         <p id="txt1" class="main_text color_cloud">
-          Hallo ihr Lieben,
+          <b id="hello">Hallo ihr Lieben,</b>
+          <br>
           <br>2019 ist da und hält viel Gutes für uns bereit!
           <br>Die meisten Menschen können sich über viele Jahre hinweg an schlechte Dinge erinnern und es fällt ihnen schwer, gute Dinge zu sehen, für die sie loben und danken können.
           <br>DAVON IST DEIN 2019 ABER DIREKT ABHÄNGIG!!!
@@ -89,17 +91,14 @@
           Ein fröhliches neues Jahr wünscht euch euer
           Pastor R. Rasche
         </p>
-        <p id="txt3" class="main_text color_cloud">
-          <i>„Denkt nicht an das Frühere, und auf das Vergangene achtet nicht!
-          Siehe, ich wirke Neues! Jetzt sprosst es auf. Erkennt ihr es nicht?“</i>
-          (Jesaja 43,18-19)
-        </p>
       </section>
       <section id="tile_full_currentEv3" class="tile_full">
         <br>
-        <h2 class="Shree color_coal">Willst du andere Einladen?</h2>
-        <p class="main_text color_coal">Lade dir hier die Einladung runter und teile sie!</p>
-        <a id="downloadbtn" href="../img/events/weihnachten2018-flyer.jpg" download><i class="far fa-arrow-alt-circle-down"></i> Download</a>
+        <p id="txt3" class="main_text color_cloud">
+          <i>„Denkt nicht an das Frühere, und auf das Vergangene achtet nicht!
+          Siehe, ich wirke Neues! Jetzt sprosst es auf. Erkennt ihr es nicht?“</i>
+          <br>(Jesaja 43,18-19)
+        </p>
         <br>
         <br>
       </section>
@@ -108,10 +107,14 @@
     <div class="scripts">
       <script src="../js/navbar.js" charset="utf-8"></script>
       <script>
-        $("#tile_full_currentEv3").hide()
+        // Script für Styles auf dieser Seite
+
         $(".event_flyer_small").hide()
         $("#event_title").hide()
         $(".event_flyer").hide()
+
+        $("#hello").css("font-size", "1.3em")
+
         $("#txt1").css("text-align", "left");
         $("#txt2").css("text-align", "left");
         $("#txt3");
