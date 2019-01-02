@@ -4,12 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>Charisma Hamburg</title>
-    <link rel="stylesheet" href="{% static 'main_website/master.css' %}">
-    <link rel="stylesheet" href="{% static 'main_website/subistes.css' %}">
-    <link rel="shortcut icon" href="img/home/charisma-logo-blue.png">
+    <link rel="stylesheet" href="{% static 'main_website/css/master.css' %}">
+    <link rel="stylesheet" href="{% static 'main_website/css/subsites.css' %}">
+    <link rel="shortcut icon" href="{% static 'main_website/img/home/charisma-logo-blue.png' %}">
     <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
-    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="css/responsivePC.css">
-    <link rel="stylesheet" media="screen and (max-width: 640px)" href="css/responsiveMobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="{% static 'main_website/css/responsivePC.css' %}">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="{% static 'main_website/css/responsiveMobile.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   </head>
@@ -21,7 +21,7 @@
         <ul id="menu">
           <li>
             <a href="index.html">
-              <img width="75" src="img/home/charisma-logo-text-cropped.png" alt="">
+              <img width="75" src="{% static 'main_website/img/home/charisma-logo-text-cropped.png' %}" alt="">
             </a>
           </li>
           <li>
@@ -69,7 +69,7 @@
     </header>
     <div id="container">
       <section class="tile_full" id="tile_full_one">
-        <img src="img/home/charisma-logo-transparent.png" id="big_logo">
+        <img src="{% static 'main_website/img/home/charisma-logo-transparent.png' %}" id="big_logo">
       </section>
       <div id="wilkommenlayer" class="tile_half_layer">
         <section id="tile_half_left" class="tile_half">
@@ -196,7 +196,7 @@
       </footer>
     </div> <!-- end of #container -->
     <div class="scripts">
-      <script src="js/navbar.js" charset="utf-8"></script>
+      <script src="{% static 'main_website/js/navbar.js' %}" charset="utf-8"></script>
     </div>
   </body>
 </html>
