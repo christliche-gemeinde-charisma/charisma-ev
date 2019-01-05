@@ -3,15 +3,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Charisma Hamburg</title>
-    <link rel="stylesheet" href="{% static 'main_website/css/master.css' %}">
-    <link rel="stylesheet" href="{% static 'main_website/css/subsites.css' %}">
-    <link rel="shortcut icon" href="{% static 'main_website/img/home/charisma-logo-blue.png' %}">
-    <!-- CSS Dateien für responsive design. Alle responsive Styles kommen in die untere CSS Dateien.-->
-    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="{% static 'main_website/css/responsivePC.css' %}">
-    <link rel="stylesheet" media="screen and (max-width: 640px)" href="{% static 'main_website/css/responsiveMobile.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>Charisma Hamburg</title>
+    {% include "main_website/head_imports.html" %}
   </head>
   <body>
     <header>
@@ -102,10 +96,10 @@
         <a href="pages/uebersetzung.html">
           <section class="tile_fourth" id="tile_fourth_one">
             <h2 class="VivaBeautiful color_cloud home_headline">Übersetzung</h2>
-            <img src="img/uebersetzung/spain-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
-            <img src="img/uebersetzung/brazil-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
-            <img src="img/uebersetzung/usa-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
-            <img src="img/uebersetzung/france-flag.png" alt="Portugues" width="60" height="60" class="translate_flags">
+            <img src="{% static 'main_website/img/uebersetzung/spain-flag.png' %}" alt="Portugues" width="60" height="60" class="translate_flags">
+            <img src="{% static 'main_website/img/uebersetzung/brazil-flag.png' %}" alt="Portugues" width="60" height="60" class="translate_flags">
+            <img src="{% static 'main_website/img/uebersetzung/usa-flag.png' %}" alt="Portugues" width="60" height="60" class="translate_flags">
+            <img src="{% static 'main_website/img/uebersetzung/france-flag.png' %}" alt="Portugues" width="60" height="60" class="translate_flags">
           </section>
         </a>
         <a href="pages/supergemeinde.html" title="Supergemeinde">
@@ -161,7 +155,7 @@
           <div class="content" id="socialMedia">
             <br>
             <a class="social_links" href="https://www.facebook.com/Christliche.Gemeinde.Charisma/">
-              <img width="50" src="img/home/fb-icon.png" alt="">
+              <img width="50" src="{% static 'main_website/img/home/fb-icon.png' %}" alt="">
               <h2>Facebook</h2>
             </a>
             <!--
@@ -171,16 +165,16 @@
             </a>
             -->
             <a class="social_links" href="https://www.youtube.com/channel/UC8Er_MXu2Tmm8Zg-BvNNG-w">
-              <img width="50" src="img/home/yt-icon.ico" alt="">
+              <img width="50" src="{% static 'main_website/img/home/yt-icon.ico' %}" alt="">
               <h2>Youtube</h2>
             </a>
             <a class="social_links" href="https://www.snapchat.com/add/cgcnews">
-              <img width="50" src="img/home/snapchat-cgcnews.png" alt="">
+              <img width="50" src="{% static 'main_website/img/home/snapchat-cgcnews.png' %}" alt="">
               <h2>Snapchat</h2>
             </a>
             <br>
             <a class="social_links" id="mailtobtn" href="mailto:info@charisma-ev.de" "email me">
-              <img width="50" src="img/home/email-icon.png" alt="">
+              <img width="50" src="{% static 'main_website/img/home/email-icon.png' %}" alt="">
               <h2 class="home_headline">Schreib uns!</h2>
             </a>
           </div>
