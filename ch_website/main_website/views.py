@@ -16,7 +16,7 @@ def legal_notice(request):
 def worship(request):
     return render(request, 'main_website/pages/lobpreis.html')
 def sunday_school(request):
-    return render(request, 'main_website/pages/supergemeinde')
+    return render(request, 'main_website/pages/supergemeinde.html')
 def translation(request):
     return render(request, 'main_website/pages/uebersetzung.html')
 
