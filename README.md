@@ -5,9 +5,12 @@ The use of the Django Framework allows developers to take portions of this proje
 
 ## Project Details
 ### Front-end (Custom CSS, some jQuery)
-Naming Conventions: (to be added)
+Naming Conventions:
+(to be added)
 
 ### Back-end (Python & Django)
+Naming Conventions:
+(to be added)
 
 ## Django Apps
 ### main_website
