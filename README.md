@@ -4,8 +4,10 @@ This project can be used as a website template, especially for a small church. T
 The use of the Django Framework allows developers to take portions of this project and easily implement them into their own websites.
 
 ## Project Details
-Front-end: Custom CSS, some jQuery
-Back-end: Python & Django
+###Front-end (Custom CSS, some jQuery)
+Naming Conventions: (to be added)
+
+###Back-end (Python & Django)
 
 ## Django Apps
 ### main_website
