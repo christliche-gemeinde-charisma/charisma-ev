@@ -6,6 +6,7 @@ function setCookie(cname , cvalue, exdays) {
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   var expires = "expires="+ d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  console.log("Cookie set!")
 }
 
 // Get value from cookie
@@ -27,12 +28,18 @@ function getCookie(cname) {
 
 //Check if the cookie is set
 function checkCookie() {
-  var user=getCookie("visit");
-  if (user != "") {
-    Popup.open();
+  var visit=getCookie("visit");
+  if (visit != "") {
+    console.log("No popup needed :D");
   } else {
-     if (user != "" && user != null) {
-       setCookie("visit", user, 90);
+     if (visit = "visited") {
+       openPopup();
+       console.log("Attempted Pop-Up");
      }
   }
+}
+
+function resetVisit() {
+    document.cookie = 'visit =; Max-Age=-99999999;';
+    console.log('Reset visit');
 }
