@@ -29,12 +29,10 @@ function getCookie(cname) {
 //Check if the cookie is set
 function checkCookie() {
   var visit=getCookie("visit");
-  if (visit != "") {
-    console.log("No popup needed :D");
+  if (visit = "") {
+    openPopup();
   } else {
      if (visit = "visited") {
-       openPopup();
-       console.log("Attempted Pop-Up");
      }
   }
 }
