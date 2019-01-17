@@ -29,7 +29,7 @@ function getCookie(cname) {
 function checkCookie() {
   var user=getCookie("visit");
   if (user != "") {
-    //TODO: Show DVSGO pop-up
+    Popup.open();
   } else {
      if (user != "" && user != null) {
        setCookie("visit", user, 90);
