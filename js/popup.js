@@ -1,3 +1,4 @@
+/* Pop-up to ask for cookie permission */
 function openPopup() {
   var popup = document.createElement("div");
   document.body.appendChild(popup);
@@ -35,4 +36,12 @@ function openPopup() {
     setCookie('visit', 'visited', 90);
   });
   popup.append(OKbutton);
+}
+
+//Load Pop-up
+if (document.cookie) {
+ //show no pop-up
+}
+else {
+  openPopup();
 }

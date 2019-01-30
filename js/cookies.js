@@ -1,17 +1,17 @@
+/* Functions for working with cookies */
 
-// Function for creating cookies
-// cname = Name of cookie; cvalue = Value to be stored; exdays = Number of days until the cookie expires
-function setCookie(cname , cvalue, exdays) {
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  var expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+// cookieName = Name of cookie; cookieValue = Value to be stored; daysToExpire = Number of days until the cookie expires
+function setCookie(cookieName , cookieValue, daysToExpire) {
+  var d = new Date(); //Create Date() instance
+  d.setTime(d.getTime() + (daysToExpire*24*60*60*1000)); //set the time of Date object to date for expiration
+  var expires = "expires="+ d.toUTCString(); //set expiration parameter
+  document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/"; //set cookie with passed name, value and expiration
   console.log("Cookie set!")
 }
 
 // Get value from cookie
-function getCookie(cname) {
-  var name = cname + "=";
+function getCookie(cookieName) {
+  var name = cookieName + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
   for(var i = 0; i <ca.length; i++) {
@@ -24,17 +24,6 @@ function getCookie(cname) {
     }
   }
   return "";
-}
-
-//Check if the cookie is set
-function checkCookie() {
-  var visit=getCookie("visit");
-  if (visit = "") {
-    openPopup();
-  } else {
-     if (visit = "visited") {
-     }
-  }
 }
 
 function resetVisit() {
