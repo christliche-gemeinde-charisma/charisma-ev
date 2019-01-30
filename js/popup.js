@@ -39,9 +39,9 @@ function openPopup() {
 }
 
 //Load Pop-up
-if (document.cookie) {
- //show no pop-up
+if (document.cookie = "") {
+ openPopup();
 }
 else {
-  openPopup();
+  //show no pop-up
 }
