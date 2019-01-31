@@ -152,9 +152,14 @@ div#popup {
 }
 
 /*** Navigation Bar ***/
-.nav_background {
+div.nav_background {
   background: #C6C6C6;
   height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 19;
+
 }
 a#home:hover {
   background-color: #F7F7F7;
