@@ -15,51 +15,51 @@
   <body>
     <header>
       <nav>
-        <label for="show-menu" class="show-menu"><img src="img/home/charisma-logo-blue.png" width="20"> Navigation Anzeigen</label>
+        <label for="show-menu" class="show-menu"><img src="{% static 'main_website/img/home/charisma-logo-blue.png' %}" width="20"> Navigation Anzeigen</label>
         <input type="checkbox" id="show-menu" role="button">
         <ul id="menu">
-          <li>
-            <a href="index.html">
+          <li class="nav-item">
+            <a id="home" href="index.html">
               <img width="75" src="img/home/charisma-logo-text-cropped.png" alt="">
             </a>
           </li>
-          <li>
+          <li class="nav-item">
               <a href="#">Gottesdienst</a>
               <ul class="hidden">
-                  <li><a href="pages/lobpreis.html">Worship</a></li>
-                  <li><a href="pages/uebersetzung.html">Übersetzung</a></li>
-                  <li><a href="pages/supergemeinde.html">Supergemeinde</a></li>
+                  <li class="nav-item"><a href="pages/lobpreis.html">Worship</a></li>
+                  <li class="nav-item"><a href="pages/uebersetzung.html">Übersetzung</a></li>
+                  <li class="nav-item"><a href="pages/supergemeinde.html">Supergemeinde</a></li>
               </ul>
           </li>
-          <li>
+          <li class="nav-item">
               <a href="#">Events</a>
               <ul class="hidden">
-                  <li><a class="currentEvent" href="pages/event.html">Aktuelles Event</a></li>
-                  <li><a href="pages/kalender.html">Event Kalender</a></li>
+                  <li class="nav-item"><a class="currentEvent" href="pages/event.html">Aktuelles Event</a></li>
+                  <li class="nav-item"><a href="pages/kalender.html">Event Kalender</a></li>
               </ul>
           </li>
-          <li>
+          <li class="nav-item">
               <a href="#">Für Dich</a>
               <ul class="hidden">
-                  <li><a href="pages/ng.html">Next Generation</a></li>
-                  <li><a href="pages/fg.html">Familiengruppen</a></li>
-                  <li><a href="pages/cloeoeb.html" class="toggle">Clööb</a></li>
+                  <li class="nav-item"><a href="pages/ng.html">Next Generation</a></li>
+                  <li class="nav-item"><a href="pages/fg.html">Familiengruppen</a></li>
+                  <li class="nav-item"><a href="pages/cloeoeb.html" class="toggle">Clööb</a></li>
               </ul>
           </li>
-          <li>
+          <li class="nav-item">
               <a href="#">Über Uns</a>
               <ul class="hidden">
-                  <li><a href="pages/vision.html">Vision</a></li>
-                  <li><a href="pages/pastoren.html">Pastoren</a></li>
-                  <li><a href="pages/geschichte.html">Geschichte</a></li>
+                  <li class="nav-item"><a href="pages/vision.html">Vision</a></li>
+                  <li class="nav-item"><a href="pages/pastoren.html">Pastoren</a></li>
+                  <li class="nav-item"><a href="pages/geschichte.html">Geschichte</a></li>
               </ul>
           </li>
-          <li>
+          <li class="nav-item">
               <a href="#">Mehr</a>
               <ul class="hidden">
-                  <li><a href="pages/cafeteria.html">Cafeteria</a></li>
-                  <li><a href="pages/buecher.html">Büchertisch</a></li>
-                  <li><a href="pages/musikschule.html">Musikschule</a></li>
+                  <li class="nav-item"><a href="pages/cafeteria.html">Cafeteria</a></li>
+                  <li class="nav-item"><a href="pages/buecher.html">Büchertisch</a></li>
+                  <li class="nav-item"><a href="pages/musikschule.html">Musikschule</a></li>
               </ul>
           </li>
         </ul>
