@@ -1,12 +1,11 @@
-/*master.css*/
-  /*Navigation*/
+/**** File: master.css ****/
+  /*** Navigation ***/
   .nav_background {
     margin: 0;
     padding: 0;
     background: #2E2E2E;
     height: 50px;
   }
-
   header {
     height: auto;
     margin: 0;
@@ -14,13 +13,15 @@
     padding-bottom: 0;
     text-align: left;
   }
-  /*Pop-up*/
+
+  /*** Pop-up ***/
   div#popup {
     height: 43%;
     top: 57%;
   }
-  /*Kacheln*/
-    /*Tile Full*/
+
+  /*** Kacheln ***/
+    /* 100% wide Tiles*/
     img#big_logo {
       width: 20em;
     }
@@ -60,7 +61,7 @@
         margin: -2%;
         margin-bottom: 3%;
     }
-    /*Tile Half*/
+    /* 1/2 wide Tiles */
     .tile_half {
       width: 100%;
       height: 30em;
@@ -93,7 +94,7 @@
       width: 10em;
     }
 
-    /*Tile Third*/
+    /* 1/3 wide Tiles */
     .tile_third {
       width: 100%;
       height: 10em;
@@ -129,7 +130,8 @@
       margin: 0px;
       font-size: 24px;
     }
-    /*Tile Fourth*/
+
+    /* 1/4 wide Tiles*/
     .tile_fourth {
       width: 49.99%;
       height: 20em;
@@ -156,18 +158,20 @@
       height: 40em;
       overflow: hidden;
     }
-  /*Footer*/
+
+  /*** Footer ***/
   footer {
     height: 4.5em;
   }
-  /*Responsive Inhalte*/
+
+  /*** Responsive Content ***/
   .mobile {
     display: block;
   }
   .PC {
     display: none;
   }
-    /*iframes*/
+    /* Inline Frames */
     iframe.mobile_iframe {
       display: inline;
     }
@@ -185,20 +189,22 @@
       width: 100%;
     }
 
-/*subsites.css*/
-  /*Text*/
+/**** File: subsites.css ****/
+  /*** Text ***/
   .main_headline {
     font-size: 6em;
   }
   .main_text {
     font-size: 1em;
   }
-  /*Event Kalender*/
+
+  /*** Event Kalender ***/
   #calendar {
     width: 100%;
     overflow: scroll;
   }
-  /* Aktuelles Event */
+
+  /*** Aktuelles Event ***/
     #tile_full_currentEv1 {
       height: 10em;
       background-position: left;
@@ -218,14 +224,16 @@
     #fdn_h1 {
       font-size: 4em;
     }
-    /*Infos über Event*/
+
+    /* Infos about Event */
     img.event_flyer {
       display: none;
     }
     img.event_flyer_small {
       display: inline-block;
     }
-  /*FG*/
+
+  /*** Familiengruppen (FG) ***/
   iframe#map {
     width: 342px;
     height: 232px;
@@ -233,7 +241,8 @@
   #tile_full_fg4 {
     min-height: 50em;
   }
-  /*Cafeteria*/
+
+  /*** Cafeteria ***/
   table.preise {
     width: 30%;
     margin-left: auto;
@@ -250,7 +259,8 @@
     left: 0%;
     top: 0em;
   }
-  /*Next Generation*/
+
+  /*** Next Generation ***/
   #ng_headline {
     font-size: 5em;
   }
@@ -267,7 +277,8 @@
     width: 310px;
     height: 200px;
   }
-  /*Übersetzung*/
+
+  /*** Übersetzung ***/
   .big_verses {
     font-family: 'Bitter', cursive; /*note: font is imported on single html page*/
     font-size: 1em;

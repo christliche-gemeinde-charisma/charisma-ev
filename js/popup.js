@@ -1,23 +1,24 @@
 /* Pop-up to ask for cookie permission */
 function openPopup() {
+  //Window body
   var popup = document.createElement("div");
   document.body.appendChild(popup);
   popup.setAttribute("id", "popup");
   popup.setAttribute("style", "position:fixed;left:0;right:0;width:99.78%;border:solid 0.1em #F7F7F7;background-color: #2E2E2E;margin:0 auto;text-align:center;");
   //height & top properties in css/master.css & css/responsiveMobile.css
 
+  //Exit icon in left right of window
   var xContainer = document.createElement("div");
   popup.appendChild(xContainer);
   xContainer.setAttribute("style", "float:right;");
-
   var xImage = document.createElement("img");
   xContainer.appendChild(xImage);
   xImage.setAttribute("onclick", "$('#popup').hide();");
   xImage.setAttribute("src", "img/home/x.png");
   xImage.setAttribute("width", "10");
 
+  //jQuery
   popup = $('div#popup');
-
   var title = $('<h2>Hinweis:</h2>');
   title.attr("class", "color_cloud");
   title.attr("style", "margin-bottom: 0px; padding-bottom: 0px");
@@ -39,7 +40,7 @@ function openPopup() {
   popup.append(OKbutton);
 }
 
-//Load Pop-up
+//Condition to display Pop-up
 if (document.cookie = "") {
  openPopup();
 }

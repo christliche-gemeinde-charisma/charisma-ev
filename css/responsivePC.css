@@ -1,5 +1,5 @@
-/*master.css*/
-  /*Tile Full*/
+/**** File: master.css ****/
+  /*** Tile Full ***/
   .tile_full {
     height: 30%;
   }
@@ -9,11 +9,12 @@
     padding-bottom: 2%;
   }
 
-/*subsites.css*/
+/**** File: subsites.css ****/
   .main_headline {
     margin-top: 0.4em;
   }
-  /*Tile Full*/
+
+  /*** 100% wide Tiles ***/
     .tile_fulls {
       height: 30em;
     }
