@@ -1,4 +1,4 @@
-/*Global*/
+/*** Basic Global Styles ***/
 * {
   box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ a#downloadbtn {
   margin-top: 10em;
 }
 
-/*Fonts*/
+/*** Fonts & Colors ***/
 @font-face {
   font-family: "VivaBeautiful";
   src: url('../fonts/VivaBeautiful.ttf') format('truetype');
@@ -144,7 +144,14 @@ h2.Shree {
 .color_royalblue {
   color: #132d52;
 }
-/*Navigation Bar*/
+
+/*** Pop-up ***/
+div#popup {
+  height: 25%;
+  top: 75%;
+}
+
+/*** Navigation Bar ***/
 .nav_background {
   background: #C6C6C6;
   height: 50px;
@@ -257,8 +264,8 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 
-/* Kacheln auf Hauptseite */
-/*Tile Full*/
+/*** Kacheln auf Hauptseite ***/
+/* 100% wide Tiles */
 .tile_full {
   text-align: center;
   clear: both;
@@ -316,10 +323,9 @@ section#tile_full_two iframe {
 #EventText {
   width: 500px;
   margin-top: 20px;
-  /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
-/*Tile Half*/
+/* 1/2 wide Tiles */
 .tile_half {
   text-align: center;
   width: 49.99%;
@@ -395,7 +401,8 @@ iframe#representVideo {
 .social_links:hover {
   background-color: rgba(255,255,255,0.5);
 }
-/*Tile Fourth*/
+
+/* 1/4 wide Tiles */
 .tile_fourth {
   width: 25%;
   height: 20em;
@@ -433,7 +440,7 @@ section#tile_fourth_four {
   left: 75%;
   top: -60em;
 }
-/*Tile Third*/
+/* 1/3 wide Tiles */
 .tile_third {
   width: 33.33%;
   height: 20em;
@@ -473,7 +480,7 @@ section h1 {
   margin-top: 0.5em;
 }
 
-/*Footer*/
+/*** Footer ***/
 footer {
   background-color: #2E2E2E;
   position: absolute;
@@ -501,7 +508,7 @@ footer a:hover {
   color: #C6C6C6;
 }
 
-/*Tweaks*/
+/*** Visual Tweaks (for changing with JS or CSS conditions) ***/
 a.toggleVisible {
   display: block;
 }

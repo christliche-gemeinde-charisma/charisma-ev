@@ -13,14 +13,14 @@
 }
 
 
-/* Geschichte*/
+/*** Geschichte ***/
 #tile_full_ges1 {
   background-image: url('../img/geschichte/path.jpg');
   background-size: cover;
   background-position: 40% 50%;
 }
 
-/* Event Kalender */
+/*** Event Kalender ***/
 #fg_title {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -42,7 +42,7 @@
   padding-bottom: 1em;
 }
 
-/*Übersetzung*/
+/*** Übersetzung ***/
 #tile_full_translate_one {
   background-image: url('../img/uebersetzung/translate-mic.jpg');
   background-size: cover;
@@ -74,7 +74,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/*Lobpreis*/
+/*** Worship ***/
 #tile_full_worship_one {
   background-image: url('../img/lobpreis/lobpreis-team4.JPG');
   background-size: cover;
@@ -86,7 +86,7 @@
   min-height: auto;
 }
 
-/*Next Generation*/
+/*** Next Generation ***/
 #tile_full_ng1 {
   background-image: url('../img/ng/headerng.JPG');
   background-size: cover;
@@ -98,7 +98,6 @@
   min-height: auto;
   height: auto;
 }
-
 #tile_full_ultimateproof {
   background-color: #2E2E2E;
   color: #2E2E2E;
@@ -109,7 +108,6 @@
     width: auto;
     height: auto;
   }
-
 #ng_headline {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
@@ -134,7 +132,7 @@
   background-color: #F7F7F7;
 }
 
-/*Cloeoeb*/
+/*** Cloeoeb ***/
 #tile_full_cl1 {
   background-image: url('../img/cloeoeb/campHands.jpg');
   background-size: cover;
@@ -152,7 +150,7 @@
   font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
 }
 
-/*Supergemeinde*/
+/*** Supergemeinde ***/
 #tile_full_superchurch_one {
   background-image: url('../img/supergemeinde/balloons.jpg');
   background-size: cover;
@@ -172,7 +170,7 @@
   padding-top: 5em;
 }
 
-/*Büchertisch*/
+/*** Büchertisch ***/
 #tile_full_books1 {
   background-image: url('../img/buecher/headerbooks.JPG');
   background-size: cover;
@@ -202,7 +200,7 @@
   margin-left: auto;
 }
 
-/*Cafeteria*/
+/*** Cafeteria ***/
 #tile_full_cafe1 {
   background-image: url('../img/cafeteria/cafe_jona.JPG');
   background-size: cover;
@@ -240,14 +238,14 @@ tr.preiseH {
   color: white;
 }
 
-/*Impressum*/
+/*** Impressum ***/
 #tile_full_impressum_one {
   background-color: #F7F7F7;
   color: #2E2E2E;
   min-height: auto;
 }
 
-/* FGs */
+/*** Familiengruppen (FG) ***/
 #fg_title {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -280,7 +278,7 @@ iframe#map {
   height: 572px;
 }
 
-/* Aktuelles Event */
+/*** Aktuelles Event ***/
 #tile_full_currentEv1 {
   background-image: url('../img/events/holyween-background.jpg');
   background-size: cover;
@@ -327,7 +325,7 @@ h1#event_headline {
   min-height: auto;
   height: auto;
 }
-  /*Infos über Event*/
+  /* Infos über Event */
   img.event_flyer_small {
     display: none;
   }
@@ -375,7 +373,7 @@ h1#event_headline {
     text-shadow: 2px 2px 3px black;
   }
 
-/* Pastoren */
+/*** Pastoren ***/
 #tile_full_pastoren1 {
   background-image: url('../img/geschichte/pastoren.JPG');
   background-size: cover;
@@ -387,7 +385,7 @@ h1#event_headline {
   min-height: auto;
 }
 
-/* Vision */
+/*** Vision ***/
 #tile_full_vision1 {
   background-image: url('../img/vision/clouds.jpg');
   background-size: cover;
@@ -410,7 +408,7 @@ h1#event_headline {
   color: red;
 }
 
-/*Musikschule*/
+/*** Musikschule ***/
 #tile_full_ms1 {
   background: linear-gradient(to bottom, black, purple);
   background-image: url('../img/musicschool/acoustic2.jpg');
@@ -449,58 +447,58 @@ h1#event_headline {
 a.overviewmschool:hover {
   background-color: #C6C6C6;
 }
-/*Kacheln der Instrumente*/
-#tile_full_ms3 {
-  background-image: url('../img/musicschool/piano1.jpg');
-  height: 20em;
-}
-#tile_full_ms4 {
-  background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/acoustic3.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20em;
-}
-#tile_full_ms9 {
-  background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/eguitar.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20em;
-  top: -20em;
-  left: 33.33%;
-}
-#tile_full_ms5 {
-  background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/acoustic1.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20em;
-  top: -40em;
-  left: 66.66%;
-}
-#tile_full_ms6 {
-  background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/clarinet.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20em;
-}
-#tile_full_ms7 {
-  background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/sax4.JPG');
-  background-size: cover;
-  background-position: center;
-  height: 20em;
-  top: -20em;
-  left: 33.33%;
-}
-#tile_full_ms8 {
-  background: linear-gradient(to right, black, purple);
-  background-image: url('../img/musicschool/drums1.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20em;
-  top: -40em;
-  left: 66.66%;
-}
+/* Kacheln der Instrumente */
+  #tile_full_ms3 {
+    background-image: url('../img/musicschool/piano1.jpg');
+    height: 20em;
+  }
+  #tile_full_ms4 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/acoustic3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+  }
+  #tile_full_ms9 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/eguitar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -20em;
+    left: 33.33%;
+  }
+  #tile_full_ms5 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/acoustic1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -40em;
+    left: 66.66%;
+  }
+  #tile_full_ms6 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/clarinet.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+  }
+  #tile_full_ms7 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/sax4.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -20em;
+    left: 33.33%;
+  }
+  #tile_full_ms8 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/drums1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -40em;
+    left: 66.66%;
+  }
