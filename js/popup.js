@@ -3,7 +3,7 @@ function openPopup() {
   var popup = document.createElement("div");
   document.body.appendChild(popup);
   popup.setAttribute("id", "popup");
-  popup.setAttribute("style", "position:fixed;left:0;right:0;top:75%;height:25%;width:99.78%;border:solid 0.1em #F7F7F7;background-color: #2E2E2E;margin:0 auto;text-align:center;");
+  popup.setAttribute("style", "position:fixed;left:0;right:0;width:99.78%;border:solid 0.1em #F7F7F7;background-color: #2E2E2E;margin:0 auto;text-align:center;");
 
   var xContainer = document.createElement("div");
   popup.appendChild(xContainer);
@@ -28,7 +28,7 @@ function openPopup() {
   legalTextP.attr('style', 'padding: 6px; font-size: 15px; padding-top: 0; margin-top: 0; margin-bottom: 0;');
   popup.append(legalTextP);
 
-  var OKbutton = $('<button>Ok</button>')
+  var OKbutton = $('<button>Ja</button>')
   OKbutton.attr('style', 'margin-top: 0; background-color: #132d52; border-style: solid; border-width: 1px; border-radius: 5px;');
   OKbutton.attr('class', 'color_cloud');
   OKbutton.click(function() {
@@ -45,3 +45,5 @@ if (document.cookie = "") {
 else {
   //show no pop-up
 }
+
+openPopup();

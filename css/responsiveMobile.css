@@ -14,6 +14,11 @@
     padding-bottom: 0;
     text-align: left;
   }
+  /*Pop-up*/
+  div#popup {
+    height: 43%;
+    top: 57%;
+  }
   /*Kacheln*/
     /*Tile Full*/
     img#big_logo {
