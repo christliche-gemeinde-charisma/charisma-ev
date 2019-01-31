@@ -7,8 +7,8 @@ html {
   min-height: 100%;
 }
 body {
-  margin: 0 0 16px; /* bottom = footer height */
-  padding-bottom: 40px;
+  margin: 0 0 16px;
+  padding-bottom: 40px; /* bottom = footer height */
   background-color: black;
   font-family: Arial, sans-serif;
   width: 100%;
