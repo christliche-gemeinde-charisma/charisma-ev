@@ -7,8 +7,8 @@ html {
   min-height: 100%;
 }
 body {
-  margin: 0 0 16px; /* bottom = footer height */
-  padding-bottom: 40px;
+  margin: 0 0 16px;
+  padding-bottom: 40px; /* bottom = footer height */
   background-color: black;
   font-family: Arial, sans-serif;
   width: 100%;
@@ -19,6 +19,12 @@ h1 {
 a {
   text-decoration: none;
   color: #5594FF;
+}
+/* Strip the ul of padding and list styling */
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
 }
 iframe.mobile_iframe {
   display: none;
@@ -152,79 +158,90 @@ div#popup {
 }
 
 /*** Navigation Bar ***/
-.nav_background {
+div.nav_background {
   background: #C6C6C6;
   height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 19;
+
+}
+nav {
+  position: fixed;
+  z-index: 20;
+}
+/* Logo Button */
+a#home {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 a#home:hover {
   background-color: #F7F7F7;
 }
-nav {
-  text-align: center;
-  position: fixed;
-  z-index: 20;
+/* Divider list item */
+div.nav-divider {
+  font-size: 1px;
+  width: 1px;
 }
-/*Strip the ul of padding and list styling*/
-ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-/*Create a horizontal list with spacing*/
-li {
+/* Create a horizontal list with spacing */
+li.nav-item {
     display:inline-block;
     float: left;
     margin-right: 1px;
 }
 /*Style for menu links*/
-li a {
+li.nav-item a {
     display:block;
-    min-width:140px;
+    padding-left: 18px;
+    padding-right: 5px;
     height: 50px;
-    text-align: center;
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     background: #C6C6C6;
     text-decoration: none;
+
+    transition: background 0.3s;
+    transition-timing-function: ease;
 }
-/*Hover state for top level links*/
-li:hover a {
+/* Hover state for top level links */
+li.nav-item:hover a {
     background: #0e5394;
 }
-/*Style for dropdown links*/
-li:hover ul a {
+/* Style for dropdown links */
+li.nav-item:hover ul a {
     background: #f9f9f9;
     color: #2E2E2E;
     height: 40px;
     line-height: 40px;
 }
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
+/* Hover state for dropdown links */
+li.nav-item:hover ul a:hover {
     background: #E6E6E6;
     color: #2E2E2E;
 }
-/*Hide dropdown links until they are needed*/
-li ul {
+li.nav-item ul {
+    /*Hide dropdown links until they are needed*/
     display: none;
 }
-/*Make dropdown links vertical*/
-li ul li {
+li.nav-item ul li.nav-item {
+    /*Make dropdown links vertical*/
     display: block;
     float: none;
 }
-/*Prevent text wrapping*/
-li ul li a {
+li.nav-item ul li.nav-item a {
+    /*Prevent text wrapping*/
     width: auto;
     min-width: 100px;
     padding: 0 20px;
 }
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
+ul li.nav-item a:hover + .hidden, .hidden:hover {
+    /*Display the dropdown on hover*/
     display: block;
 }
-/*Style 'show menu' label button and hide it by default*/
 .show-menu {
+    /*Style 'show menu' label button and hide it by default*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: #fff;
@@ -233,15 +250,13 @@ ul li a:hover + .hidden, .hidden:hover {
     padding: 10px 0;
     display: none;
 }
-/*Hide checkbox*/
 input[type=checkbox]{
-    display: none;
+    display: none;  /*Hide checkbox*/
 }
-/*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
-    display: block;
+    display: block; /*Show menu when invisible checkbox is checked*/
 }
-/*Responsive Styles*/
+/* Responsive Styles */
 @media screen and (max-width : 836px){
     /*Make dropdown links appear inline*/
     ul#menu {
@@ -249,16 +264,15 @@ input[type=checkbox]:checked ~ #menu{
         display: none;
     }
     /*Create vertical spacing*/
-    li {
+    li.nav-item {
         margin-bottom: 1px;
     }
     /*Make all menu links full width*/
-    ul li, li a {
+    ul li.nav-item, li.nav-item a {
         width: 100%;
     }
     /*Display 'show menu' link*/
     .show-menu {
-
         display:block;
         padding: 12px;
     }
