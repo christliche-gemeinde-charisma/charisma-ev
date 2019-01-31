@@ -4,6 +4,7 @@ function openPopup() {
   document.body.appendChild(popup);
   popup.setAttribute("id", "popup");
   popup.setAttribute("style", "position:fixed;left:0;right:0;width:99.78%;border:solid 0.1em #F7F7F7;background-color: #2E2E2E;margin:0 auto;text-align:center;");
+  //height & top properties in css/master.css & css/responsiveMobile.css
 
   var xContainer = document.createElement("div");
   popup.appendChild(xContainer);
@@ -45,5 +46,3 @@ if (document.cookie = "") {
 else {
   //show no pop-up
 }
-
-openPopup();
