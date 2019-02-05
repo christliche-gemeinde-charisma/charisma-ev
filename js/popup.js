@@ -41,9 +41,9 @@ function openPopup() {
 }
 
 //Condition to display Pop-up
-if (document.cookie = "") {
- openPopup();
+if (document.cookie) {
+  // show no popup
 }
 else {
-  //show no pop-up
+  openPopup();
 }
