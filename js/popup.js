@@ -24,7 +24,7 @@ function openPopup() {
   title.attr("style", "margin-bottom: 0px; padding-bottom: 0px");
   popup.append(title);
 
-  const legalText = "Bei der weiteren Nutzung dieser Seite stimmen Sie zu, dass Daten über ihren Zugriff auf dem Server gespeichert werden. Weiterhin stimmen Sie die Nutzung von Cookies zu. Diese dienen dazu eine bessere Benutzererfahrung zu schaffen. Möchten Sie fortfahren?";
+  const legalText = "Bei der weiteren Nutzung dieser Seite stimmen Sie zu, dass Daten über ihren Zugriff auf dem Server gespeichert werden. Weiterhin stimmen Sie der Nutzung von Cookies zu. Diese dienen dazu eine bessere Benutzererfahrung zu schaffen. Möchten Sie fortfahren?";
   var legalTextP = $("<p>" + legalText + "</p>");
   legalTextP.attr('class', 'color_cloud');
   legalTextP.attr('style', 'padding: 6px; font-size: 15px; padding-top: 0; margin-top: 0; margin-bottom: 0;');
