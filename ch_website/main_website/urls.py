@@ -23,8 +23,8 @@ urlpatterns = [
     path('cloob', views.teen_group, name='teen_group'),
 
     # About Us
-    path('cloob', views.history, name='history'),
-    path('pastors', views.pastors, name='pastors'),
+    path('geschichte', views.history, name='history'),
+    path('pastoren', views.pastors, name='pastors'),
     path('vision', views.vision, name='vision'),
 
     # More
