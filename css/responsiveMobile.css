@@ -33,11 +33,6 @@
       background-image: url('../img/vision/clouds.jpg');
       background-size: 200%;
     }
-    #EventText {
-      width: 200px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
     #Eventtext2 {
         font-size: 3em;
         margin: 0.4em;
@@ -205,6 +200,10 @@
   }
 
   /*** Aktuelles Event ***/
+    #EventText {
+      width: 200px;
+      margin-bottom: 20px;
+    }
     #tile_full_currentEv1 {
       height: 10em;
       background-position: left;
