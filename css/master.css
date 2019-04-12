@@ -330,13 +330,13 @@ section#tile_full_two iframe {
     font-size: 10em;
 }
 #tile_full_Event {
-  background-image: linear-gradient(-20deg, black 0%, #00169F 100%);
+  background-image: url('../img/events/OsternBlumen.png');
   background-size: cover;
 }
 
 #EventText {
-  width: 500px;
-  margin-top: 20px;
+  font-size: 10em;
+  text-shadow: 2px 2px 8px black;
 }
 
 /* 1/2 wide Tiles */
