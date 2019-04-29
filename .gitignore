@@ -2,6 +2,7 @@ ch_website/ch_website/settings.py
 ch_website/ch_website/__pycache__
 ch_website/main_website/__pycache__
 ch_website/main_website/migrations/__pycache__
+ch_website/db.sqlite3
 
 pip-selfcheck.json
 lib
