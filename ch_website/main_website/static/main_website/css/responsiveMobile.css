@@ -1,0 +1,290 @@
+/**** File: master.css ****/
+  /*** Navigation ***/
+  div.nav_background {
+    margin: 0;
+    padding: 0;
+    background: #2E2E2E;
+    height: 50px;
+  }
+  header {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  /*** Pop-up ***/
+  div#popup {
+    height: 43%;
+    top: 57%;
+  }
+
+  /*** Kacheln ***/
+    /* 100% wide Tiles*/
+    img#big_logo {
+      width: 20em;
+    }
+    #visionLIEBE {
+      font-size: 7em;
+    }
+    #tile_full_vision {
+      height: 20em;
+      background-image: url('../img/vision/clouds.jpg');
+      background-size: 200%;
+    }
+    #EventText {
+      width: 200px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #Eventtext2 {
+        font-size: 3em;
+        margin: 0.4em;
+    }
+    #EventtextUp {
+      font-size: 4em;
+      margin: -2%;
+      margin-top: 2%;
+    }
+      #EventtextMiddle {
+      font-size: 4em;
+      margin: -2%;
+    }
+      #EventtextDown {
+      font-size: 4em;
+      margin: -2%;
+      margin-bottom: 3%;
+    }
+      #EventtextDate {
+        font-size: 3em;
+        margin: -2%;
+        margin-bottom: 3%;
+    }
+    /* 1/2 wide Tiles */
+    .tile_half {
+      width: 100%;
+      height: 30em;
+      overflow: hidden;
+    }
+    #tile_half_left {
+      height: auto;
+    }
+    #tile_half_right {
+      background-color: #3770A1;
+      height: 230px;
+      left: 0%;
+      top: 0em;
+    }
+    #tile_half_right2 {
+      background-image: url(../img/home/phone-apps.jpeg); /*can be used to implement smaller images for mobile*/
+      left: 0%;
+      top: 0em;
+    }
+    .tile_half_layer {
+      overflow: visible;
+      height: auto;
+    }
+    .social_links {
+      padding: 5px;
+      width: 8.3em;
+      height: 7em;
+    }
+    #mailtobtn {
+      width: 10em;
+    }
+
+    /* 1/3 wide Tiles */
+    .tile_third {
+      width: 100%;
+      height: 10em;
+      position: inherit;
+    }
+    section#tile_third_one {
+      background-image: url('../img/ng/facetoface-background-cut.jpg');
+    }
+    section#tile_third_center {
+      background-color: #5BB1FC;
+      background-image: url('../img/musicschool/musicschool2.JPG');
+      background-position: center;
+      top: -10em;
+      left: 33.33%;
+    }
+    .home_headline {
+      text-shadow: 2px 2px 8px black;
+    }
+    section#tile_third_two {
+      background-image: url('../img/fg/house-door-background.jpg');
+      background-position: center;
+      top: -40em;
+      left: 66.66%;
+    }
+    .tile_third_layer {
+      height: auto;
+      overflow: hidden;
+    }
+    h2.third_headline {
+      margin: 0px;
+    }
+    h5.third_headline {
+      margin: 0px;
+      font-size: 24px;
+    }
+
+    /* 1/4 wide Tiles*/
+    .tile_fourth {
+      width: 49.99%;
+      height: 20em;
+      background-size: cover;
+    }
+    section#tile_fourth_two {
+      background-image: url('../img/supergemeinde/supergemeinde-david.jpg');
+      background-position: top center;
+      left: 49.99%;
+      top: -20em;
+    }
+    section#tile_fourth_three {
+      background-image: url('../img/cafeteria/cafeteria-header-cut.jpg');
+      left: 0%;
+      top: -20em;
+    }
+    section#tile_fourth_four {
+      background-image: url('../img/buecher/bookshelf-background.jpg');
+      position: -100 0;
+      left: 49.99%;
+      top: -40em;
+    }
+    .tile_fourth_layer {
+      height: 40em;
+      overflow: hidden;
+    }
+
+  /*** Footer ***/
+  footer {
+    height: 4.5em;
+  }
+
+  /*** Responsive Content ***/
+  .mobile {
+    display: block;
+  }
+  .PC {
+    display: none;
+  }
+    /* Inline Frames */
+    iframe.mobile_iframe {
+      display: inline;
+    }
+    iframe.PC_iframe {
+      display: none;
+    }
+    iframe.video {
+      width: 346px;
+      height: 230px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    iframe#representVideo {
+      height: 230px;
+      width: 100%;
+    }
+
+/**** File: subsites.css ****/
+  /*** Text ***/
+  .main_headline {
+    font-size: 6em;
+  }
+  .main_text {
+    font-size: 1em;
+  }
+
+  /*** Event Kalender ***/
+  #calendar {
+    width: 100%;
+    overflow: scroll;
+  }
+
+  /*** Aktuelles Event ***/
+    #tile_full_currentEv1 {
+      height: 10em;
+      background-position: left;
+    }
+    #event_headline {
+      font-size: 2.5em;
+      margin-top: 0.5em;
+    }
+    img#event_headline {
+      width: 300px;
+      margin-top: 40px;
+    }
+    #tile_full_flyer {
+      height: 10em;
+      background-position: left;
+    }
+    #fdn_h1 {
+      font-size: 4em;
+    }
+
+    /* Infos about Event */
+    img.event_flyer {
+      display: none;
+    }
+    img.event_flyer_small {
+      display: inline-block;
+    }
+
+  /*** Familiengruppen (FG) ***/
+  iframe#map {
+    width: 342px;
+    height: 232px;
+  }
+  #tile_full_fg4 {
+    min-height: 50em;
+  }
+
+  /*** Cafeteria ***/
+  table.preise {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+  }
+  td.preise {
+    width: 10px;
+  }
+  #ngEvent {
+    background-color: #3770A1;
+    height: 230px;
+    left: 0%;
+    top: 0em;
+  }
+
+  /*** Next Generation ***/
+  #ng_headline {
+    font-size: 5em;
+  }
+  #freizeit_video {
+    background-color: #3770A1;
+    height: 230px;
+    left: 0%;
+    top: 0em;
+  }
+  #wirNG {
+    height: 230px;
+  }
+  #ng_science_video {
+    width: 310px;
+    height: 200px;
+  }
+
+  /*** Übersetzung ***/
+  .big_verses {
+    font-family: 'Bitter', cursive; /*note: font is imported on single html page*/
+    font-size: 1em;
+    font-style: italic;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #tile_full_translate_three {
+    background-position: 80% 100%;
+  }
