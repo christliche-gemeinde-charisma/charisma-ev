@@ -301,7 +301,7 @@ h1#event_headline {
 h3.eventSpecialText {
   font-size: 72px;
   font-family: "Beba", Arial, sans-serif;
-  background: -webkit-linear-gradient(#f4c242, #fff);
+  background: -webkit-linear-gradient(#f4c242, #eee, #f4c242);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
