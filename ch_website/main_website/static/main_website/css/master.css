@@ -87,6 +87,10 @@ a#downloadbtn {
   font-family: "Avengers";
   src: url('../fonts/event/AVENGEANCE_HEROIC_AVENGER.ttf') format('truetype');
 }
+@font-face {
+  font-family: "Beba";
+  src: url('../fonts/event/BebasNeue_Regular.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
