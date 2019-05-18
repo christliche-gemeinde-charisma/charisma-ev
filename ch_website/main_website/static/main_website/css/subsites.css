@@ -280,34 +280,32 @@ iframe#map {
 
 /*** Aktuelles Event ***/
 #tile_full_currentEv1 {
-  background-image: url('../img/events/holyween-background.jpg');
-  background-size: cover;
+  background-image: url('../img/events/Flyer_vorne_01.jpg');
+  background-size: contain;
   background-position: center;
   height: 30em;
 }
 @font-face {
-  font-family: "Avengers";
-  src: url('../fonts/event/AVENGEANCE_HEROIC_AVENGER.ttf') format('truetype');
+  font-family: "Beba";
+  src: url('../fonts/event/BebasNeue_Regular.ttf') format('truetype');
 }
 img#event_headline {
   width: 700px;
   margin-top: 120px;
 }
 h1#event_headline {
-  color: #ffffff;
-  font-family: "Avengers", Arial, sans-serif;
-  box-shadow: 0px 10px 24px #040048;
-  background-color: #fdf503;
-  border: 9px solid #e70b11;
+  font-family: "Beba", Arial, sans-serif;
+
 }
-#fdn_h1 {
-  font-size: 8em;
-  font-family: "Laughing_And_Smiling", Arial, sans-serif;
-  font-weight: bolder;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-#easter_h2 {
-  font-size: 2em;
+
+h3.eventSpecialText {
+  font-size: 72px;
+  font-family: "Beba", Arial, sans-serif;
+  background: -webkit-linear-gradient(#f4c242, #eee, #f4c242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 #tile_full_flyer {
   background-image: url('../img/events/maenner-flyer.jpg');
@@ -315,9 +313,10 @@ h1#event_headline {
   height: 90em;
 }
 #tile_full_currentEv2 {
-  background-image: linear-gradient(-20deg, #DB2907 0%, #00169F 100%);
+  background-image: url('../img/events/BDAYBlaueTextur.jpg');
   min-height: auto;
   height: auto;
+  box-shadow: inset 0 0 0 1000px rgba(20,88,153,.666);
 }
 #tile_full_currentEv3 {
   /*background-image: linear-gradient(20deg, #21d4fd 0%, #b721ff 100%);*/
@@ -372,7 +371,15 @@ h1#event_headline {
     color: white;
     text-shadow: 2px 2px 3px black;
   }
-
+#countdown {
+  font-family: "Beba", Arial, sans-serif;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#f4c242, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 /*** Pastoren ***/
 #tile_full_pastoren1 {
   background-image: url('../img/geschichte/pastoren.JPG');

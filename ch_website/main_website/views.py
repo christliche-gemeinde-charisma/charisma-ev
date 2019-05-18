@@ -25,6 +25,8 @@ def calendar(request):
     return render(request, 'main_website/pages/kalender.html')
 def event(request):
     return render(request, 'main_website/pages/event.html')
+def geburtstag(request):
+    return render(request, 'main_website/pages/event.html')
 
 # For You
 def home_cells(request):
