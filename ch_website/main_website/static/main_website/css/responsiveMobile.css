@@ -34,11 +34,16 @@
       background-size: 200%;
     }
     #EventText {
-      width: 200px;
+      width: 3em;
       margin-top: 20px;
       margin-bottom: 20px;
     }
     #Eventtext2 {
+        font-size: 3em;
+        margin: 0.4em;
+    }
+
+    #Eventtext3 {
         font-size: 3em;
         margin: 0.4em;
     }

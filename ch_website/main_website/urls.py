@@ -16,6 +16,7 @@ urlpatterns = [
     # Events (TODO: create app)
     path('kalender', views.calendar, name='calendar'),
     path('event', views.event, name='event'),
+    path('geburtstag', views.geburtstag, name='geburtstag'),
 
     # For You
     path('fg', views.home_cells, name='family_groups'),
