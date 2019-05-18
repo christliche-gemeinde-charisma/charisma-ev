@@ -14,7 +14,7 @@ function openPopup() {
   var xImage = document.createElement("img");
   xContainer.appendChild(xImage);
   xImage.setAttribute("onclick", "$('#popup').hide();");
-  xImage.setAttribute("src", "img/home/x.png");
+  xImage.setAttribute("src", "{% static 'main_website/img/x.png' %}");
   xImage.setAttribute("width", "10");
 
   //jQuery
