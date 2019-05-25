@@ -211,12 +211,18 @@
 
   /*** Aktuelles Event ***/
     #tile_full_currentEv1 {
-      height: 10em;
-      background-position: left;
+      height: 15em;
+      background-position: top;
+      background-size: cover;
     }
     #event_headline {
-      font-size: 2.5em;
-      margin-top: 0.5em;
+      font-size: 3.5em;
+      font-weight: bold;
+      margin-top: 2em;
+    }
+    #tile_full_currentEv2 {
+      height: 70em;
+      overflow: hidden;
     }
     img#event_headline {
       width: 300px;
