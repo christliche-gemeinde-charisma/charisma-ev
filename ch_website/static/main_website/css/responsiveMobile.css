@@ -24,7 +24,6 @@
     /* 100% wide Tiles*/
     img#big_logo {
       width: 20em;
-      margin-top: 4em;
     }
     #visionLIEBE {
       font-size: 7em;
@@ -212,18 +211,12 @@
 
   /*** Aktuelles Event ***/
     #tile_full_currentEv1 {
-      height: 15em;
-      background-position: top;
-      background-size: cover;
+      height: 10em;
+      background-position: left;
     }
     #event_headline {
-      font-size: 3.5em;
-      font-weight: bold;
-      margin-top: 2em;
-    }
-    #tile_full_currentEv2 {
-      height: 70em;
-      overflow: hidden;
+      font-size: 2.5em;
+      margin-top: 0.5em;
     }
     img#event_headline {
       width: 300px;

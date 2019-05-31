@@ -1,9 +1,6 @@
-//Log in Browser
-console.log("navbar.js loaded");
-
 // Control variables
-var eventUpcoming = true;
-var eventName = "Charisma's Geburtstag";
+var eventUpcoming = false;
+var eventName = "Geburtstag"
 
 // Rules for event bool
 if (eventUpcoming) {
