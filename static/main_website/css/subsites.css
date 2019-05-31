@@ -1,0 +1,511 @@
+.main_headline {
+  font-size: 13em;
+  font-family: 'VivaBeautifulProB-Regular', Arial, sans-serif;
+  font-weight: normal;
+  margin-top: 1.2em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.main_text {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-size: 1.6em;
+  font-family: 'Shree', Arial, sans-serif;
+}
+
+
+/*** Geschichte ***/
+#tile_full_ges1 {
+  background-image: url('../img/geschichte/path.jpg');
+  background-size: cover;
+  background-position: 40% 50%;
+}
+
+/*** Event Kalender ***/
+#fg_title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_cal1 {
+  background-image: url('../img/events/calendar.jpg');
+  background-size: cover;
+  background-position: 50% 80%;
+}
+#tile_full_cal2 {
+  background-color: #0e5394;
+  background-image: url('../img/home/blue-gradient-background.jpg');
+  color: #2E2E2E;
+  height: auto;
+}
+#tile_full_cal3 {
+  background: linear-gradient(to right, black, #009A00);
+}
+#calendar {
+  padding-bottom: 1em;
+}
+
+/*** Übersetzung ***/
+#tile_full_translate_one {
+  background-image: url('../img/uebersetzung/translate-mic.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_translate_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+#tile_full_translate_three {
+  background-image: url('../img/uebersetzung/lighthouse.jpg');
+  background-size: cover;
+  background-position: 40% 50%;
+}
+#circle_flags {
+  padding: 3em;
+}
+#uebersetzung_headline {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.translate_buttons {
+  cursor: pointer;
+}
+.big_verses {
+  font-family: 'Bitter', cursive; /*note: font is imported on single html page*/
+  font-size: 2.5em;
+  font-style: italic;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*** Worship ***/
+#tile_full_worship_one {
+  background-image: url('../img/lobpreis/lobpreis-team4.JPG');
+  background-size: cover;
+  background-position: center 63%;
+}
+#tile_full_worship_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
+/*** Next Generation ***/
+#tile_full_ng1 {
+  background-image: url('../img/ng/headerng.JPG');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_ng2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+  height: auto;
+}
+#tile_full_ultimateproof {
+  background-color: #2E2E2E;
+  color: #2E2E2E;
+  min-height: auto;
+  height: auto;
+}
+  #ng_science_video {
+    width: auto;
+    height: auto;
+  }
+#ng_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
+}
+#tile_full_ng3 {
+  background: linear-gradient(to right, black, #BC4122);
+  height: auto;
+  padding-bottom: 5em;
+}
+#tile_full_ng3 iframe {
+  width: 50em;
+  height: 30em;
+}
+#freizeit_video {
+  position: relative;
+  left: 49.99%;
+  top: -30em;
+}
+#ngEvent
+ {
+  position: center;
+  background-color: #F7F7F7;
+}
+
+/*** Cloeoeb ***/
+#tile_full_cl1 {
+  background-image: url('../img/cloeoeb/campHands.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_cl2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+  height: auto;
+}
+
+#cl_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'VivaBeautifulCaps-Regular', Arial, sans-serif;
+}
+
+/*** Supergemeinde ***/
+#tile_full_superchurch_one {
+  background-image: url('../img/supergemeinde/balloons.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#superchurch_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_superchurch_two {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+}
+#tile_full_superchurch3 {
+  background-image: url('../img/supergemeinde/crayons.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 5em;
+}
+
+/*** Büchertisch ***/
+#tile_full_books1 {
+  background-image: url('../img/buecher/headerbooks.JPG');
+  background-size: cover;
+  background-position: center;
+}
+#superchurch_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_books2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+#tile_full_books3 {
+  background-color: #0e5394;
+  color: #2E2E2E;
+  min-height: 35em;
+  text-align: center;
+}
+#buecher_team {
+  background-image: url('../img/buecher/team.jpeg');
+  background-size: cover;
+  background-position: 20% 28%;
+  height: 30em;
+  width: 50em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*** Cafeteria ***/
+#tile_full_cafe1 {
+  background-image: url('../img/cafeteria/cafe_jona.JPG');
+  background-size: cover;
+  background-position: center 80%;
+}
+#superchurch_headline {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_cafe2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  height: auto;
+}
+img#preise {
+  width: 40%;
+  margin-bottom: 2em;
+  border-style: solid;
+  border-color: #2E2E2E;
+  border-width: medium;
+}
+table.preise {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {background-color: #DFDFDF;}
+tr:nth-child(odd) {background-color: white;}
+td.preiseWoche {
+  border: thin solid black;
+}
+tr.preiseH {
+  background-color: #E18700;
+  color: white;
+}
+
+/*** Impressum ***/
+#tile_full_impressum_one {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
+/*** Familiengruppen (FG) ***/
+#fg_title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tile_full_fg1 {
+  background-image: url('../img/fg/fg-header.JPG');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_fg2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+#tile_full_fg3 {
+  background-image: url('../img/fg/google-maps-blur.png');
+  background-size: cover;
+  background-position: center;
+}
+#tile_full_fg4 {
+  background-image: url('../img/home/blue-gradient-background.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  height: auto;
+}
+ul#fg_aktuell {
+  display: inline;
+}
+iframe#map {
+  width: 1342px;
+  height: 572px;
+}
+
+/*** Aktuelles Event ***/
+#tile_full_currentEv1 {
+  background-image: url('../img/events/Flyer_vorne_01.jpg');
+  background-size: contain;
+  background-position: center;
+  height: 30em;
+}
+@font-face {
+  font-family: "Beba";
+  src: url('../fonts/event/BebasNeue_Regular.ttf') format('truetype');
+}
+img#event_headline {
+  width: 700px;
+  margin-top: 120px;
+}
+h1#event_headline {
+  font-family: "Beba", Arial, sans-serif;
+
+}
+
+h3.eventSpecialText {
+  font-size: 72px;
+  font-family: "Beba", Arial, sans-serif;
+  background: -webkit-linear-gradient(#f4c242, #eee, #f4c242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+#tile_full_flyer {
+  background-image: url('../img/events/maenner-flyer.jpg');
+  background-size: cover;
+  height: 90em;
+}
+#tile_full_currentEv2 {
+  background-image: url('../img/events/BDAYBlaueTextur.jpg');
+  min-height: auto;
+  height: auto;
+  box-shadow: inset 0 0 0 1000px rgba(20,88,153,.666);
+}
+#tile_full_currentEv3 {
+  /*background-image: linear-gradient(20deg, #21d4fd 0%, #b721ff 100%);*/
+  background-color: #F7F7F7;
+  min-height: auto;
+  height: auto;
+}
+  /* Infos über Event */
+  img.event_flyer_small {
+    display: none;
+  }
+  img.event_flyer {
+    width: 400px;
+    padding 0;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #plakat_h1 {
+    position: absolute;
+    font-size: 8em;
+    top: 8.8em;
+    margin-left: 21%;
+    z-index: 6;
+    color: #F5C65A;
+    text-shadow: 2px 2px 8px #222;
+  }
+  #plakat_h4 {
+    position: absolute;
+    font-size: 1.9em;
+    top: 44em;
+    margin-left: 24%;
+    z-index: 6;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+  #plakat_h2 {
+    position: absolute;
+    font-size: 2.6em;
+    top: 33.5em;
+    margin-left: 38%;
+    z-index: 6;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+  #plakat_p {
+    position: absolute;
+    font-size: 2.2em;
+    top: 41.3em;
+    margin-left: 36%;
+    z-index: 6;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+#countdown {
+  font-family: "Beba", Arial, sans-serif;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#f4c242, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+/*** Pastoren ***/
+#tile_full_pastoren1 {
+  background-image: url('../img/geschichte/pastoren.JPG');
+  background-size: cover;
+  background-position: 20% 15%;
+}
+#tile_full_pastoren2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+
+/*** Vision ***/
+#tile_full_vision1 {
+  background-image: url('../img/vision/clouds.jpg');
+  background-size: cover;
+}
+#tile_full_vision2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+#tile_full_vision3 {
+  background: linear-gradient(to right, #065800, #970000);
+}
+#visiontxt {
+  text-align: left;
+}
+.visionDE {
+  color: blue;
+}
+.visionFR {
+  color: red;
+}
+
+/*** Musikschule ***/
+#tile_full_ms1 {
+  background: linear-gradient(to bottom, black, purple);
+  background-image: url('../img/musicschool/acoustic2.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+#tile_full_ms2 {
+  background-color: #F7F7F7;
+  color: #2E2E2E;
+  min-height: auto;
+}
+#mschool_headline {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.mschooltxt {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Shree', Arial, sans-serif;
+}
+.mschool_instr {
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+}
+#overviewmschool {
+  margin-bottom: 5px;
+}
+.overviewmschool {
+  padding: 5px;
+  background-color: #2E2E2E;
+  color: #F7F7F7;
+  margin: 0px;
+}
+a.overviewmschool:hover {
+  background-color: #C6C6C6;
+}
+/* Kacheln der Instrumente */
+  #tile_full_ms3 {
+    background-image: url('../img/musicschool/piano1.jpg');
+    height: 20em;
+  }
+  #tile_full_ms4 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/acoustic3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+  }
+  #tile_full_ms9 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/eguitar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -20em;
+    left: 33.33%;
+  }
+  #tile_full_ms5 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/acoustic1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -40em;
+    left: 66.66%;
+  }
+  #tile_full_ms6 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/clarinet.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+  }
+  #tile_full_ms7 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/sax4.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -20em;
+    left: 33.33%;
+  }
+  #tile_full_ms8 {
+    background: linear-gradient(to right, black, purple);
+    background-image: url('../img/musicschool/drums1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    top: -40em;
+    left: 66.66%;
+  }
