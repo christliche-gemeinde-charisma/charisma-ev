@@ -87,6 +87,10 @@ a#downloadbtn {
   font-family: "Avengers";
   src: url('../fonts/event/AVENGEANCE_HEROIC_AVENGER.ttf') format('truetype');
 }
+@font-face {
+  font-family: "Beba";
+  src: url('../fonts/event/BebasNeue_Regular.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css?family=Risque');
 h1.VivaBeautiful {
   font-family: 'VivaBeautifulB-Regular', Arial, sans-serif;
@@ -320,7 +324,7 @@ section#tile_full_two iframe {
   top: -25px;
 }
   img#big_logo {
-    padding-top: 5em;
+    margin-top: 4em;
   }
 #tile_full_vision {
   background-image: url('../img/vision/clouds.jpg');
@@ -330,13 +334,47 @@ section#tile_full_two iframe {
     font-size: 10em;
 }
 #tile_full_Event {
-  background-image: linear-gradient(-20deg, black 0%, #00169F 100%);
+  background-image: url('../img/events/BDAYBlaueTextur.jpg');
   background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(20,88,153,.666);
+}
+#tile_layer_double_background{
+  background-image: url('../img/events/goldenBalloons.png');
+  background-size: contain;
 }
 
+#tile_layer_double_background2{
+  background-image: url('../img/events/goldenBalloons.png');
+  background-size: contain;
+}
 #EventText {
-  width: 500px;
-  margin-top: 20px;
+  color: #FFF;
+  font-size: 10em;
+  font-family: Beba, Arial, sans-serif;
+  background: -webkit-linear-gradient(#f4c242, #fff, #f4c242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+#EventText2 {
+  color: #FFF;
+  font-size: 7.5em;
+  font-family: Beba, Arial, sans-serif;
+  text-shadow: 2px 2px 8px black;
+
+}
+
+#EventText3 {
+  color: #FFF;
+  font-size: 10em;
+  font-family: Beba, Arial, sans-serif;
+  background: -webkit-linear-gradient(#f4c242, #fff, #f4c242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent
 }
 
 /* 1/2 wide Tiles */
