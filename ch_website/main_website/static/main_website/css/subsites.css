@@ -76,7 +76,7 @@
 
 /*** Worship ***/
 #tile_full_worship_one {
-  background-image: url('../img/lobpreis/lobpreis-team4.JPG');
+  background-image: url('../img/lobpreis/worship-wallpaper.JPG');
   background-size: cover;
   background-position: center 63%;
 }
@@ -202,7 +202,7 @@
 
 /*** Cafeteria ***/
 #tile_full_cafe1 {
-  background-image: url('../img/cafeteria/cafe_jona.JPG');
+  background-image: url('../img/cafeteria/cafeteria-header-cut.JPG');
   background-size: cover;
   background-position: center 80%;
 }
@@ -250,7 +250,7 @@ tr.preiseH {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #tile_full_fg1 {
-  background-image: url('../img/fg/fg-header.JPG');
+  background-image: url('../img/fg/hannah-busing-G-_L3Eqkqmc-unsplash.JPG');
   background-size: cover;
   background-position: center;
 }
